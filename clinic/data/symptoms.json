@@ -1,0 +1,296 @@
+[
+  {
+    "id": "sym_LU_肺脹滿",
+    "meridians": [
+      "LU"
+    ],
+    "text": "肺脹滿",
+    "kind": "是動",
+    "reading": "폐창만",
+    "source": [
+      {
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 148,
+        "document": "5장 경락 5월 18일자 수정.docx",
+        "quote": "肺脹滿"
+      },
+      {
+        "file": "reference/input/source-data.json",
+        "pointer": "/sidong/BANK/0/q",
+        "quote": "肺脹滿"
+      }
+    ],
+    "unitIds": [
+      "sidong-sd1"
+    ],
+    "visibility": "chart-safe",
+    "pointNameLeaks": [],
+    "inferencePolicy": "No region, xushi, course, or category inference is asserted by this record.",
+    "translation": "가슴 가득함",
+    "translationSource": {
+      "file": "reference/input/onedrive-extract.json",
+      "doc": "doc4",
+      "block": 148,
+      "document": "5장 경락 5월 18일자 수정.docx",
+      "quote": "가슴 가득함"
+    }
+  },
+  {
+    "id": "sym_LU_咳",
+    "meridians": [
+      "LU"
+    ],
+    "text": "咳",
+    "kind": "所生",
+    "reading": "해",
+    "source": [
+      {
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 148,
+        "document": "5장 경락 5월 18일자 수정.docx",
+        "quote": "咳"
+      },
+      {
+        "file": "reference/input/source-data.json",
+        "pointer": "/sidong/BANK/12/q",
+        "quote": "咳"
+      }
+    ],
+    "unitIds": [
+      "sidong-ss1"
+    ],
+    "visibility": "chart-safe",
+    "pointNameLeaks": [],
+    "inferencePolicy": "No region, xushi, course, or category inference is asserted by this record.",
+    "translation": "기침",
+    "translationSource": {
+      "file": "reference/input/onedrive-extract.json",
+      "doc": "doc4",
+      "block": 148,
+      "document": "5장 경락 5월 18일자 수정.docx",
+      "quote": "기침"
+    }
+  },
+  {
+    "id": "sym_LU_喘",
+    "meridians": [
+      "LU"
+    ],
+    "text": "喘",
+    "kind": "所生",
+    "reading": "천",
+    "source": [
+      {
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 148,
+        "document": "5장 경락 5월 18일자 수정.docx",
+        "quote": "喘"
+      },
+      {
+        "file": "reference/input/source-data.json",
+        "pointer": "/sidong/BANK/12/q",
+        "quote": "喘"
+      }
+    ],
+    "unitIds": [
+      "sidong-ss1"
+    ],
+    "visibility": "chart-safe",
+    "pointNameLeaks": [],
+    "inferencePolicy": "No region, xushi, course, or category inference is asserted by this record.",
+    "translation": "천식",
+    "translationSource": {
+      "file": "reference/input/onedrive-extract.json",
+      "doc": "doc4",
+      "block": 148,
+      "document": "5장 경락 5월 18일자 수정.docx",
+      "quote": "천식"
+    }
+  },
+  {
+    "id": "sym_LU_掌中熱",
+    "meridians": [
+      "LU"
+    ],
+    "text": "掌中熱",
+    "kind": "所生",
+    "reading": "장중열",
+    "source": [
+      {
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 148,
+        "document": "5장 경락 5월 18일자 수정.docx",
+        "quote": "掌中熱"
+      },
+      {
+        "file": "reference/input/source-data.json",
+        "pointer": "/sidong/BANK/12/q",
+        "quote": "掌中熱"
+      }
+    ],
+    "unitIds": [
+      "sidong-ss1"
+    ],
+    "visibility": "chart-safe",
+    "pointNameLeaks": [],
+    "inferencePolicy": "No region, xushi, course, or category inference is asserted by this record.",
+    "translation": "손바닥 열",
+    "translationSource": {
+      "file": "reference/input/onedrive-extract.json",
+      "doc": "doc4",
+      "block": 148,
+      "document": "5장 경락 5월 18일자 수정.docx",
+      "quote": "손바닥 열"
+    }
+  },
+  {
+    "id": "sym_LI_齒痛",
+    "meridians": [
+      "LI"
+    ],
+    "text": "齒痛",
+    "kind": "是動",
+    "reading": "치통",
+    "source": [
+      {
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 148,
+        "document": "5장 경락 5월 18일자 수정.docx",
+        "quote": "齒痛"
+      },
+      {
+        "file": "reference/input/source-data.json",
+        "pointer": "/sidong/BANK/1/q",
+        "quote": "齒痛"
+      }
+    ],
+    "unitIds": [
+      "sidong-sd2"
+    ],
+    "visibility": "chart-safe",
+    "pointNameLeaks": [],
+    "inferencePolicy": "No region, xushi, course, or category inference is asserted by this record.",
+    "translation": "치통",
+    "translationSource": {
+      "file": "reference/input/onedrive-extract.json",
+      "doc": "doc4",
+      "block": 148,
+      "document": "5장 경락 5월 18일자 수정.docx",
+      "quote": "치통"
+    }
+  },
+  {
+    "id": "sym_LI_頸腫",
+    "meridians": [
+      "LI"
+    ],
+    "text": "頸腫",
+    "kind": "是動",
+    "reading": "경종",
+    "source": [
+      {
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 148,
+        "document": "5장 경락 5월 18일자 수정.docx",
+        "quote": "頸腫"
+      },
+      {
+        "file": "reference/input/source-data.json",
+        "pointer": "/sidong/BANK/1/q",
+        "quote": "頸腫"
+      }
+    ],
+    "unitIds": [
+      "sidong-sd2"
+    ],
+    "visibility": "chart-safe",
+    "pointNameLeaks": [],
+    "inferencePolicy": "No region, xushi, course, or category inference is asserted by this record.",
+    "translation": "목이 부음",
+    "translationSource": {
+      "file": "reference/input/source-data.json",
+      "pointer": "/sidong/BANK/1/note",
+      "quote": "목이 부음"
+    }
+  },
+  {
+    "id": "sym_LI_目黃",
+    "meridians": [
+      "LI"
+    ],
+    "text": "目黃",
+    "kind": "所生",
+    "reading": "목황",
+    "source": [
+      {
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 148,
+        "document": "5장 경락 5월 18일자 수정.docx",
+        "quote": "目黃"
+      },
+      {
+        "file": "reference/input/source-data.json",
+        "pointer": "/sidong/BANK/13/q",
+        "quote": "目黃"
+      }
+    ],
+    "unitIds": [
+      "sidong-ss2"
+    ],
+    "visibility": "chart-safe",
+    "pointNameLeaks": [],
+    "inferencePolicy": "No region, xushi, course, or category inference is asserted by this record.",
+    "translation": "눈 노람",
+    "translationSource": {
+      "file": "reference/input/onedrive-extract.json",
+      "doc": "doc4",
+      "block": 148,
+      "document": "5장 경락 5월 18일자 수정.docx",
+      "quote": "눈 노람"
+    }
+  },
+  {
+    "id": "sym_LI_口乾",
+    "meridians": [
+      "LI"
+    ],
+    "text": "口乾",
+    "kind": "所生",
+    "reading": "구건",
+    "source": [
+      {
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 148,
+        "document": "5장 경락 5월 18일자 수정.docx",
+        "quote": "口乾"
+      },
+      {
+        "file": "reference/input/source-data.json",
+        "pointer": "/sidong/BANK/13/q",
+        "quote": "口乾"
+      }
+    ],
+    "unitIds": [
+      "sidong-ss2"
+    ],
+    "visibility": "chart-safe",
+    "pointNameLeaks": [],
+    "inferencePolicy": "No region, xushi, course, or category inference is asserted by this record.",
+    "translation": "입 마름(진액)",
+    "translationSource": {
+      "file": "reference/input/onedrive-extract.json",
+      "doc": "doc4",
+      "block": 148,
+      "document": "5장 경락 5월 18일자 수정.docx",
+      "quote": "입 마름(진액)"
+    }
+  }
+]

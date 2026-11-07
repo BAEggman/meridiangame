@@ -1,0 +1,139 @@
+[
+  {
+    "id": "phys.huangfu-mi",
+    "name": "皇甫謐",
+    "book": "鍼灸甲乙經",
+    "era": "晉",
+    "source": [
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 31,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락 5월 18일자 수정.docx",
+        "text": "시대 | 인물 | 저서 | 주요 특징 | 혈위 수\n진 | 황보밀 | 침구갑을경 | 혈명 최초 집대성 | 349(깃풍)\n당 | 견권 |  | 고대 명당도 수정 | -\n당 | 손사막 | 천금요방 | 경맥 경로에 색칠 도입 | -\n송 | 왕유일 | 동인수혈침구도경 | 동인 인형 주조, 체혈 정밀화 | 354(인형,오깃)\n송 | 왕집중 | 침구자생경 | 동신촌축적 구분, 혈위 정리 | 359(갈풍)\n원 | 활수 | 십사경발휘 | 임맥·독맥 추가 → 십사경 정립 | -\n명 | 이시진 | 기경팔맥고 | 기경팔맥 이론 정리 | -\n명 | 양계주 | 침구대성 | 종합편찬, 실용 정리 | 359(풍)\n청 | 요란 | 본초분경 | 귀경 약물 이론, 경락 기반 약 분류 | -\n청 | 오겸 | 의종금감, 침구봉원 | 혈위 총정리, 현행 361혈 정립 | 361(숟막)"
+      },
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc6",
+        "block": 33,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락.docx",
+        "text": "진 황보밀(皇甫謐) : 침구 갑을경 – 349개 혈명이 기재됨"
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/history/BANK/0",
+        "value": {
+          "id": "hb1",
+          "cat": "book",
+          "q": "鍼灸甲乙經(침구갑을경)을 지은 의가는?",
+          "a": "皇甫謐",
+          "d": [
+            "王惟一",
+            "孫思邈",
+            "楊繼洲",
+            "滑壽"
+          ],
+          "note": "晉代 皇甫謐. 현존 最初의 침구 전문서. 腧穴名을 처음으로 집대성."
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/history/BANK/25",
+        "value": {
+          "id": "he1",
+          "cat": "era",
+          "q": "皇甫謐(鍼灸甲乙經)의 시대는?",
+          "a": "晉",
+          "d": [
+            "唐",
+            "宋",
+            "淸",
+            "明"
+          ],
+          "note": "晉代."
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/match/ROWS/0",
+        "value": {
+          "p": "皇甫謐",
+          "book": "鍼灸甲乙經",
+          "cnt": "349穴",
+          "era": "晉",
+          "feat": "最初 침구전문서",
+          "c": "#cc4b3c"
+        }
+      }
+    ],
+    "catalogUnits": [
+      "history-hb1",
+      "history-he1"
+    ],
+    "zi": {
+      "value": "士安",
+      "status": "present-in-user-design-brief-only-not-found-in-existing-corpus",
+      "source": [
+        {
+          "kind": "user-design-brief",
+          "file": "docs/Claude_구현지시서_v1_수신본.md",
+          "line": 214,
+          "text": "\"physician\": {\"id\": \"phys.huangfu-mi\", \"name\": \"皇甫謐\", \"zi\": \"士安\", \"book\": \"鍼灸甲乙經\", \"era\": \"晉\", \"count\": 349,"
+        }
+      ],
+      "use": "캐릭터 호칭으로는 사용자가 지정한 디자인 값을 쓸 수 있음. 字=士安을 원문에서 검증한 학습 사실로 표시하지 말 것."
+    },
+    "dialogue": [
+      {
+        "id": "meridians-importance",
+        "text": "經脈者 所以能決死生 處百病 調虛實 不可不通也",
+        "attribution": "靈樞 經脈",
+        "source": [
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc4",
+            "block": 6,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락 5월 18일자 수정.docx",
+            "text": "-經脈者 所以能決死生 處百病 調虛實 不可不通也(靈樞 經脈) "
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc6",
+            "block": 8,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락.docx",
+            "text": "經脈者 所以能決死生 處百病 調虛實 不可不通也(靈樞 經脈) "
+          }
+        ],
+        "usageNote": "皇甫謐 자신의 발언이나 甲乙經 인용으로 귀속하면 안 됨. 캐릭터가 靈樞 經脈을 인용하는 대사로 표시."
+      },
+      {
+        "id": "meridians-network",
+        "text": "經脈爲裏 支而橫者爲絡, 絡之別者爲孫",
+        "attribution": "靈樞 脈度 第十七",
+        "source": [
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc4",
+            "block": 36,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락 5월 18일자 수정.docx",
+            "text": "經脈爲裏 支而橫者爲絡, 絡之別者爲孫 (脈度 第十七)  경맥은 안에 있고, 가지쳐서 옆으로 가는것이 락이고, 거기서 또 떨어져나간 것이 손이다. (경맥 중에 족태음비경맥의 한 혈만 보인다) "
+          }
+        ],
+        "usageNote": "원문 표기를 유지. 번역은 해당 블록의 교재 번역만 사용."
+      }
+    ]
+  }
+]

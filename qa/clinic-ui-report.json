@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-07",
+  "browser": "Codex IAB",
+  "clock": "debug",
+  "tests": {
+    "rendered_dom": {
+      "pointRegistry": 361,
+      "uniqueChineseKoreanNames": 715,
+      "testedRegions": [
+        "charts",
+        "plan"
+      ],
+      "allEightApproachesVisible": true,
+      "leaks": []
+    },
+    "recall_body": {
+      "visibleGold": 0,
+      "visibleNames": 0
+    },
+    "reload": {
+      "date": "2026-11-10",
+      "hours": 12,
+      "physicianHours": 3.5
+    },
+    "dueNextDebugDate": "직접 flag observed",
+    "responsive": [
+      "615px stacked",
+      "1440px three columns"
+    ],
+    "consoleErrors": []
+  },
+  "performance": "Numeric 60fps/200ms not measured",
+  "realThreeDayEnjoyment": null,
+  "screenshots": [
+    "clinic-v2-screen.jpg"
+  ],
+  "uiLog": "clinic-three-days-ui.json",
+  "notes": [
+    "UI replay logged on prior iteration; final changes hide installed dots, prevent same-day cross-patient help leakage, ensure four arrivals, allow spaced-item repair without installation credit. Engine regressions and final rendered UI checked."
+  ],
+  "portableBrowserCheck": "Blocked by browser URL policy for file://; no workaround attempted. Bundle syntax passed.",
+  "sourceVariantUI": "LU7 태연혈3촌아래 rendered in book alongside standard"
+}

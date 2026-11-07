@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-07",
+  "build": "stage15",
+  "functionalTests": 11,
+  "browser": "Codex IAB",
+  "viewportChecks": [
+    [
+      1366,
+      768
+    ],
+    [
+      615,
+      800
+    ]
+  ],
+  "observations": {
+    "wheelComposed": "중부",
+    "answerHidden": true,
+    "realMemoryUnaffectedByLab": true,
+    "installedInLab": 11,
+    "automaticLapCounterObserved": [
+      0,
+      2
+    ],
+    "reloadBefore": {
+      "date": "11월12일",
+      "installed": 11,
+      "laps": 2
+    },
+    "reloadAfter": {
+      "date": "11월12일",
+      "installed": 11,
+      "laps": 2
+    },
+    "repairSequence": [
+      "LU4",
+      "LU6",
+      "LU3",
+      "LU5"
+    ],
+    "restartMessage": "고친 자리 뒤로 빛이 다시 쏟아집니다.",
+    "audioContext": "running",
+    "consoleErrors": 0,
+    "realFinalInstalled": 0,
+    "realFinalLaps": 0,
+    "LU7BothTextsVisible": true
+  },
+  "notVerified": [
+    "실물 패드",
+    "소리의 주관적 품질",
+    "실제 사흘의 재방문 동기",
+    "학습 효과"
+  ],
+  "screenshots": [
+    "stage15-recall-wheel.png",
+    "stage15-automatic.png",
+    "stage15-fault.png",
+    "stage15-restart.png"
+  ]
+}

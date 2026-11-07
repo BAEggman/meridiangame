@@ -1,0 +1,28 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>醫館 v2 · 검수 장부</title><style>body{max-width:1100px;margin:50px auto;padding:0 25px;background:#eee7d7;color:#2e3733;font:18px/1.85 Georgia,'Noto Serif KR',serif}h1,h2{font-weight:500}h1{font-size:35px}h2{font-size:25px;margin-top:38px}a{color:#914a3a}table{border-collapse:collapse;width:100%;font-size:16px}th,td{padding:13px 12px;border-bottom:1px solid #bfb49b;text-align:left;vertical-align:top}th{background:#ddd6c5}.pass{color:#2d6445}.pending{color:#924733}.box{padding:20px;background:#e0dbc9;border-left:3px solid #92733f}code{font-size:14px;word-break:break-all}@media(max-width:700px){table{display:block;overflow:auto}body{margin:25px auto}}</style>
+<a href="../">← 醫館</a><h1>醫館 · 1단계 검수 장부</h1><p>v2 지시서의 肺·大腸 수직 절편입니다. 작동을 확인한 항목과 아직 판단하지 못한 항목을 구분했습니다. <strong>기능 검사는 재미·기억 효과의 검증이 아닙니다.</strong></p>
+<div class="box">환자 → 진단 → 길 선택 → 몸 위 지정 → 성공한 계획 저장 → 다른 날 검증 → 士安의 자동 처리.<br>이번 범위는 40혈·8길. 전체 361혈과 학습 1,586단위는 원문·기존 실행판·대장에 보존했습니다.</div>
+<h2>직접 돌린 결과</h2><table><thead><tr><th>항목</th><th>방법</th><th>결과</th><th>한계·비고</th></tr></thead><tbody>
+<tr><td>차트·계획판에 혈 이름</td><td>브라우저의 렌더된 두 영역 텍스트를 361혈의 한자·한글 715개 고유 이름과 대조. 두 經을 골라 8길 모두 표시.</td><td class="pass">0건</td><td>판정 뒤 몸과 의서의 정답 표시는 검사에서 제외.</td></tr>
+<tr><td>생성기 1,000명</td><td>seed 71037, 실제 score 적용</td><td class="pass">유효 길 둘 이상·서로 다른 비용 100%<br>合病 278 / 急 327 / fallback 0</td><td class="pending">임부 제약 0%. 교재 근거 미확인으로 꺼짐. 공통 是動所生 단서도 꺼짐.</td></tr>
+<tr><td>청사진 지연 검증</td><td>날짜·20시간 경계 테스트, 브라우저 직접 시술</td><td class="pass">같은 날·20시간 미만 검증 0건</td><td>처음 의서를 읽은 준비일 이후 무힌트 두 날이 필요.</td></tr>
+<tr><td>실제 조작 사흘</td><td>브라우저에서 의서 열기·몸 클릭·시술·저장·날짜 전환</td><td class="pass">준비일 11/7 도움 → 11/8 무힌트 → 11/9 검증 → 11/10 자동</td><td>시험 달력. 실제 사흘 경과와 혼동하지 않음. qa/clinic-three-days-ui.json에 39사건.</td></tr>
+<tr><td>자동 처리</td><td>위 조작 기록에서 開門 auto 확인</td><td class="pass">士安 처리, 나 0時辰, 남은 12時辰</td><td>의가의 자체 사용 시간은 3.5. 검증·증명된 조건·배정·의가 예산을 모두 확인.</td></tr>
+<tr><td>감사 기한</td><td>그 다음 시험 날짜에 재방문, 엔진 감사 성공 테스트</td><td class="pass">차트 ‘직접’, 자동 처리 안 됨</td><td>무힌트 감사 후 다시 verified.</td></tr>
+<tr><td>공유 부품 정지</td><td>太淵 position.LU9에 결함 주입</td><td class="pass">原絡 肺先·肺正格만 정지</td><td>列缺을 쓰는 原絡 大腸先은 유지. 설치 진도 삭제 없음.</td></tr>
+<tr><td>수리</td><td>교정 성공, 다른 환자 셋, 이후 무힌트 재인출</td><td class="pass">조건 전 정지 유지, 조건 후 복구</td><td>엔진 테스트. 애니메이션 복구는 4단계.</td></tr>
+<tr><td>時辰</td><td>성공·실패 비용, 부족 예산 테스트</td><td class="pass">0 미만 안 됨, 針·거리 중복 부과 없음</td><td>§2·3 해석: 針당 1. 지시서의 다른 ‘시술 전체 1’과 병산하지 않음.</td></tr>
+<tr><td>傳變·떠남</td><td>3밤 테스트, UI 대기 차트</td><td class="pass">단일→表裏, 原絡 맞음새 증가, 3밤 떠남</td><td>流注 확산·월말 패배는 이번 범위 아님.</td></tr>
+<tr><td>도움 판정</td><td>의서 연 환자 20회, 당일 다른 환자에 정답 재사용</td><td class="pass">무힌트 오기록 0건</td><td>청사진 책도 활성 환자에 대해서는 도움 처리.</td></tr>
+<tr><td>지도 도달</td><td>40혈의 각 권장 뷰 좌표를 hit 판정</td><td class="pass">40/40 선택 가능</td><td>의학적 체표 측정 검수가 아닌 기존 출전 대조 도식의 클릭 가능성 검사.</td></tr>
+<tr><td>출전</td><td>사실 배열의 source 존재 검사</td><td class="pass">8길·40혈·8증상 모두 존재</td><td>士安은 지시서 호칭. 이름·저서는 교재. 금기는 비어 있음.</td></tr>
+<tr><td>교재·표준 위치 병기</td><td>LU7·LI14 등 기존 대조 자료를 의서에 연결</td><td class="pending">원문 보존 / 대체 좌표 미완</td><td>상충 문장을 임의의 두 번째 좌표로 만들지 않음. 표준 도식 클릭만 판정.</td></tr>
+<tr><td>저장</td><td>새로고침 뒤 날짜·청사진·시간 유지, JSON 다운로드</td><td class="pass">브라우저에서 확인</td><td>기기 간 동기화 없음. 기존 stage15 저장 키는 접근하지 않음.</td></tr>
+<tr><td>새 환자 수</td><td>대기실이 찬 상태로 5일 생성</td><td class="pass">매일 신규 4명, 신규끼리 같은 열쇠 없음</td><td>이월 대기자와 신규의 중복은 허용. 충돌 해석은 질문.md.</td></tr>
+<tr><td>자동 검사</td><td>node --test clinic/tests/clinic.test.mjs</td><td class="pass">16개 통과</td><td>실제 재미는 측정하지 않음.</td></tr>
+<tr><td>성능</td><td>넓은 화면·좁은 화면, 확대와 화면 전환 관찰</td><td class="pending">60fps·200ms 수치 미검수</td><td>정원은 정지 그림. 수치 성능 보장을 적지 않음.</td></tr>
+<tr><td>패드</td><td>Gamepad API 가짜 컨트롤러를 주입한 헤드리스 Chrome에서 패드만으로 진단→길→스틱 지정→시술→청사진 저장→+ 길게 閉門 완주 (Claude 2026-11-07 패치)</td><td class="pass">완주</td><td>실제 Switch Pro Controller 하드웨어는 미검수. 배치가 다르면 하단 ‘🎮 패드 설정’으로 다시 잡는다. 이름 바꾸기는 키보드.</td></tr>
+<tr><td>사흘 질문</td><td>셋째 날 아침 어떤 환자가 왔을지 궁금한가?</td><td></td><td>사용자가 작성. GPT가 합격으로 채우지 않음.</td></tr>
+</tbody></table>
+<h2>파일 실행판 검수 한계</h2><p>설치 없이 여는 단일 HTML을 만들고 JavaScript 구문 검사를 통과했습니다. 이 도구의 브라우저가 file:// 접근을 차단하여 파일판 자체의 화면 검수는 하지 못했습니다. 모듈형 웹판은 브라우저에서 직접 검수했습니다.</p><h2>기록을 읽을 때</h2><p>의서를 읽은 당일은 설치용 무힌트로 세지 않습니다. 다른 날짜이면서 20시간 이상 떨어진 무힌트 두 번이 있어야 혈 부품이 설치됩니다. 청사진 초안 역시 이 조건을 만족해야 검증됩니다. 처음 배우는 경우 ‘준비일 + 두 번의 다른 날 회상 + 자동 처리 날’이 됩니다.</p><p>시험용 날짜는 별도 저장 공간입니다. 실제 기록을 빨리 늙히지 않습니다. 정원·신규 기록은 이번 의관에 속하고, 예전 손밀기 저장은 바꾸지 않습니다.</p>
+<h2>아직 넣지 않은 사실과 장면</h2><p>교재에서 확인하지 못한 임부 침 금기, 肺·大腸 공통 是動所生 문구, 검증되지 않은 三間 대장승격 이설은 넣지 않았습니다. 기존 교재의 대장승격은 陽谷·陽谿 補 / 足通谷·二間 瀉입니다.</p><p>사암의 補瀉·도출 사실은 의서에 있지만, 이번 판정은 혈 위치 집합만 검사합니다. 위치를 맞혔다고 도출 원리까지 외웠다고 기록하지 않습니다.</p><p>다른 10經의 실제 환자, 전체 배혈법, 패드, 마모 전파, 음악·효과음, 움직이는 정원, 월말 패배는 다음 단계입니다. 여기서 재미가 확인되기 전에는 범위를 더 넓히지 않습니다.</p>
+<h2>범위 대장</h2><p>원문 1,586단위 중 이번 진단 결정과 연결된 단위 4개, 의서에 출전으로 연결된 단위 22개, 나머지는 원문 보존입니다. 이는 학습 성취 수치가 아닙니다. 클릭 판정의 40개 위치 부품도 교재 단원 전체 완료를 뜻하지 않습니다.</p></html>

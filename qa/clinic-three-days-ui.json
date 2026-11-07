@@ -1,0 +1,1499 @@
+{
+  "kind": "meridian-clinic-v2",
+  "exportedAt": "2026-11-07T06:13:58.815Z",
+  "clock": "debug-advanced-not-real-days",
+  "state": {
+    "schema": 21,
+    "debug": true,
+    "now": 1794290938007,
+    "day": "2026-11-10",
+    "opened": "2026-11-10",
+    "closed": false,
+    "hours": 12,
+    "prevRegion": "back",
+    "seed": 3421263431,
+    "seq": 429,
+    "patients": [
+      {
+        "id": "chart-18",
+        "meridians": [
+          "LU"
+        ],
+        "first": "LU",
+        "xushi": "虛",
+        "course": "chronic",
+        "region": "chest",
+        "category": "organ",
+        "clues": [
+          "sym_LU_咳",
+          "sym_LU_肺脹滿"
+        ],
+        "visible": 1,
+        "questioned": false,
+        "pulsed": false,
+        "constraints": [],
+        "arrived": "2026-11-08",
+        "nights": 2,
+        "status": "waiting",
+        "aided": false,
+        "flag": null,
+        "diagnosis": {
+          "meridians": [],
+          "xushi": null,
+          "first": null
+        },
+        "selected": null,
+        "designated": [],
+        "last": null,
+        "basket": "theme"
+      },
+      {
+        "id": "chart-19",
+        "meridians": [
+          "LI",
+          "LU"
+        ],
+        "first": "LI",
+        "xushi": "實",
+        "course": "chronic",
+        "region": "chest",
+        "category": "organ",
+        "clues": [
+          "sym_LI_口乾",
+          "sym_LU_咳"
+        ],
+        "visible": 1,
+        "questioned": false,
+        "pulsed": false,
+        "constraints": [],
+        "arrived": "2026-11-08",
+        "nights": 2,
+        "status": "waiting",
+        "aided": false,
+        "flag": null,
+        "diagnosis": {
+          "meridians": [],
+          "xushi": null,
+          "first": null
+        },
+        "selected": null,
+        "designated": [],
+        "last": null,
+        "basket": "theme"
+      },
+      {
+        "id": "chart-27",
+        "meridians": [
+          "LI",
+          "LU"
+        ],
+        "first": "LI",
+        "xushi": "虛",
+        "course": "acute",
+        "region": "hand",
+        "category": "organ",
+        "clues": [
+          "sym_LI_頸腫",
+          "sym_LU_掌中熱"
+        ],
+        "visible": 1,
+        "questioned": false,
+        "pulsed": false,
+        "constraints": [],
+        "arrived": "2026-11-08",
+        "nights": 2,
+        "status": "waiting",
+        "aided": false,
+        "flag": null,
+        "diagnosis": {
+          "meridians": [],
+          "xushi": null,
+          "first": null
+        },
+        "selected": null,
+        "designated": [],
+        "last": null,
+        "basket": "theme"
+      },
+      {
+        "id": "chart-33",
+        "meridians": [
+          "LI"
+        ],
+        "first": "LI",
+        "xushi": "虛",
+        "course": "chronic",
+        "region": "hand",
+        "category": "organ",
+        "clues": [
+          "sym_LI_口乾",
+          "sym_LI_目黃"
+        ],
+        "visible": 1,
+        "questioned": false,
+        "pulsed": false,
+        "constraints": [],
+        "arrived": "2026-11-09",
+        "nights": 1,
+        "status": "waiting",
+        "aided": false,
+        "flag": null,
+        "diagnosis": {
+          "meridians": [],
+          "xushi": null,
+          "first": null
+        },
+        "selected": null,
+        "designated": [],
+        "last": null,
+        "basket": "theme"
+      },
+      {
+        "id": "chart-66",
+        "meridians": [
+          "LU",
+          "LI"
+        ],
+        "first": "LU",
+        "xushi": "實",
+        "course": "chronic",
+        "region": "arm",
+        "category": "organ",
+        "clues": [
+          "sym_LU_咳",
+          "sym_LI_齒痛"
+        ],
+        "visible": 1,
+        "questioned": false,
+        "pulsed": false,
+        "constraints": [],
+        "arrived": "2026-11-09",
+        "nights": 1,
+        "status": "waiting",
+        "aided": false,
+        "flag": null,
+        "diagnosis": {
+          "meridians": [],
+          "xushi": null,
+          "first": null
+        },
+        "selected": null,
+        "designated": [],
+        "last": null,
+        "basket": "theme"
+      },
+      {
+        "id": "chart-229",
+        "meridians": [
+          "LU"
+        ],
+        "first": "LU",
+        "xushi": "實",
+        "course": "chronic",
+        "region": "hand",
+        "category": "organ",
+        "clues": [
+          "sym_LU_肺脹滿",
+          "sym_LU_咳"
+        ],
+        "visible": 1,
+        "questioned": false,
+        "pulsed": false,
+        "constraints": [],
+        "arrived": "2026-11-10",
+        "nights": 0,
+        "status": "done",
+        "aided": false,
+        "flag": null,
+        "diagnosis": {
+          "meridians": [],
+          "xushi": null,
+          "first": null
+        },
+        "selected": null,
+        "designated": [],
+        "last": null,
+        "basket": "verified",
+        "resolved_by": "士安",
+        "autoApproach": "兪募配穴 — 肺"
+      },
+      {
+        "id": "chart-235",
+        "meridians": [
+          "LI"
+        ],
+        "first": "LI",
+        "xushi": "實",
+        "course": "chronic",
+        "region": "chest",
+        "category": "organ",
+        "clues": [
+          "sym_LI_頸腫",
+          "sym_LI_口乾"
+        ],
+        "visible": 1,
+        "questioned": false,
+        "pulsed": false,
+        "constraints": [],
+        "arrived": "2026-11-10",
+        "nights": 0,
+        "status": "waiting",
+        "aided": false,
+        "flag": null,
+        "diagnosis": {
+          "meridians": [],
+          "xushi": null,
+          "first": null
+        },
+        "selected": null,
+        "designated": [],
+        "last": null,
+        "basket": "theme"
+      },
+      {
+        "id": "chart-242",
+        "meridians": [
+          "LU",
+          "LI"
+        ],
+        "first": "LU",
+        "xushi": "虛",
+        "course": "chronic",
+        "region": "hand",
+        "category": "organ",
+        "clues": [
+          "sym_LU_喘",
+          "sym_LI_目黃"
+        ],
+        "visible": 1,
+        "questioned": false,
+        "pulsed": false,
+        "constraints": [],
+        "arrived": "2026-11-10",
+        "nights": 0,
+        "status": "waiting",
+        "aided": false,
+        "flag": null,
+        "diagnosis": {
+          "meridians": [],
+          "xushi": null,
+          "first": null
+        },
+        "selected": null,
+        "designated": [],
+        "last": null,
+        "basket": "theme"
+      }
+    ],
+    "blueprints": [
+      {
+        "id": "bp-10",
+        "name": "兪募配穴 — 肺",
+        "key": "LU:實:LU",
+        "patientKey": {
+          "meridians": [
+            "LU"
+          ],
+          "first": "LU",
+          "xushi": "實"
+        },
+        "approach": "shumu_LU",
+        "parts": [
+          "position.BL13",
+          "position.LU1"
+        ],
+        "proven": [
+          "[\"chronic\",[]]"
+        ],
+        "state": "verified",
+        "everVerified": true,
+        "created": 1794031738007,
+        "assigned": true,
+        "stats": {
+          "seen": 1
+        }
+      }
+    ],
+    "parts": {
+      "position.LU1": {
+        "exposed": 1794031738007,
+        "passes": [
+          1794118138007,
+          1794204538007
+        ],
+        "installed": true,
+        "due": 1794377338007,
+        "interval": 2,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 1
+      },
+      "position.LU2": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LU3": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LU4": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LU5": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LU6": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LU7": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LU8": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LU9": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LU10": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LU11": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI1": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI2": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI3": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI4": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI5": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI6": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI7": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI8": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI9": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI10": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI11": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI12": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI13": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI14": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI15": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI16": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI17": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI18": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI19": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.LI20": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.ST25": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.ST36": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.SP3": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.HT8": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.SI5": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.BL13": {
+        "exposed": 1794031738007,
+        "passes": [
+          1794118138007,
+          1794204538007
+        ],
+        "installed": true,
+        "due": 1794377338007,
+        "interval": 2,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 1
+      },
+      "position.BL25": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.BL66": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      },
+      "position.KI10": {
+        "exposed": null,
+        "passes": [],
+        "installed": false,
+        "due": null,
+        "interval": 1,
+        "fault": false,
+        "correctedAt": null,
+        "after": [],
+        "aided": 0
+      }
+    },
+    "ledger": {
+      "seen": 3,
+      "unaided": 2,
+      "aided": 1,
+      "seen_by_physicians": 1,
+      "leaves": 3
+    },
+    "doctor": {
+      "hours": 3.5,
+      "region": "back"
+    },
+    "log": [
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-1",
+        "result": "theme"
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-3",
+        "result": "theme"
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-7",
+        "result": "theme"
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-9",
+        "result": "theme"
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "exam",
+        "hours_left": 11,
+        "patient": "chart-7",
+        "result": "question",
+        "cost": 1
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "exam",
+        "hours_left": 10,
+        "patient": "chart-7",
+        "result": "pulse",
+        "cost": 1
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "plan",
+        "hours_left": 10,
+        "patient": "chart-7",
+        "approach": "shumu_LU"
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "exam",
+        "hours_left": 9,
+        "patient": "chart-7",
+        "approach": "shumu_LU",
+        "result": "book",
+        "aided": true,
+        "cost": 1
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "treat",
+        "hours_left": 4,
+        "patient": "chart-7",
+        "approach": "shumu_LU",
+        "points": [
+          "LU1",
+          "BL13"
+        ],
+        "result": "success",
+        "reason": "치료됨",
+        "aided": true,
+        "unaided": false,
+        "cost": 5,
+        "diagnosis": true,
+        "first_exposure": false
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "save_bp",
+        "hours_left": 4,
+        "patient": "chart-7",
+        "approach": "shumu_LU",
+        "bp": "bp-10",
+        "result": "draft"
+      },
+      {
+        "t": 1794031738007,
+        "day": "2026-11-07",
+        "kind": "close",
+        "hours_left": 4,
+        "player_used": 8,
+        "physician_used": 0
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-11",
+        "result": "draft"
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-18",
+        "result": "theme"
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-19",
+        "result": "theme"
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-27",
+        "result": "theme"
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "exam",
+        "hours_left": 11,
+        "patient": "chart-11",
+        "result": "question",
+        "cost": 1
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "exam",
+        "hours_left": 10,
+        "patient": "chart-11",
+        "result": "pulse",
+        "cost": 1
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "plan",
+        "hours_left": 10,
+        "patient": "chart-11",
+        "approach": "shumu_LU"
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "treat",
+        "hours_left": 7,
+        "patient": "chart-11",
+        "approach": "shumu_LU",
+        "points": [
+          "BL13",
+          "LU1"
+        ],
+        "result": "success",
+        "reason": "치료됨",
+        "aided": false,
+        "unaided": true,
+        "cost": 3,
+        "diagnosis": true,
+        "first_exposure": false
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "transfer",
+        "hours_left": 7,
+        "patient": "chart-1",
+        "result": "表裏合病"
+      },
+      {
+        "t": 1794118138007,
+        "day": "2026-11-08",
+        "kind": "close",
+        "hours_left": 7,
+        "player_used": 5,
+        "physician_used": 0
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-28",
+        "result": "draft"
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-33",
+        "result": "theme"
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-66",
+        "result": "theme"
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "arrival_capacity",
+        "hours_left": 12,
+        "result": "모든 열쇠 대기 중",
+        "new_patients": 3
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "exam",
+        "hours_left": 11,
+        "patient": "chart-28",
+        "result": "question",
+        "cost": 1
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "exam",
+        "hours_left": 10,
+        "patient": "chart-28",
+        "result": "pulse",
+        "cost": 1
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "plan",
+        "hours_left": 10,
+        "patient": "chart-28",
+        "approach": "shumu_LU"
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "verify_bp",
+        "hours_left": 7,
+        "patient": "chart-28",
+        "bp": "bp-10",
+        "created": 1794031738007,
+        "result": "verified"
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "treat",
+        "hours_left": 7,
+        "patient": "chart-28",
+        "approach": "shumu_LU",
+        "points": [
+          "LU1",
+          "BL13"
+        ],
+        "result": "success",
+        "reason": "치료됨",
+        "aided": false,
+        "unaided": true,
+        "cost": 3,
+        "diagnosis": true,
+        "first_exposure": false
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "leave",
+        "hours_left": 7,
+        "patient": "chart-1"
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "leave",
+        "hours_left": 7,
+        "patient": "chart-3"
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "leave",
+        "hours_left": 7,
+        "patient": "chart-9"
+      },
+      {
+        "t": 1794204538007,
+        "day": "2026-11-09",
+        "kind": "close",
+        "hours_left": 7,
+        "player_used": 5,
+        "physician_used": 0
+      },
+      {
+        "t": 1794290938007,
+        "day": "2026-11-10",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-229",
+        "result": "verified"
+      },
+      {
+        "t": 1794290938007,
+        "day": "2026-11-10",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-235",
+        "result": "theme"
+      },
+      {
+        "t": 1794290938007,
+        "day": "2026-11-10",
+        "kind": "arrive",
+        "hours_left": 12,
+        "patient": "chart-242",
+        "result": "theme"
+      },
+      {
+        "t": 1794290938007,
+        "day": "2026-11-10",
+        "kind": "arrival_capacity",
+        "hours_left": 12,
+        "result": "모든 열쇠 대기 중",
+        "new_patients": 3
+      },
+      {
+        "t": 1794290938007,
+        "day": "2026-11-10",
+        "kind": "auto",
+        "hours_left": 12,
+        "patient": "chart-229",
+        "bp": "bp-10",
+        "approach": "shumu_LU",
+        "result": "done",
+        "cost": 0,
+        "physician_cost": 3.5
+      }
+    ]
+  },
+  "log": [
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-1",
+      "result": "theme"
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-3",
+      "result": "theme"
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-7",
+      "result": "theme"
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-9",
+      "result": "theme"
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "exam",
+      "hours_left": 11,
+      "patient": "chart-7",
+      "result": "question",
+      "cost": 1
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "exam",
+      "hours_left": 10,
+      "patient": "chart-7",
+      "result": "pulse",
+      "cost": 1
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "plan",
+      "hours_left": 10,
+      "patient": "chart-7",
+      "approach": "shumu_LU"
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "exam",
+      "hours_left": 9,
+      "patient": "chart-7",
+      "approach": "shumu_LU",
+      "result": "book",
+      "aided": true,
+      "cost": 1
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "treat",
+      "hours_left": 4,
+      "patient": "chart-7",
+      "approach": "shumu_LU",
+      "points": [
+        "LU1",
+        "BL13"
+      ],
+      "result": "success",
+      "reason": "치료됨",
+      "aided": true,
+      "unaided": false,
+      "cost": 5,
+      "diagnosis": true,
+      "first_exposure": false
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "save_bp",
+      "hours_left": 4,
+      "patient": "chart-7",
+      "approach": "shumu_LU",
+      "bp": "bp-10",
+      "result": "draft"
+    },
+    {
+      "t": 1794031738007,
+      "day": "2026-11-07",
+      "kind": "close",
+      "hours_left": 4,
+      "player_used": 8,
+      "physician_used": 0
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-11",
+      "result": "draft"
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-18",
+      "result": "theme"
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-19",
+      "result": "theme"
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-27",
+      "result": "theme"
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "exam",
+      "hours_left": 11,
+      "patient": "chart-11",
+      "result": "question",
+      "cost": 1
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "exam",
+      "hours_left": 10,
+      "patient": "chart-11",
+      "result": "pulse",
+      "cost": 1
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "plan",
+      "hours_left": 10,
+      "patient": "chart-11",
+      "approach": "shumu_LU"
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "treat",
+      "hours_left": 7,
+      "patient": "chart-11",
+      "approach": "shumu_LU",
+      "points": [
+        "BL13",
+        "LU1"
+      ],
+      "result": "success",
+      "reason": "치료됨",
+      "aided": false,
+      "unaided": true,
+      "cost": 3,
+      "diagnosis": true,
+      "first_exposure": false
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "transfer",
+      "hours_left": 7,
+      "patient": "chart-1",
+      "result": "表裏合病"
+    },
+    {
+      "t": 1794118138007,
+      "day": "2026-11-08",
+      "kind": "close",
+      "hours_left": 7,
+      "player_used": 5,
+      "physician_used": 0
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-28",
+      "result": "draft"
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-33",
+      "result": "theme"
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-66",
+      "result": "theme"
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "arrival_capacity",
+      "hours_left": 12,
+      "result": "모든 열쇠 대기 중",
+      "new_patients": 3
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "exam",
+      "hours_left": 11,
+      "patient": "chart-28",
+      "result": "question",
+      "cost": 1
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "exam",
+      "hours_left": 10,
+      "patient": "chart-28",
+      "result": "pulse",
+      "cost": 1
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "plan",
+      "hours_left": 10,
+      "patient": "chart-28",
+      "approach": "shumu_LU"
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "verify_bp",
+      "hours_left": 7,
+      "patient": "chart-28",
+      "bp": "bp-10",
+      "created": 1794031738007,
+      "result": "verified"
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "treat",
+      "hours_left": 7,
+      "patient": "chart-28",
+      "approach": "shumu_LU",
+      "points": [
+        "LU1",
+        "BL13"
+      ],
+      "result": "success",
+      "reason": "치료됨",
+      "aided": false,
+      "unaided": true,
+      "cost": 3,
+      "diagnosis": true,
+      "first_exposure": false
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "leave",
+      "hours_left": 7,
+      "patient": "chart-1"
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "leave",
+      "hours_left": 7,
+      "patient": "chart-3"
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "leave",
+      "hours_left": 7,
+      "patient": "chart-9"
+    },
+    {
+      "t": 1794204538007,
+      "day": "2026-11-09",
+      "kind": "close",
+      "hours_left": 7,
+      "player_used": 5,
+      "physician_used": 0
+    },
+    {
+      "t": 1794290938007,
+      "day": "2026-11-10",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-229",
+      "result": "verified"
+    },
+    {
+      "t": 1794290938007,
+      "day": "2026-11-10",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-235",
+      "result": "theme"
+    },
+    {
+      "t": 1794290938007,
+      "day": "2026-11-10",
+      "kind": "arrive",
+      "hours_left": 12,
+      "patient": "chart-242",
+      "result": "theme"
+    },
+    {
+      "t": 1794290938007,
+      "day": "2026-11-10",
+      "kind": "arrival_capacity",
+      "hours_left": 12,
+      "result": "모든 열쇠 대기 중",
+      "new_patients": 3
+    },
+    {
+      "t": 1794290938007,
+      "day": "2026-11-10",
+      "kind": "auto",
+      "hours_left": 12,
+      "patient": "chart-229",
+      "bp": "bp-10",
+      "approach": "shumu_LU",
+      "result": "done",
+      "cost": 0,
+      "physician_cost": 3.5
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+✔ the canonical 361 codes are present once, with two point-specific primary sources (4.420458ms)
+✔ posterior points stay behind the body; medial surfaces and hidden point close-ups are explicit (0.187417ms)
+✔ point-count adjacency cannot create prohibited anatomical routes (0.662625ms)
+✔ a BL inner-line fault does not reverse the outer line or stop the whole body (3.023709ms)
+✔ head/internal routes are reached from the correct source instead of floating disconnected paths (1.887958ms)
+✔ 12-source cycle returns to lung through the internal liver branch (1.000417ms)
+✔ mirrored surface region junctions never make a spurious wrist-to-wrist body crossing (0.317209ms)
+✔ source alternatives are retained and named instead of graded away (0.085125ms)
+✔ locating any of 361 points selects a suitable projection without changing memory state (0.866292ms)
+✔ demonstration has four visually distinct presets, with no memory credit (5.572166ms)
+✔ hand-pushing opens one adjacent point in this session only and accepts Korean or Hanja (2.96475ms)
+✔ wrong name leaves the visual state unchanged and grants no automated segment (0.631583ms)
+✔ demo fracture is local: upstream and downstream states do not change (1.572667ms)
+✔ correct repair restarts the whole downstream display for exactly 1500ms (0.66775ms)
+✔ every active fact record has a source; missing sources are refused (5.807208ms)
+✔ fog has only the frontier and two next points, and all three long named channels preserve order (1.06875ms)
+✔ all 1,586 ledger rows remain unassessed and no runtime writes browser storage (5.604958ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 117.741709

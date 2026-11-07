@@ -1,0 +1,13 @@
+{
+  "name": "meridian-clinic",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test clinic/tests/*.test.mjs",
+    "test:atlas": "node --test stage1/tests/*.test.mjs",
+    "start": "python3 serve.py --open",
+    "package": "python3 tools/package-clinic.py",
+    "test:stage15": "node --test stage15/tests/*.test.mjs"
+  }
+}

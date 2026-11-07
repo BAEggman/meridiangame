@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-07",
+  "build": "stage1.1-361",
+  "testedViewports": [
+    [
+      1366,
+      768
+    ],
+    [
+      1920,
+      1080
+    ]
+  ],
+  "browser": "Codex in-app browser",
+  "coordinateGap": 0,
+  "pointCount": 361,
+  "sourceTextComparisonCount": 361,
+  "clinicalLocationCertified": 0,
+  "functionalTestsPassed": 17,
+  "landmarkRelationsPassed": 36,
+  "viewCombinationsPassed": 120,
+  "viewCombinationEvidence": "atlas-120-view-checks.json",
+  "postOptimizationViewChecksPassed": 42,
+  "postOptimizationEvidence": "atlas-cached-render-checks.json",
+  "observedFPS": [
+    29.0,
+    30.0
+  ],
+  "postOptimizationObservedMaxRenderMS": 28.900000005960464,
+  "consoleErrorsAfterFinalFixes": 0,
+  "checks": [
+    "1366×768·1920×1080 화면 범위 안에 본문·footer 배치",
+    "혈 탐색과 출전 링크·감춰진 면 자동 선택",
+    "손바닥·발바닥·발 안쪽·회음·구강 확대",
+    "중부 손밀기와 척택 국소 단절·입력 후 재가동",
+    "최종 곡선 캐시 적용 후 기경 42보기와 척택 복구 재검사"
+  ],
+  "physicalGamepad": "not-tested",
+  "20MinuteUserPlaytest": "pending",
+  "learningEfficacy": "not-tested",
+  "learningRecordsWritten": false,
+  "notes": [
+    "120개 조합의 전체 검사는 곡선 위치 캐시 최적화 직전 통과. 최적화 후 기경 42개와 재가동을 추가 확인했다.",
+    "최적화 전 한 표본에서 12fps가 관측되어 매 프레임 SVG 위치 계산을 캐시로 옮겼다. 최적화 후 표본은 29~30fps. 장시간·모든 기기 보장은 아니다.",
+    "361혈 출전 텍스트/표지 대조와 대표 위치 관계 36개 검사는 임상 정밀 취혈 검수와 다르다."
+  ]
+}

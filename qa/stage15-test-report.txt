@@ -1,0 +1,19 @@
+✔ same-day repetition and hints cannot install a point (2.153041ms)
+✔ a new calendar day is insufficient before a 20-hour gap (0.095875ms)
+✔ saved state survives serialization; dates drive wear and local fault (1.070458ms)
+✔ three intervening recalls and final target retrieval are required for repair (1.348125ms)
+✔ repair of an uninstalled point does not install it or award an unaided day (0.087625ms)
+✔ lap count requires all 11 installed points, all visits, and no interruption (0.126042ms)
+✔ real and 1-minute day lab clocks are separate and reload-stable (0.108791ms)
+✔ wear blink repeats at 1 Hz (0.0615ms)
+✔ full Hangul wheel composes names including compound consonants and vowels (0.922958ms)
+✔ a clock day change does not interrupt first traversal with an earlier already-practiced point (0.152292ms)
+✔ an aided wear review grants no interval and does not trap the player on the same point today (0.102708ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 90.274375

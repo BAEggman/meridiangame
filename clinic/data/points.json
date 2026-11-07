@@ -1,0 +1,2771 @@
+[
+  {
+    "id": "LU1",
+    "meridian": "LU",
+    "index": 1,
+    "name": "중부",
+    "han": "中府",
+    "views": {
+      "front": [
+        482,
+        359
+      ],
+      "back": null,
+      "side": [
+        363,
+        359
+      ]
+    },
+    "preferredView": "front",
+    "region": "thorax",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      482,
+      359
+    ],
+    "aliases": [
+      "중부",
+      "中府"
+    ],
+    "locationSummary": "앞가슴부위, 첫째 갈비사이공간과 같은 높이, 빗장아래오목의 가쪽, 앞정중선에서 가쪽으로 6寸.",
+    "location": "앞가슴부위, 첫째 갈비사이공간과 같은 높이, 빗장아래오목의 가쪽, 앞정중선에서 가쪽으로 6寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU1",
+        "loc": "LU1 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=35",
+        "loc": "printed p.26",
+        "pdfPage": 35
+      },
+      {
+        "doc": "doc18",
+        "block": 2,
+        "text": "중부 : 폐경의 모혈 , 중은 중기, 부는 경맥의 기가 모이는 것을 가리킨다. 따라서 중초의 기가 올라와 폐에 돌아오고, 여기에 모여 수태음폐경의 첫 경혈이 되므로, 중부라 함. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 2,
+        "text": "중부 : 폐경의 모혈 , 중은 중기, 부는 경맥의 기가 모이는 것을 가리킨다. 따라서 중초의 기가 올라와 폐에 돌아오고, 여기에 모여 수태음폐경의 첫 경혈이 되므로, 중부라 함. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "thorax",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU2",
+    "meridian": "LU",
+    "index": 2,
+    "name": "운문",
+    "han": "雲門",
+    "views": {
+      "front": [
+        482,
+        337
+      ],
+      "back": null,
+      "side": [
+        361,
+        337
+      ]
+    },
+    "preferredView": "front",
+    "region": "thorax",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      482,
+      337
+    ],
+    "aliases": [
+      "운문",
+      "雲門"
+    ],
+    "locationSummary": "앞가슴부위, 빗장아래오목, 어깨뼈 부리돌기 안쪽, 앞정중선에서 가쪽으로 6寸 오목한 곳. ※주 : 氣戶, 兪府, 璇璣, 雲門은 빗장뼈아래선을 따라 가로선 위에 위치한다.",
+    "location": "앞가슴부위, 빗장아래오목, 어깨뼈 부리돌기 안쪽, 앞정중선에서 가쪽으로 6寸 오목한 곳. ※주 : 氣戶, 兪府, 璇璣, 雲門은 빗장뼈아래선을 따라 가로선 위에 위치한다.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU2",
+        "loc": "LU2 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=35",
+        "loc": "printed p.26",
+        "pdfPage": 35
+      },
+      {
+        "doc": "doc18",
+        "block": 3,
+        "text": "운문 : 운은 운무, 문은 문호를 가리킨다. 대기의 운무가 만물을 자생하듯이 기와 혈은 사람을 자생한다는 뜻이다. 기와 혈은 여기서 시작하여 간경의 기문에서 끝난다. 중부 기가 모여 약간 위에서 구름이 되었다고 생각하면 된다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 3,
+        "text": "운문 : 운은 운무, 문은 문호를 가리킨다. 대기의 운무가 만물을 자생하듯이 기와 혈은 사람을 자생한다는 뜻이다. 기와 혈은 여기서 시작하여 간경의 기문에서 끝난다. 중부 기가 모여 약간 위에서 구름이 되었다고 생각하면 된다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "thorax",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU3",
+    "meridian": "LU",
+    "index": 3,
+    "name": "천부",
+    "han": "天府",
+    "views": {
+      "front": [
+        484.0,
+        443.33
+      ],
+      "back": null,
+      "side": [
+        421.33,
+        470.67
+      ]
+    },
+    "preferredView": "front",
+    "region": "upper-arm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      484.0,
+      443.33
+    ],
+    "aliases": [
+      "천부",
+      "天府"
+    ],
+    "locationSummary": "위팔 앞가쪽면, 위팔두갈래근의 가쪽모서리 바로 가쪽, 앞겨드랑주름에서 아래쪽으로 3寸.",
+    "location": "위팔 앞가쪽면, 위팔두갈래근의 가쪽모서리 바로 가쪽, 앞겨드랑주름에서 아래쪽으로 3寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU3",
+        "loc": "LU3 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=36",
+        "loc": "printed p.27",
+        "pdfPage": 36
+      },
+      {
+        "doc": "doc18",
+        "block": 4,
+        "text": "천부 : 폐는 모든 장부의 화개(윗 덮개)이므로 하늘과 같다. 또한 인체의 기를 주관하므로 창고에 비유되기도 한다. 따라서 폐기가 모이는 본 혈을 천부라고 함. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 4,
+        "text": "천부 : 폐는 모든 장부의 화개(윗 덮개)이므로 하늘과 같다. 또한 인체의 기를 주관하므로 창고에 비유되기도 한다. 따라서 폐기가 모이는 본 혈을 천부라고 함. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "upper-arm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU4",
+    "meridian": "LU",
+    "index": 4,
+    "name": "협백",
+    "han": "俠白",
+    "views": {
+      "front": [
+        487.0,
+        452.78
+      ],
+      "back": null,
+      "side": [
+        420.78,
+        485.89
+      ]
+    },
+    "preferredView": "front",
+    "region": "upper-arm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      487.0,
+      452.78
+    ],
+    "aliases": [
+      "협백",
+      "俠白"
+    ],
+    "locationSummary": "위팔 앞가쪽면, 위팔두갈래근의 가쪽모서리 바로가쪽, 앞겨드랑주름에서 아래쪽으로 4寸.",
+    "location": "위팔 앞가쪽면, 위팔두갈래근의 가쪽모서리 바로가쪽, 앞겨드랑주름에서 아래쪽으로 4寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU4",
+        "loc": "LU4 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=36",
+        "loc": "printed p.27",
+        "pdfPage": 36
+      },
+      {
+        "doc": "doc18",
+        "block": 5,
+        "text": "협백 : 위팔의 안쪽에 있으면서 차렷 자세로 서면 팔의 두 혈이 폐(백색)를 끼우고 있는것처럼 보이므로, 끼다 협을 써서 협백이라고 한다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 5,
+        "text": "협백 : 위팔의 안쪽에 있으면서 차렷 자세로 서면 팔의 두 혈이 폐(백색)를 끼우고 있는것처럼 보이므로, 끼다 협을 써서 협백이라고 한다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "upper-arm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU5",
+    "meridian": "LU",
+    "index": 5,
+    "name": "척택",
+    "han": "尺澤",
+    "views": {
+      "front": [
+        501.0,
+        500.0
+      ],
+      "back": null,
+      "side": [
+        432.95,
+        562.0
+      ]
+    },
+    "preferredView": "front",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      501.0,
+      500.0
+    ],
+    "aliases": [
+      "척택",
+      "尺澤"
+    ],
+    "locationSummary": "팔꿈치 앞쪽면, 팔오금주름 위, 위팔두갈래근힘줄의 가쪽 오목한 곳.",
+    "location": "팔꿈치 앞쪽면, 팔오금주름 위, 위팔두갈래근힘줄의 가쪽 오목한 곳.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU5",
+        "loc": "LU5 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=37",
+        "loc": "printed p.28",
+        "pdfPage": 37
+      },
+      {
+        "doc": "doc18",
+        "block": 6,
+        "text": "척택 : 폐경의 합수혈, 손목부터 팔꿈치 오목한 부분까지를 1척이라고 하며, 폐경의 합이 수가 되므로 윤택한 수의 이름을 따 척택이라고 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 6,
+        "text": "척택 : 폐경의 합수혈, 손목부터 팔꿈치 오목한 부분까지를 1척이라고 하며, 폐경의 합이 수가 되므로 윤택한 수의 이름을 따 척택이라고 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU6",
+    "meridian": "LU",
+    "index": 6,
+    "name": "공최",
+    "han": "孔最",
+    "views": {
+      "front": [
+        525.17,
+        562.5
+      ],
+      "back": null,
+      "side": [
+        443.78,
+        614.08
+      ]
+    },
+    "preferredView": "front",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      525.17,
+      562.5
+    ],
+    "aliases": [
+      "공최",
+      "孔最"
+    ],
+    "locationSummary": "아래팔 앞가쪽면, 尺澤과 太淵을 연결하는 선 위, 손바닥쪽손목주름에서 위쪽으로 7寸.",
+    "location": "아래팔 앞가쪽면, 尺澤과 太淵을 연결하는 선 위, 손바닥쪽손목주름에서 위쪽으로 7寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU6",
+        "loc": "LU6 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=37",
+        "loc": "printed p.28",
+        "pdfPage": 37
+      },
+      {
+        "doc": "doc18",
+        "block": 7,
+        "text": "공최 : 폐경의 극혈, 공은 구멍을 뚫는 뜻이고, 최는 가장 최를 말한다. 옛사람들은 공최혈이 열병으로 땀이 나지 않는 것을 치료하는데 최고라고 생각하여 폐기를 선통하고 주리를 개설하는 본 혈을 공최라고 불렀다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 7,
+        "text": "공최 : 폐경의 극혈, 공은 구멍을 뚫는 뜻이고, 최는 가장 최를 말한다. 옛사람들은 공최혈이 열병으로 땀이 나지 않는 것을 치료하는데 최고라고 생각하여 폐기를 선통하고 주리를 개설하는 본 혈을 공최라고 불렀다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU7",
+    "meridian": "LU",
+    "index": 7,
+    "name": "열결",
+    "han": "列缺",
+    "views": {
+      "front": [
+        551.75,
+        631.25
+      ],
+      "back": null,
+      "side": [
+        455.7,
+        671.38
+      ]
+    },
+    "preferredView": "front",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      551.75,
+      631.25
+    ],
+    "aliases": [
+      "열결",
+      "列缺",
+      "列缺"
+    ],
+    "locationSummary": "아래팔의 노쪽면, 긴엄지벌림근힘줄과 짧은엄지폄근힘줄의 사이, 긴엄지벌림근힘줄 고랑 위, 손바닥쪽 손목주름에서 위쪽으로 1.5寸.",
+    "location": "아래팔의 노쪽면, 긴엄지벌림근힘줄과 짧은엄지폄근힘줄의 사이, 긴엄지벌림근힘줄 고랑 위, 손바닥쪽 손목주름에서 위쪽으로 1.5寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU7",
+        "loc": "LU7 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=38",
+        "loc": "printed p.29",
+        "pdfPage": 38
+      },
+      {
+        "doc": "doc18",
+        "block": 8,
+        "text": "열결 : 락혈, 팔맥교회혈, 임맥, 열은 예전에 찢는다. 갈라진다 라는 뜻으로 쓰였고, 결 역시 그릇의 이빠진 홈을 말한다. 열결혈은 손목의 오목한 부분에 있고, 수태음폐경의 락혈로서 여기서 경맥이 갈라져나가므로 열결이라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 8,
+        "text": "열결 : 락혈, 팔맥교회혈, 임맥, 열은 예전에 찢는다. 갈라진다 라는 뜻으로 쓰였고, 결 역시 그릇의 이빠진 홈을 말한다. 열결혈은 손목의 오목한 부분에 있고, 수태음폐경의 락혈로서 여기서 경맥이 갈라져나가므로 열결이라 하였다. "
+      }
+    ],
+    "variants": [
+      {
+        "pointId": "LU7",
+        "kind": "textbook-location-comparison",
+        "status": "explicit-disagreement",
+        "label": "교재·표준 위치 차이 · 거리와 방향",
+        "text": "교재: 列缺{LU7}(태연혈3촌아래)\n표준: 아래팔의 노쪽면, 긴엄지벌림근힘줄과 짧은엄지폄근힘줄의 사이, 긴엄지벌림근힘줄 고랑 위, 손바닥쪽 손목주름에서 위쪽으로 1.5寸.\n대조: 교재는 태연을 기준으로 3촌 아래, 표준은 손바닥쪽 손목주름을 기준으로 위쪽 1.5촌이다. 기준점·수치·방향이 달라 동일 위치 문장으로 합치지 않는다.",
+        "source": [
+          {
+            "doc": "doc4",
+            "block": 421,
+            "text": "본경 | 팔혈 | 통회맥 | 주치\n수태음폐 | 列缺{LU7}(태연혈3촌아래) | 임맥과 통한다.  | \n족태음비 | 公孫{SP4} (엄지발가락부터 발등과 발바닥 경계)  | 충맥과 통한다 | 심 흉 위의 통증위주\n수태양소장 | 後溪{SI3} | 독맥과 통한다 | \n족태양방광  | 申脈{BL62}(바깥복숭아아래) | 양교맥과 통한다.  | \n족소음신 | 照海{KI6}(안쪽복숭아아래) | 음교맥과 통한다.  | \n수궐음심포 | 内關{PC6}(대릉혈2촌아래) | 음유맥과 통한다.  | 심 흉 위의 통증위주\n수소양삼초 | 外關{TE5}(내관혈과 투자함) | 양유맥과 통한다.  | \n족소양담 | 足臨泣{GB41} | 대맥과 통한다.  | "
+          },
+          {
+            "doc": "KMCRIC",
+            "url": "https://www.kmcric.com/database/acupoint/LU/LU7",
+            "loc": "LU7 부위"
+          },
+          {
+            "doc": "WHO-2008/2009",
+            "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=38",
+            "loc": "printed p.29",
+            "pdfPage": 38
+          }
+        ],
+        "textbook": {
+          "quote": "列缺{LU7}(태연혈3촌아래)",
+          "doc": "doc4",
+          "block": 421
+        },
+        "standard": {
+          "text": "아래팔의 노쪽면, 긴엄지벌림근힘줄과 짧은엄지폄근힘줄의 사이, 긴엄지벌림근힘줄 고랑 위, 손바닥쪽 손목주름에서 위쪽으로 1.5寸.",
+          "sources": [
+            {
+              "doc": "KMCRIC",
+              "url": "https://www.kmcric.com/database/acupoint/LU/LU7",
+              "loc": "LU7 부위"
+            },
+            {
+              "doc": "WHO-2008/2009",
+              "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=38",
+              "loc": "printed p.29",
+              "pdfPage": 38
+            }
+          ]
+        },
+        "finding": "교재는 태연을 기준으로 3촌 아래, 표준은 손바닥쪽 손목주름을 기준으로 위쪽 1.5촌이다. 기준점·수치·방향이 달라 동일 위치 문장으로 합치지 않는다.",
+        "mapPolicy": "Keep both source statements. Do not turn the textbook wording into an additional map coordinate without review.",
+        "recallPolicy": "This comparison includes the answer. Show only after an explicit source/hint action; never inside a hidden-answer prompt."
+      }
+    ],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU8",
+    "meridian": "LU",
+    "index": 8,
+    "name": "경거",
+    "han": "經渠",
+    "views": {
+      "front": [
+        554.17,
+        637.5
+      ],
+      "back": null,
+      "side": [
+        456.78,
+        676.58
+      ]
+    },
+    "preferredView": "front",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      554.17,
+      637.5
+    ],
+    "aliases": [
+      "경거",
+      "經渠"
+    ],
+    "locationSummary": "아래팔 앞가쪽면, 노뼈붓돌기와 노동맥사이, 손바닥쪽 손목주름에서 위쪽으로 1寸. ※주 : 太淵에서 위쪽으로 1寸에 위치한다.",
+    "location": "아래팔 앞가쪽면, 노뼈붓돌기와 노동맥사이, 손바닥쪽 손목주름에서 위쪽으로 1寸. ※주 : 太淵에서 위쪽으로 1寸에 위치한다.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU8",
+        "loc": "LU8 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=38",
+        "loc": "printed p.29",
+        "pdfPage": 38
+      },
+      {
+        "doc": "doc18",
+        "block": 9,
+        "text": "경거 : 경금혈, 폐경의 경기 가 지나가는 거도로서 경거, 즉 수로 라고 볼 수 있으므로, 경거라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 9,
+        "text": "경거 : 경금혈, 폐경의 경기 가 지나가는 거도로서 경거, 즉 수로 라고 볼 수 있으므로, 경거라 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU9",
+    "meridian": "LU",
+    "index": 9,
+    "name": "태연",
+    "han": "太淵",
+    "views": {
+      "front": [
+        559.0,
+        650.0
+      ],
+      "back": null,
+      "side": [
+        458.95,
+        687.0
+      ]
+    },
+    "preferredView": "front",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      559.0,
+      650.0
+    ],
+    "aliases": [
+      "태연",
+      "太淵"
+    ],
+    "locationSummary": "손목 앞가쪽면, 노뼈붓돌기와 손배뼈 사이, 긴엄지벌림근힘줄의 자쪽 오목한 곳.",
+    "location": "손목 앞가쪽면, 노뼈붓돌기와 손배뼈 사이, 긴엄지벌림근힘줄의 자쪽 오목한 곳.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU9",
+        "loc": "LU9 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=39",
+        "loc": "printed p.30",
+        "pdfPage": 39
+      },
+      {
+        "doc": "doc18",
+        "block": 10,
+        "text": "태연 : 수토혈, 원혈, 팔회혈 중 맥회, 태는 아주 크다는 말이고, 연은 깊은 연못이라는 뜻과 원천이라는 뜻도 있다. 태연혈은 촌관척 삼부 중 촌부에 해당하며, 수태음폐경의 수혈, 원혈 이면서 팔회혈 중 하나므로, 맥은 태연에 모여있다 라고 하여 태연이라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 10,
+        "text": "태연 : 수토혈, 원혈, 팔회혈 중 맥회, 태는 아주 크다는 말이고, 연은 깊은 연못이라는 뜻과 원천이라는 뜻도 있다. 태연혈은 촌관척 삼부 중 촌부에 해당하며, 수태음폐경의 수혈, 원혈 이면서 팔회혈 중 하나므로, 맥은 태연에 모여있다 라고 하여 태연이라 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU10",
+    "meridian": "LU",
+    "index": 10,
+    "name": "어제",
+    "han": "魚際",
+    "views": {
+      "front": [
+        574,
+        680
+      ],
+      "back": null,
+      "side": null
+    },
+    "preferredView": "front",
+    "region": "palm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      574,
+      680
+    ],
+    "aliases": [
+      "어제",
+      "魚際"
+    ],
+    "locationSummary": "손바닥, 첫째 손허리뼈 중점의 노쪽, 赤白肉際.",
+    "location": "손바닥, 첫째 손허리뼈 중점의 노쪽, 赤白肉際.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU10",
+        "loc": "LU10 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=39",
+        "loc": "printed p.30",
+        "pdfPage": 39
+      },
+      {
+        "doc": "doc18",
+        "block": 11,
+        "text": "어제 : 형화혈,  제 는 가장자리를 뜻하고, 본 혈은 적백육제에 있는데, 물고기 배처럼 둥글게 튀어나와 있으므로 물고기 어를 써서 어제라고 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 11,
+        "text": "어제 : 형화혈,  제 는 가장자리를 뜻하고, 본 혈은 적백육제에 있는데, 물고기 배처럼 둥글게 튀어나와 있으므로 물고기 어를 써서 어제라고 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "palm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LU11",
+    "meridian": "LU",
+    "index": 11,
+    "name": "소상",
+    "han": "少商",
+    "views": {
+      "front": [
+        587,
+        697
+      ],
+      "back": null,
+      "side": null
+    },
+    "preferredView": "front",
+    "region": "palm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      587,
+      697
+    ],
+    "aliases": [
+      "소상",
+      "少商"
+    ],
+    "locationSummary": "엄지손가락, 끝마디뼈의 노쪽, 엄지손톱 노쪽 뿌리각에서 몸가쪽으로 0.1寸.",
+    "location": "엄지손가락, 끝마디뼈의 노쪽, 엄지손톱 노쪽 뿌리각에서 몸가쪽으로 0.1寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LU/LU11",
+        "loc": "LU11 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=40",
+        "loc": "printed p.31",
+        "pdfPage": 40
+      },
+      {
+        "doc": "doc18",
+        "block": 12,
+        "text": "소상 : 정목혈 , 말단에 있는 혈에 소 자가 붙는 경우가 많은데, 소는 최초 라는 뜻이다. 폐는 오행에서 금이고, 오음에서 상에 속한다. 소상혈은 손가락 끝에 있고, 정혈로서 폐경의 맥기가 시작되는 곳인데, 그 맥기가 충분치 않다는 뜻도 담아 소상이라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 12,
+        "text": "소상 : 정목혈 , 말단에 있는 혈에 소 자가 붙는 경우가 많은데, 소는 최초 라는 뜻이다. 폐는 오행에서 금이고, 오음에서 상에 속한다. 소상혈은 손가락 끝에 있고, 정혈로서 폐경의 맥기가 시작되는 곳인데, 그 맥기가 충분치 않다는 뜻도 담아 소상이라 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "palm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI1",
+    "meridian": "LI",
+    "index": 1,
+    "name": "상양",
+    "han": "商陽",
+    "views": {
+      "front": null,
+      "back": [
+        556,
+        722
+      ],
+      "side": null
+    },
+    "preferredView": "back",
+    "region": "hand-dorsal",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      556,
+      722
+    ],
+    "aliases": [
+      "상양",
+      "商陽"
+    ],
+    "locationSummary": "집게손가락, 끝마디뼈의 노쪽, 집게손톱 노쪽 뿌리각에서 몸가쪽으로 0.1寸.",
+    "location": "집게손가락, 끝마디뼈의 노쪽, 집게손톱 노쪽 뿌리각에서 몸가쪽으로 0.1寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI1",
+        "loc": "LI1 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=43",
+        "loc": "printed p.34",
+        "pdfPage": 43
+      },
+      {
+        "doc": "doc18",
+        "block": 14,
+        "text": "상양 : 정금혈, 상 역시 금에 해당하는 대장인데, 대장은 오행상 양금에 속하고, 여기서 경기가 상승하므로 상양이라고 하였다."
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 14,
+        "text": "상양 : 정금혈, 상 역시 금에 해당하는 대장인데, 대장은 오행상 양금에 속하고, 여기서 경기가 상승하므로 상양이라고 하였다."
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "hand-dorsal",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI2",
+    "meridian": "LI",
+    "index": 2,
+    "name": "이간",
+    "han": "二間",
+    "views": {
+      "front": null,
+      "back": [
+        550,
+        705
+      ],
+      "side": null
+    },
+    "preferredView": "back",
+    "region": "hand-dorsal",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      550,
+      705
+    ],
+    "aliases": [
+      "이간",
+      "二間"
+    ],
+    "locationSummary": "집게손가락, 둘째 손허리손가락관절 노쪽면의 먼 쪽 오목한 곳, 赤白肉際.",
+    "location": "집게손가락, 둘째 손허리손가락관절 노쪽면의 먼 쪽 오목한 곳, 赤白肉際.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI2",
+        "loc": "LI2 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=43",
+        "loc": "printed p.34",
+        "pdfPage": 43
+      },
+      {
+        "doc": "doc18",
+        "block": 15,
+        "text": "이간 : 형수혈, 이는 두번째, 간은 장소를 뜻한다. 둘째손가락의 두번째 절에 위치하므로 이간이라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 15,
+        "text": "이간 : 형수혈, 이는 두번째, 간은 장소를 뜻한다. 둘째손가락의 두번째 절에 위치하므로 이간이라 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "hand-dorsal",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI3",
+    "meridian": "LI",
+    "index": 3,
+    "name": "삼간",
+    "han": "三間",
+    "views": {
+      "front": null,
+      "back": [
+        547,
+        690
+      ],
+      "side": null
+    },
+    "preferredView": "back",
+    "region": "hand-dorsal",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      547,
+      690
+    ],
+    "aliases": [
+      "삼간",
+      "三間"
+    ],
+    "locationSummary": "손등, 둘째 손허리손가락관절 노쪽, 몸 쪽 오목한 곳.",
+    "location": "손등, 둘째 손허리손가락관절 노쪽, 몸 쪽 오목한 곳.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI3",
+        "loc": "LI3 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=44",
+        "loc": "printed p.35",
+        "pdfPage": 44
+      },
+      {
+        "doc": "doc18",
+        "block": 16,
+        "text": "삼간 : 수목혈, 삼은 셋, 간은 장소이므로 삼간이라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 16,
+        "text": "삼간 : 수목혈, 삼은 셋, 간은 장소이므로 삼간이라 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "hand-dorsal",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI4",
+    "meridian": "LI",
+    "index": 4,
+    "name": "합곡",
+    "han": "合谷",
+    "views": {
+      "front": null,
+      "back": [
+        542,
+        678
+      ],
+      "side": null
+    },
+    "preferredView": "back",
+    "region": "hand-dorsal",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      542,
+      678
+    ],
+    "aliases": [
+      "합곡",
+      "合谷"
+    ],
+    "locationSummary": "손등, 둘째 손허리뼈 중점의 노쪽.",
+    "location": "손등, 둘째 손허리뼈 중점의 노쪽.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI4",
+        "loc": "LI4 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=44",
+        "loc": "printed p.35",
+        "pdfPage": 44
+      },
+      {
+        "doc": "doc18",
+        "block": 17,
+        "text": " 합곡 : 원혈, 모이는곳을 합이라고 하고, 물이 흐르는 곳을 곡이라고 한다, 합곡혈은 두개의 봉우리 사이에 있는 골짜기로 물이 흐르는 길이다. 예전에는 살(고기 육) 이 크게 모이는 곳을 곡이라고 하였고, 약간 작게 모이는 곳을 계라고 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 17,
+        "text": " 합곡 : 원혈, 모이는곳을 합이라고 하고, 물이 흐르는 곳을 곡이라고 한다, 합곡혈은 두개의 봉우리 사이에 있는 골짜기로 물이 흐르는 길이다. 예전에는 살(고기 육) 이 크게 모이는 곳을 곡이라고 하였고, 약간 작게 모이는 곳을 계라고 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "hand-dorsal",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI5",
+    "meridian": "LI",
+    "index": 5,
+    "name": "양계",
+    "han": "陽谿",
+    "views": {
+      "front": null,
+      "back": [
+        528.0,
+        657.0
+      ],
+      "side": [
+        460.05,
+        687.0
+      ]
+    },
+    "preferredView": "back",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      528.0,
+      657.0
+    ],
+    "aliases": [
+      "양계",
+      "陽谿"
+    ],
+    "locationSummary": "손목 뒤가쪽면, 손등 쪽 손목주름의 노쪽, 노뼈붓돌기에서 먼 쪽, 해부학적 코담배갑의 오목한 곳.",
+    "location": "손목 뒤가쪽면, 손등 쪽 손목주름의 노쪽, 노뼈붓돌기에서 먼 쪽, 해부학적 코담배갑의 오목한 곳.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI5",
+        "loc": "LI5 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=45",
+        "loc": "printed p.36",
+        "pdfPage": 45
+      },
+      {
+        "doc": "doc18",
+        "block": 18,
+        "text": "양계 : 경화혈, 양은 양경을 가리키고, 계는 작은 도랑, 또는 살이 작게 모이는 곳을 말한다. 엄지를 바깥쪽으로 쭉 펴 보면 좁은 산 사이에 모인 계곡이 나오는데 따라서 양계라고 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 18,
+        "text": "양계 : 경화혈, 양은 양경을 가리키고, 계는 작은 도랑, 또는 살이 작게 모이는 곳을 말한다. 엄지를 바깥쪽으로 쭉 펴 보면 좁은 산 사이에 모인 계곡이 나오는데 따라서 양계라고 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI6",
+    "meridian": "LI",
+    "index": 6,
+    "name": "편력",
+    "han": "偏歷",
+    "views": {
+      "front": null,
+      "back": [
+        513.5,
+        620.25
+      ],
+      "side": [
+        453.55,
+        655.75
+      ]
+    },
+    "preferredView": "back",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      513.5,
+      620.25
+    ],
+    "aliases": [
+      "편력",
+      "偏歷"
+    ],
+    "locationSummary": "아래 팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 손등 쪽 손목주름에서 위쪽으로 3寸.",
+    "location": "아래 팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 손등 쪽 손목주름에서 위쪽으로 3寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI6",
+        "loc": "LI6 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=45",
+        "loc": "printed p.36",
+        "pdfPage": 45
+      },
+      {
+        "doc": "doc18",
+        "block": 19,
+        "text": "편력 : 락혈, 편은 한조각 떨어져 나가는것, 력은 이력, 경과를 뜻한다. 대장경은 본 혈에서 락혈이 갈라져 나와 폐경에 이르기 때문에 편력이라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 19,
+        "text": "편력 : 락혈, 편은 한조각 떨어져 나가는것, 력은 이력, 경과를 뜻한다. 대장경은 본 혈에서 락혈이 갈라져 나와 폐경에 이르기 때문에 편력이라 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI7",
+    "meridian": "LI",
+    "index": 7,
+    "name": "온류",
+    "han": "溫溜",
+    "views": {
+      "front": null,
+      "back": [
+        503.83000000000004,
+        595.75
+      ],
+      "side": [
+        449.22,
+        634.92
+      ]
+    },
+    "preferredView": "back",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      503.83000000000004,
+      595.75
+    ],
+    "aliases": [
+      "온류",
+      "溫溜"
+    ],
+    "locationSummary": "아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 손등 쪽 손목주름에서 위쪽으로 5寸.",
+    "location": "아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 손등 쪽 손목주름에서 위쪽으로 5寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI7",
+        "loc": "LI7 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=46",
+        "loc": "printed p.37",
+        "pdfPage": 46
+      },
+      {
+        "doc": "doc18",
+        "block": 20,
+        "text": "온류 : 극혈, 온은 따뜻한것, 류는 흘러간다라는 뜻이다. 본 혈은 온경산한의 효능을 가지고 있어 온류라고 하였다. 뜨거운 물을 트는 혈이라고 생각하면 된다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 20,
+        "text": "온류 : 극혈, 온은 따뜻한것, 류는 흘러간다라는 뜻이다. 본 혈은 온경산한의 효능을 가지고 있어 온류라고 하였다. 뜨거운 물을 트는 혈이라고 생각하면 된다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI8",
+    "meridian": "LI",
+    "index": 8,
+    "name": "하렴",
+    "han": "下廉",
+    "views": {
+      "front": null,
+      "back": [
+        489.33,
+        559.0
+      ],
+      "side": [
+        442.72,
+        603.67
+      ]
+    },
+    "preferredView": "back",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      489.33,
+      559.0
+    ],
+    "aliases": [
+      "하렴",
+      "下廉"
+    ],
+    "locationSummary": "아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 팔오금주름에서 아래쪽으로 4寸.",
+    "location": "아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 팔오금주름에서 아래쪽으로 4寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI8",
+        "loc": "LI8 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=46",
+        "loc": "printed p.37",
+        "pdfPage": 46
+      },
+      {
+        "doc": "doc18",
+        "block": 21,
+        "text": "하렴 : 렴은 edge를 뜻한다. 팔꿈치를 구부리고 주먹을 쥐어 힘을 주면 본 혈이 튀어나와서 하렴이라 한다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 21,
+        "text": "하렴 : 렴은 edge를 뜻한다. 팔꿈치를 구부리고 주먹을 쥐어 힘을 주면 본 혈이 튀어나와서 하렴이라 한다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI9",
+    "meridian": "LI",
+    "index": 9,
+    "name": "상렴",
+    "han": "上廉",
+    "views": {
+      "front": null,
+      "back": [
+        484.5,
+        546.75
+      ],
+      "side": [
+        440.55,
+        593.25
+      ]
+    },
+    "preferredView": "back",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      484.5,
+      546.75
+    ],
+    "aliases": [
+      "상렴",
+      "上廉"
+    ],
+    "locationSummary": "아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 팔오금주름에서 아래쪽으로 3寸.",
+    "location": "아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 팔오금주름에서 아래쪽으로 3寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI9",
+        "loc": "LI9 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=47",
+        "loc": "printed p.38",
+        "pdfPage": 47
+      },
+      {
+        "doc": "doc18",
+        "block": 22,
+        "text": "상렴 : 힘을 주면 딱 튀어나오는 거기라서 상렴이다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 22,
+        "text": "상렴 : 힘을 주면 딱 튀어나오는 거기라서 상렴이다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI10",
+    "meridian": "LI",
+    "index": 10,
+    "name": "수삼리",
+    "han": "手三里",
+    "views": {
+      "front": null,
+      "back": [
+        479.67,
+        534.5
+      ],
+      "side": [
+        438.38,
+        582.83
+      ]
+    },
+    "preferredView": "back",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      479.67,
+      534.5
+    ],
+    "aliases": [
+      "수삼리",
+      "手三里"
+    ],
+    "locationSummary": "아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 팔오금주름에서 아래쪽으로 2寸.",
+    "location": "아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 팔오금주름에서 아래쪽으로 2寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI10",
+        "loc": "LI10 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=47",
+        "loc": "printed p.38",
+        "pdfPage": 47
+      },
+      {
+        "doc": "doc18",
+        "block": 23,
+        "text": "수삼리 : 양계혈과 곡지혈 사이의 4등분선중 곡지혈에 가까운 3선에 있어서 수삼리라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 23,
+        "text": "수삼리 : 양계혈과 곡지혈 사이의 4등분선중 곡지혈에 가까운 3선에 있어서 수삼리라 하였다. "
+      }
+    ],
+    "variants": [
+      {
+        "pointId": "LI10",
+        "kind": "textbook-location-comparison",
+        "status": "ambiguous-wording",
+        "label": "교재·표준 위치 표현 · 분할선 해석 보류",
+        "text": "교재: 양계혈과 곡지혈 사이의 4등분선중 곡지혈에 가까운 3선에 있어서\n표준: 아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 팔오금주름에서 아래쪽으로 2寸.\n대조: 교재의 4등분선·3선 표현은 어느 쪽에서 세는지와 정확한 거리가 명시되지 않았다. 표준의 팔오금주름 아래 2촌과 같은 위치라고 단정하지 않는다. 숫자 오기로도 확정하지 않는다.",
+        "source": [
+          {
+            "doc": "doc18",
+            "block": 23,
+            "text": "수삼리 : 양계혈과 곡지혈 사이의 4등분선중 곡지혈에 가까운 3선에 있어서 수삼리라 하였다. "
+          },
+          {
+            "doc": "KMCRIC",
+            "url": "https://www.kmcric.com/database/acupoint/LI/LI10",
+            "loc": "LI10 부위"
+          },
+          {
+            "doc": "WHO-2008/2009",
+            "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=47",
+            "loc": "printed p.38",
+            "pdfPage": 47
+          }
+        ],
+        "textbook": {
+          "quote": "양계혈과 곡지혈 사이의 4등분선중 곡지혈에 가까운 3선에 있어서",
+          "doc": "doc18",
+          "block": 23
+        },
+        "standard": {
+          "text": "아래팔 뒤가쪽면, 陽谿와 曲池를 연결하는 선 위, 팔오금주름에서 아래쪽으로 2寸.",
+          "sources": [
+            {
+              "doc": "KMCRIC",
+              "url": "https://www.kmcric.com/database/acupoint/LI/LI10",
+              "loc": "LI10 부위"
+            },
+            {
+              "doc": "WHO-2008/2009",
+              "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=47",
+              "loc": "printed p.38",
+              "pdfPage": 47
+            }
+          ]
+        },
+        "finding": "교재의 4등분선·3선 표현은 어느 쪽에서 세는지와 정확한 거리가 명시되지 않았다. 표준의 팔오금주름 아래 2촌과 같은 위치라고 단정하지 않는다. 숫자 오기로도 확정하지 않는다.",
+        "mapPolicy": "Keep both source statements. Do not turn the textbook wording into an additional map coordinate without review.",
+        "recallPolicy": "This comparison includes the answer. Show only after an explicit source/hint action; never inside a hidden-answer prompt."
+      }
+    ],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI11",
+    "meridian": "LI",
+    "index": 11,
+    "name": "곡지",
+    "han": "曲池",
+    "views": {
+      "front": [
+        504,
+        500
+      ],
+      "back": [
+        470.0,
+        510.0
+      ],
+      "side": [
+        434.05,
+        562.0
+      ]
+    },
+    "preferredView": "back",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      470.0,
+      510.0
+    ],
+    "aliases": [
+      "곡지",
+      "曲池"
+    ],
+    "locationSummary": "팔꿈치 가쪽면, 尺澤과 위팔뼈가쪽위관절융기를 연결하는 선의 중점.",
+    "location": "팔꿈치 가쪽면, 尺澤과 위팔뼈가쪽위관절융기를 연결하는 선의 중점.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI11",
+        "loc": "LI11 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=48",
+        "loc": "printed p.39",
+        "pdfPage": 48
+      },
+      {
+        "doc": "doc18",
+        "block": 24,
+        "text": "곡지 : 합토혈, 곡은 관절을 구부리는 것을 말한다. 취혈할때 살이 접히는 모양이 얕은 못과 닮아서 연못 지를 썼다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 24,
+        "text": "곡지 : 합토혈, 곡은 관절을 구부리는 것을 말한다. 취혈할때 살이 접히는 모양이 얕은 못과 닮아서 연못 지를 썼다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI12",
+    "meridian": "LI",
+    "index": 12,
+    "name": "주료",
+    "han": "肘髎",
+    "views": {
+      "front": [
+        503,
+        487.5
+      ],
+      "back": [
+        465.17,
+        497.75
+      ],
+      "side": [
+        431.88,
+        551.58
+      ]
+    },
+    "preferredView": "back",
+    "region": "forearm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      465.17,
+      497.75
+    ],
+    "aliases": [
+      "주료",
+      "肘髎"
+    ],
+    "locationSummary": "팔꿈치 뒤가쪽면, 위팔뼈 가쪽위관절융기 위쪽, 가쪽위관절융기 위 능선 앞쪽.",
+    "location": "팔꿈치 뒤가쪽면, 위팔뼈 가쪽위관절융기 위쪽, 가쪽위관절융기 위 능선 앞쪽.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI12",
+        "loc": "LI12 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=48",
+        "loc": "printed p.39",
+        "pdfPage": 48
+      },
+      {
+        "doc": "doc18",
+        "block": 25,
+        "text": "주료 : 주는 팔꿈치를 가리키고 료는 뼈의 돌기 가깝게 있는 푹 들어간 틈이나 벌어진 틈을 가리키는데 이 혈은 위팔 우측에 뼈를 타고 손가락을 내리면 딱 걸리는 들어간 틈에 있기 때문에 주료라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 25,
+        "text": "주료 : 주는 팔꿈치를 가리키고 료는 뼈의 돌기 가깝게 있는 푹 들어간 틈이나 벌어진 틈을 가리키는데 이 혈은 위팔 우측에 뼈를 타고 손가락을 내리면 딱 걸리는 들어간 틈에 있기 때문에 주료라 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "forearm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI13",
+    "meridian": "LI",
+    "index": 13,
+    "name": "수오리",
+    "han": "手五里",
+    "views": {
+      "front": [
+        495.0,
+        471.67
+      ],
+      "back": null,
+      "side": [
+        417.67,
+        516.33
+      ]
+    },
+    "preferredView": "front",
+    "region": "upper-arm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      495.0,
+      471.67
+    ],
+    "aliases": [
+      "수오리",
+      "手五里"
+    ],
+    "locationSummary": "위팔 가쪽면, 曲池와 肩髃를 연결하는 선 위, 팔오금주름에서 위쪽으로 3寸.",
+    "location": "위팔 가쪽면, 曲池와 肩髃를 연결하는 선 위, 팔오금주름에서 위쪽으로 3寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI13",
+        "loc": "LI13 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=49",
+        "loc": "printed p.40",
+        "pdfPage": 49
+      },
+      {
+        "doc": "doc18",
+        "block": 26,
+        "text": "수오리 : 수오리혈은 수삼리혈에서 2리 더 가서 수오리다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 26,
+        "text": "수오리 : 수오리혈은 수삼리혈에서 2리 더 가서 수오리다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "upper-arm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI14",
+    "meridian": "LI",
+    "index": 14,
+    "name": "비노",
+    "han": "臂臑",
+    "views": {
+      "front": [
+        483.0,
+        433.89
+      ],
+      "back": null,
+      "side": [
+        419.89,
+        455.44
+      ]
+    },
+    "preferredView": "front",
+    "region": "upper-arm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      483.0,
+      433.89
+    ],
+    "aliases": [
+      "비노",
+      "臂臑"
+    ],
+    "locationSummary": "위팔 가쪽면, 어깨세모근의 앞모서리 바로 앞쪽, 曲池에서 위쪽으로 7寸.",
+    "location": "위팔 가쪽면, 어깨세모근의 앞모서리 바로 앞쪽, 曲池에서 위쪽으로 7寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI14",
+        "loc": "LI14 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=49",
+        "loc": "printed p.40",
+        "pdfPage": 49
+      },
+      {
+        "doc": "doc18",
+        "block": 27,
+        "text": "비노 : 비노는 윗팔의 안쪽을 말하는데 상완 삼각근 밑이랑 이두근 위에있고, 견우와 곡지를 잇는 선 위에 있기 때문에 팔비 윗팔노 를 써서 비노라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 27,
+        "text": "비노 : 비노는 윗팔의 안쪽을 말하는데 상완 삼각근 밑이랑 이두근 위에있고, 견우와 곡지를 잇는 선 위에 있기 때문에 팔비 윗팔노 를 써서 비노라 하였다. "
+      }
+    ],
+    "variants": [
+      {
+        "pointId": "LI14",
+        "kind": "textbook-location-comparison",
+        "status": "explicit-disagreement",
+        "label": "교재·표준 위치 차이 · 면",
+        "text": "교재: 비노는 윗팔의 안쪽을 말하는데 상완 삼각근 밑이랑 이두근 위에있고, 견우와 곡지를 잇는 선 위에 있기 때문에\n표준: 위팔 가쪽면, 어깨세모근의 앞모서리 바로 앞쪽, 曲池에서 위쪽으로 7寸.\n대조: 교재 유래 문장은 윗팔 안쪽, 표준 위치는 위팔 가쪽면이다. 유래 풀이와 실제 취혈 표면을 동일시하지 않으며 원문을 보존한다.",
+        "source": [
+          {
+            "doc": "doc18",
+            "block": 27,
+            "text": "비노 : 비노는 윗팔의 안쪽을 말하는데 상완 삼각근 밑이랑 이두근 위에있고, 견우와 곡지를 잇는 선 위에 있기 때문에 팔비 윗팔노 를 써서 비노라 하였다. "
+          },
+          {
+            "doc": "KMCRIC",
+            "url": "https://www.kmcric.com/database/acupoint/LI/LI14",
+            "loc": "LI14 부위"
+          },
+          {
+            "doc": "WHO-2008/2009",
+            "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=49",
+            "loc": "printed p.40",
+            "pdfPage": 49
+          }
+        ],
+        "textbook": {
+          "quote": "비노는 윗팔의 안쪽을 말하는데 상완 삼각근 밑이랑 이두근 위에있고, 견우와 곡지를 잇는 선 위에 있기 때문에",
+          "doc": "doc18",
+          "block": 27
+        },
+        "standard": {
+          "text": "위팔 가쪽면, 어깨세모근의 앞모서리 바로 앞쪽, 曲池에서 위쪽으로 7寸.",
+          "sources": [
+            {
+              "doc": "KMCRIC",
+              "url": "https://www.kmcric.com/database/acupoint/LI/LI14",
+              "loc": "LI14 부위"
+            },
+            {
+              "doc": "WHO-2008/2009",
+              "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=49",
+              "loc": "printed p.40",
+              "pdfPage": 49
+            }
+          ]
+        },
+        "finding": "교재 유래 문장은 윗팔 안쪽, 표준 위치는 위팔 가쪽면이다. 유래 풀이와 실제 취혈 표면을 동일시하지 않으며 원문을 보존한다.",
+        "mapPolicy": "Keep both source statements. Do not turn the textbook wording into an additional map coordinate without review.",
+        "recallPolicy": "This comparison includes the answer. Show only after an explicit source/hint action; never inside a hidden-answer prompt."
+      }
+    ],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "upper-arm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI15",
+    "meridian": "LI",
+    "index": 15,
+    "name": "견우",
+    "han": "肩髃",
+    "views": {
+      "front": [
+        481,
+        373
+      ],
+      "back": null,
+      "side": [
+        430,
+        390
+      ]
+    },
+    "preferredView": "front",
+    "region": "shoulder",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      481,
+      373
+    ],
+    "aliases": [
+      "견우",
+      "肩髃"
+    ],
+    "locationSummary": "팔이음뼈, 어깨뼈봉우리 가쪽모서리의 앞쪽 끝과 위팔뼈 큰결절 사이의 오목한 곳.",
+    "location": "팔이음뼈, 어깨뼈봉우리 가쪽모서리의 앞쪽 끝과 위팔뼈 큰결절 사이의 오목한 곳.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI15",
+        "loc": "LI15 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=50",
+        "loc": "printed p.41",
+        "pdfPage": 50
+      },
+      {
+        "doc": "doc18",
+        "block": 28,
+        "text": "견우 : 견우는 견갑골 견봉부에 있고, 회전근개가 딱 밑으로 들어간다. 어께 견 어깻죽지 우를 써서 견우라 한다. 모든 견관절 질환을 치료한다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 28,
+        "text": "견우 : 견우는 견갑골 견봉부에 있고, 회전근개가 딱 밑으로 들어간다. 어께 견 어깻죽지 우를 써서 견우라 한다. 모든 견관절 질환을 치료한다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "shoulder",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI16",
+    "meridian": "LI",
+    "index": 16,
+    "name": "거골",
+    "han": "巨骨",
+    "views": {
+      "front": null,
+      "back": [
+        423,
+        340
+      ],
+      "side": [
+        418,
+        372
+      ]
+    },
+    "preferredView": "back",
+    "region": "shoulder",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      423,
+      340
+    ],
+    "aliases": [
+      "거골",
+      "巨骨"
+    ],
+    "locationSummary": "팔이음뼈, 빗장뼈 봉우리끝과 어깨뼈가시사이의 오목한 곳.",
+    "location": "팔이음뼈, 빗장뼈 봉우리끝과 어깨뼈가시사이의 오목한 곳.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI16",
+        "loc": "LI16 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=50",
+        "loc": "printed p.41",
+        "pdfPage": 50
+      },
+      {
+        "doc": "doc18",
+        "block": 29,
+        "text": "거골 : 거골은 뒷쇄골을 뜻하고 , 짐을 맬 떼에 큰 힘이 걸리므로 큰 거를 써서 거골이라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 29,
+        "text": "거골 : 거골은 뒷쇄골을 뜻하고 , 짐을 맬 떼에 큰 힘이 걸리므로 큰 거를 써서 거골이라 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "shoulder",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI17",
+    "meridian": "LI",
+    "index": 17,
+    "name": "천정",
+    "han": "天鼎",
+    "views": {
+      "front": [
+        423,
+        321
+      ],
+      "back": null,
+      "side": [
+        389,
+        337
+      ]
+    },
+    "preferredView": "front",
+    "region": "neck-face",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      423,
+      321
+    ],
+    "aliases": [
+      "천정",
+      "天鼎"
+    ],
+    "locationSummary": "목 앞부위, 반지연골과 같은 높이, 목빗근의 뒤모서리 바로 뒤쪽.",
+    "location": "목 앞부위, 반지연골과 같은 높이, 목빗근의 뒤모서리 바로 뒤쪽.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI17",
+        "loc": "LI17 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=51",
+        "loc": "printed p.42",
+        "pdfPage": 51
+      },
+      {
+        "doc": "doc18",
+        "block": 30,
+        "text": "천정 : 천은 위에 있다는 뜻이고 정은 솥 정을 쓰는데 천정혈 주변의 돌기와 힘줄들이 다리가 셋 달린 솥처럼 생겼다고 천정이라고 부른다. 본 혈을 잘 풀어주면 근긴장성 두통이 풀어진다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 30,
+        "text": "천정 : 천은 위에 있다는 뜻이고 정은 솥 정을 쓰는데 천정혈 주변의 돌기와 힘줄들이 다리가 셋 달린 솥처럼 생겼다고 천정이라고 부른다. 본 혈을 잘 풀어주면 근긴장성 두통이 풀어진다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "neck-face",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI18",
+    "meridian": "LI",
+    "index": 18,
+    "name": "부돌",
+    "han": "扶突",
+    "views": {
+      "front": [
+        420,
+        307
+      ],
+      "back": null,
+      "side": [
+        377,
+        322
+      ]
+    },
+    "preferredView": "front",
+    "region": "neck-face",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      420,
+      307
+    ],
+    "aliases": [
+      "부돌",
+      "扶突"
+    ],
+    "locationSummary": "목 앞부위, 방패연골 위모서리와 같은 높이, 목빗근의 앞모서리와 뒤모서리의 사이.",
+    "location": "목 앞부위, 방패연골 위모서리와 같은 높이, 목빗근의 앞모서리와 뒤모서리의 사이.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI18",
+        "loc": "LI18 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=51",
+        "loc": "printed p.42",
+        "pdfPage": 51
+      },
+      {
+        "doc": "doc18",
+        "block": 31,
+        "text": "부돌 : 부는 손가락 네개짜리 길이고, 돌은 흉쇄유돌근의 가운데 경동맥 이 지나는 곳에 튀어나와 있으므로 부딛힐 돌을 써서 부돌이라 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 31,
+        "text": "부돌 : 부는 손가락 네개짜리 길이고, 돌은 흉쇄유돌근의 가운데 경동맥 이 지나는 곳에 튀어나와 있으므로 부딛힐 돌을 써서 부돌이라 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "neck-face",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI19",
+    "meridian": "LI",
+    "index": 19,
+    "name": "화료",
+    "han": "禾髎",
+    "views": {
+      "front": [
+        393,
+        269
+      ],
+      "back": null,
+      "side": [
+        298,
+        268
+      ]
+    },
+    "preferredView": "front",
+    "region": "neck-face",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      393,
+      269
+    ],
+    "aliases": [
+      "화료",
+      "禾髎"
+    ],
+    "locationSummary": "얼굴, 인중 부위의 중점과 같은 높이, 콧구멍 가쪽모서리 아래 쪽.",
+    "location": "얼굴, 인중 부위의 중점과 같은 높이, 콧구멍 가쪽모서리 아래 쪽.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI19",
+        "loc": "LI19 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=52",
+        "loc": "printed p.43",
+        "pdfPage": 52
+      },
+      {
+        "doc": "doc18",
+        "block": 32,
+        "text": "화료 : 화는 곡물, 료는 움푹 들어간 부분을 말하므로 인중 중간을 말한다. 화는 밥냄새를 맡고 먹는 입술과 코 사이에 있어서 화료라고 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 32,
+        "text": "화료 : 화는 곡물, 료는 움푹 들어간 부분을 말하므로 인중 중간을 말한다. 화는 밥냄새를 맡고 먹는 입술과 코 사이에 있어서 화료라고 하였다. "
+      }
+    ],
+    "variants": [
+      {
+        "label": "KMCRIC·WHO 병기 위치",
+        "text": "콧구멍 가쪽 아래에서 인중의 위 1/3과 아래 2/3 경계 높이에 두는 위치도 병기되어 있다.",
+        "source": [
+          {
+            "doc": "KMCRIC",
+            "url": "https://www.kmcric.com/database/acupoint/LI/LI19",
+            "loc": "LI19 부위"
+          },
+          {
+            "doc": "WHO-2008/2009",
+            "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=52",
+            "loc": "printed p.43",
+            "pdfPage": 52
+          }
+        ]
+      },
+      {
+        "pointId": "LI19",
+        "kind": "textbook-location-comparison",
+        "status": "ambiguous-wording",
+        "label": "교재·표준 위치 표현 · 높이와 가쪽 구분",
+        "text": "교재: 인중 중간을 말한다.\n표준: 얼굴, 인중 부위의 중점과 같은 높이, 콧구멍 가쪽모서리 아래 쪽.\n대조: 교재가 인중 중간의 높이를 가리키는지 정중선 위의 점을 가리키는지 불명확하다. 표준은 그 중점과 같은 높이의 콧구멍 가쪽모서리 아래이다. 높이와 좌우 위치를 구별한다.",
+        "source": [
+          {
+            "doc": "doc18",
+            "block": 32,
+            "text": "화료 : 화는 곡물, 료는 움푹 들어간 부분을 말하므로 인중 중간을 말한다. 화는 밥냄새를 맡고 먹는 입술과 코 사이에 있어서 화료라고 하였다. "
+          },
+          {
+            "doc": "KMCRIC",
+            "url": "https://www.kmcric.com/database/acupoint/LI/LI19",
+            "loc": "LI19 부위"
+          },
+          {
+            "doc": "WHO-2008/2009",
+            "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=52",
+            "loc": "printed p.43",
+            "pdfPage": 52
+          }
+        ],
+        "textbook": {
+          "quote": "인중 중간을 말한다.",
+          "doc": "doc18",
+          "block": 32
+        },
+        "standard": {
+          "text": "얼굴, 인중 부위의 중점과 같은 높이, 콧구멍 가쪽모서리 아래 쪽.",
+          "sources": [
+            {
+              "doc": "KMCRIC",
+              "url": "https://www.kmcric.com/database/acupoint/LI/LI19",
+              "loc": "LI19 부위"
+            },
+            {
+              "doc": "WHO-2008/2009",
+              "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=52",
+              "loc": "printed p.43",
+              "pdfPage": 52
+            }
+          ]
+        },
+        "finding": "교재가 인중 중간의 높이를 가리키는지 정중선 위의 점을 가리키는지 불명확하다. 표준은 그 중점과 같은 높이의 콧구멍 가쪽모서리 아래이다. 높이와 좌우 위치를 구별한다.",
+        "mapPolicy": "Keep both source statements. Do not turn the textbook wording into an additional map coordinate without review.",
+        "recallPolicy": "This comparison includes the answer. Show only after an explicit source/hint action; never inside a hidden-answer prompt."
+      }
+    ],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "neck-face",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "LI20",
+    "meridian": "LI",
+    "index": 20,
+    "name": "영향",
+    "han": "迎香",
+    "views": {
+      "front": [
+        397,
+        255
+      ],
+      "back": null,
+      "side": [
+        302,
+        258
+      ]
+    },
+    "preferredView": "front",
+    "region": "neck-face",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      397,
+      255
+    ],
+    "aliases": [
+      "영향",
+      "迎香"
+    ],
+    "locationSummary": "얼굴, 코입술고랑 위, 콧방울 가쪽모서리의 중점과 같은 높이.",
+    "location": "얼굴, 코입술고랑 위, 콧방울 가쪽모서리의 중점과 같은 높이.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/LI/LI20",
+        "loc": "LI20 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=52",
+        "loc": "printed p.43",
+        "pdfPage": 52
+      },
+      {
+        "doc": "doc18",
+        "block": 33,
+        "text": "영향 : 영은 맞이한다, 향은 냄새이다, 폐는 코로 개규 하며, 대장과 폐는 표기관계이므로 대장경에 속하는 본 혈은 코가 막혀 통하지 않고 냄새를 맡을수 없는 증상을 치료한다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 33,
+        "text": "영향 : 영은 맞이한다, 향은 냄새이다, 폐는 코로 개규 하며, 대장과 폐는 표기관계이므로 대장경에 속하는 본 혈은 코가 막혀 통하지 않고 냄새를 맡을수 없는 증상을 치료한다. "
+      }
+    ],
+    "variants": [
+      {
+        "label": "KMCRIC·WHO 병기 위치",
+        "text": "코입술고랑에서 콧방울 아래모서리 높이에 두는 위치도 병기되어 있다.",
+        "source": [
+          {
+            "doc": "KMCRIC",
+            "url": "https://www.kmcric.com/database/acupoint/LI/LI20",
+            "loc": "LI20 부위"
+          },
+          {
+            "doc": "WHO-2008/2009",
+            "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=52",
+            "loc": "printed p.43",
+            "pdfPage": 52
+          }
+        ]
+      }
+    ],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "neck-face",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": false
+  },
+  {
+    "id": "ST25",
+    "meridian": "ST",
+    "index": 25,
+    "name": "천추",
+    "han": "天樞",
+    "views": {
+      "front": [
+        414,
+        580
+      ],
+      "back": null,
+      "side": [
+        306,
+        580
+      ]
+    },
+    "preferredView": "front",
+    "region": "abdomen",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      414,
+      580
+    ],
+    "aliases": [
+      "천추",
+      "天樞"
+    ],
+    "locationSummary": "윗배, 배꼽의 중심에서 가쪽으로 2寸.",
+    "location": "윗배, 배꼽의 중심에서 가쪽으로 2寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/ST/ST25",
+        "loc": "ST25 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=67",
+        "loc": "printed p.58",
+        "pdfPage": 67
+      },
+      {
+        "doc": "doc18",
+        "block": 60,
+        "text": "천추 : 대장경의 모혈, 천은 상부를 가리키고 지는 아래를 가리키는데, 이 혈을 이은 선이 아래와 위를 잇는 기둥이라고 보아서 천추이다. 배꼽 바로 옆에 있다. 소화기 기능을 좌우한다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 60,
+        "text": "천추 : 대장경의 모혈, 천은 상부를 가리키고 지는 아래를 가리키는데, 이 혈을 이은 선이 아래와 위를 잇는 기둥이라고 보아서 천추이다. 배꼽 바로 옆에 있다. 소화기 기능을 좌우한다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "abdomen",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": true
+  },
+  {
+    "id": "ST36",
+    "meridian": "ST",
+    "index": 36,
+    "name": "족삼리",
+    "han": "足三里",
+    "views": {
+      "front": [
+        471.81,
+        863.5
+      ],
+      "back": null,
+      "side": null
+    },
+    "preferredView": "front",
+    "region": "anterior-leg",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      471.81,
+      863.5
+    ],
+    "aliases": [
+      "족삼리",
+      "足三里"
+    ],
+    "locationSummary": "종아리 앞쪽면, 犢鼻와 解谿를 연결하는 선을 16촌으로 하여, 犢鼻에서 아래쪽으로 3寸에 해당됨.",
+    "location": "종아리 앞쪽면, 犢鼻와 解谿를 연결하는 선을 16촌으로 하여, 犢鼻에서 아래쪽으로 3寸에 해당됨.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/ST/ST36",
+        "loc": "ST36 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=73",
+        "loc": "printed p.64",
+        "pdfPage": 73
+      },
+      {
+        "doc": "doc18",
+        "block": 71,
+        "text": "족삼리 : 삼은 독비 아래로 삼촌 가서 취혈하면 족삼리혈이라는 뜻이다. 리 는 동네나 사는 곳, 곧 모인다. 통한다는 뜻이다, 본 혈은 위기가 보이는 곳이고, 위경의 합혈이므로 삼리 라고 하였다. "
+      }
+    ],
+    "original": [
+      {
+        "doc": "doc18",
+        "block": 71,
+        "text": "족삼리 : 삼은 독비 아래로 삼촌 가서 취혈하면 족삼리혈이라는 뜻이다. 리 는 동네나 사는 곳, 곧 모인다. 통한다는 뜻이다, 본 혈은 위기가 보이는 곳이고, 위경의 합혈이므로 삼리 라고 하였다. "
+      }
+    ],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "anterior-leg",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": true
+  },
+  {
+    "id": "SP3",
+    "meridian": "SP",
+    "index": 3,
+    "name": "태백",
+    "han": "太白",
+    "views": {
+      "front": [
+        508,
+        1009
+      ],
+      "back": null,
+      "side": [
+        292.01,
+        1018
+      ]
+    },
+    "preferredView": "front",
+    "region": "medial-foot",
+    "inset": null,
+    "sideSurface": "medial",
+    "xy": [
+      508,
+      1009
+    ],
+    "aliases": [
+      "태백",
+      "太白"
+    ],
+    "locationSummary": "발 안쪽면, 엄지발가락, 첫째 발허리발가락관절에서 몸 쪽 오목한 곳의 赤白肉際에 취혈함.",
+    "location": "발 안쪽면, 엄지발가락, 첫째 발허리발가락관절에서 몸 쪽 오목한 곳의 赤白肉際에 취혈함.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/SP/SP3",
+        "loc": "SP3 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=80",
+        "loc": "printed p.71",
+        "pdfPage": 80
+      }
+    ],
+    "original": [],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "medial-foot",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": true
+  },
+  {
+    "id": "HT8",
+    "meridian": "HT",
+    "index": 8,
+    "name": "소부",
+    "han": "少府",
+    "views": {
+      "front": [
+        554,
+        688
+      ],
+      "back": null,
+      "side": null
+    },
+    "preferredView": "front",
+    "region": "palm",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      554,
+      688
+    ],
+    "aliases": [
+      "소부",
+      "少府"
+    ],
+    "locationSummary": "손바닥, 넷째와 다섯째 손허리뼈 사이, 다섯째 손허리손가락관절의 몸 쪽 오목한 곳. ※주 : 勞宮과 같은 높이에 위치한다.",
+    "location": "손바닥, 넷째와 다섯째 손허리뼈 사이, 다섯째 손허리손가락관절의 몸 쪽 오목한 곳. ※주 : 勞宮과 같은 높이에 위치한다.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/HT/HT8",
+        "loc": "HT8 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=94",
+        "loc": "printed p.85",
+        "pdfPage": 94
+      }
+    ],
+    "original": [],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "palm",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": true
+  },
+  {
+    "id": "SI5",
+    "meridian": "SI",
+    "index": 5,
+    "name": "양곡",
+    "han": "陽谷",
+    "views": {
+      "front": null,
+      "back": [
+        548,
+        657
+      ],
+      "side": null
+    },
+    "preferredView": "back",
+    "region": "hand-dorsal",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      548,
+      657
+    ],
+    "aliases": [
+      "양곡",
+      "陽谷"
+    ],
+    "locationSummary": "손목 뒤 안쪽면, 자뼈붓돌기와 세모뼈 사이의 오목한 곳.",
+    "location": "손목 뒤 안쪽면, 자뼈붓돌기와 세모뼈 사이의 오목한 곳.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/SI/SI5",
+        "loc": "SI5 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=99",
+        "loc": "printed p.90",
+        "pdfPage": 99
+      }
+    ],
+    "original": [],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "hand-dorsal",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": true
+  },
+  {
+    "id": "BL13",
+    "meridian": "BL",
+    "index": 13,
+    "name": "폐수",
+    "han": "肺兪",
+    "views": {
+      "front": null,
+      "back": [
+        371.5,
+        373
+      ],
+      "side": null
+    },
+    "preferredView": "back",
+    "region": "spine-T3",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      371.5,
+      373
+    ],
+    "aliases": [
+      "폐수",
+      "肺兪"
+    ],
+    "locationSummary": "위쪽 등부위, 셋째 등뼈 가시돌기 아래모서리와 같은 높이, 뒤정중선에서 가쪽으로 1.5寸.",
+    "location": "위쪽 등부위, 셋째 등뼈 가시돌기 아래모서리와 같은 높이, 뒤정중선에서 가쪽으로 1.5寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/BL/BL13",
+        "loc": "BL13 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=115",
+        "loc": "printed p.106",
+        "pdfPage": 115
+      }
+    ],
+    "original": [],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "spine-T3",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": true
+  },
+  {
+    "id": "BL25",
+    "meridian": "BL",
+    "index": 25,
+    "name": "대장수",
+    "han": "大腸兪",
+    "views": {
+      "front": null,
+      "back": [
+        371.5,
+        612
+      ],
+      "side": null
+    },
+    "preferredView": "back",
+    "region": "spine-L4",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      371.5,
+      612
+    ],
+    "aliases": [
+      "대장수",
+      "大腸兪"
+    ],
+    "locationSummary": "허리부위, 넷째 허리뼈 가시돌기 아래모서리와 같은 높이, 뒤정중선에서 가쪽으로 1.5寸.",
+    "location": "허리부위, 넷째 허리뼈 가시돌기 아래모서리와 같은 높이, 뒤정중선에서 가쪽으로 1.5寸.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/BL/BL25",
+        "loc": "BL25 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=121",
+        "loc": "printed p.112",
+        "pdfPage": 121
+      }
+    ],
+    "original": [],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "spine-L4",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": true
+  },
+  {
+    "id": "BL66",
+    "meridian": "BL",
+    "index": 66,
+    "name": "족통곡",
+    "han": "足通谷",
+    "views": {
+      "front": null,
+      "back": null,
+      "side": [
+        249,
+        1050
+      ]
+    },
+    "preferredView": "side",
+    "region": "lateral-foot",
+    "inset": null,
+    "sideSurface": "lateral",
+    "xy": [
+      249,
+      1050
+    ],
+    "aliases": [
+      "족통곡",
+      "足通谷"
+    ],
+    "locationSummary": "새끼발가락, 다섯째 발허리발가락관절 가먼쪽 오목한 곳, 赤白肉際.",
+    "location": "새끼발가락, 다섯째 발허리발가락관절 가먼쪽 오목한 곳, 赤白肉際.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/BL/BL66",
+        "loc": "BL66 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=141",
+        "loc": "printed p.132",
+        "pdfPage": 141
+      }
+    ],
+    "original": [],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "lateral-foot",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": true
+  },
+  {
+    "id": "KI10",
+    "meridian": "KI",
+    "index": 10,
+    "name": "음곡",
+    "han": "陰谷",
+    "views": {
+      "front": null,
+      "back": [
+        428,
+        835
+      ],
+      "side": [
+        308.51,
+        844
+      ]
+    },
+    "preferredView": "back",
+    "region": "posteromedial-knee",
+    "inset": null,
+    "sideSurface": "medial",
+    "xy": [
+      428,
+      835
+    ],
+    "aliases": [
+      "음곡",
+      "陰谷"
+    ],
+    "locationSummary": "무릎 뒤안쪽면, 오금주름 위로서, 반힘줄모양근힘줄과 반막모양근힘줄의 사이에서 취혈한다.",
+    "location": "무릎 뒤안쪽면, 오금주름 위로서, 반힘줄모양근힘줄과 반막모양근힘줄의 사이에서 취혈한다.",
+    "source": [
+      {
+        "doc": "KMCRIC",
+        "url": "https://www.kmcric.com/database/acupoint/KI/KI10",
+        "loc": "KI10 부위"
+      },
+      {
+        "doc": "WHO-2008/2009",
+        "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=149",
+        "loc": "printed p.140",
+        "pdfPage": 149
+      }
+    ],
+    "original": [],
+    "variants": [],
+    "displayConvention": "KMCRIC 주 위치를 기준으로 한 표면 도식; 병기 위치는 의서에서 확인",
+    "coordinate_status": "source-compared-landmark-schematic",
+    "review": {
+      "locationTextSources": 2,
+      "landmarkRule": "posteromedial-knee",
+      "projection": "authored display; not clinical measurement"
+    },
+    "borrowed": true
+  }
+]

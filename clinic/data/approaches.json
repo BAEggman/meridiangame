@@ -1,0 +1,3197 @@
+[
+  {
+    "id": "yuanluo_LU_first",
+    "name": "原絡配穴 — 肺 先病",
+    "family": "yuanluo",
+    "meridian": "LU",
+    "partner": "LI",
+    "points": [
+      {
+        "point": "LU9",
+        "han": "太淵",
+        "name": "태연",
+        "role": "主·本經 原穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/ju",
+            "value": [
+              [
+                "太淵",
+                "태연"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/teuk/원",
+            "value": "太淵"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc15",
+            "block": 0,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+            "text": "수태음폐경 렁 엘유 목화토금수 원혈-태연太淵 LU9, 락혈-열결列缺 LU7, 극혈-공최 孔最LU6, 모혈-중부中府 LU1, 배수혈-폐유肺兪 UB13"
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 8,
+            "pointId": "LU9",
+            "han": "太淵",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LU/LU9",
+                "loc": "LU9 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=39",
+                "loc": "printed p.30",
+                "pdfPage": 39
+              },
+              {
+                "doc": "doc18",
+                "block": 10,
+                "text": "태연 : 수토혈, 원혈, 팔회혈 중 맥회, 태는 아주 크다는 말이고, 연은 깊은 연못이라는 뜻과 원천이라는 뜻도 있다. 태연혈은 촌관척 삼부 중 촌부에 해당하며, 수태음폐경의 수혈, 원혈 이면서 팔회혈 중 하나므로, 맥은 태연에 모여있다 라고 하여 태연이라 하였다. "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "point": "LI6",
+        "han": "偏歷",
+        "name": "편력",
+        "role": "客·表裏經 絡穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/gaek",
+            "value": [
+              [
+                "偏歷",
+                "편력"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/teuk/락",
+            "value": "偏歷"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc15",
+            "block": 1,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+            "text": "수양명대장경 라지 인테스틴 엘아이 금수화목토 원혈-합곡合谷, LI4, 낙혈-편력偏歷, LI6, 극혈-온류溫溜, LI7, 모혈-천추天樞, ST25, 배수혈-대장유大腸兪 UB25"
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 16,
+            "pointId": "LI6",
+            "han": "偏歷",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LI/LI6",
+                "loc": "LI6 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=45",
+                "loc": "printed p.36",
+                "pdfPage": 45
+              },
+              {
+                "doc": "doc18",
+                "block": 19,
+                "text": "편력 : 락혈, 편은 한조각 떨어져 나가는것, 력은 이력, 경과를 뜻한다. 대장경은 본 혈에서 락혈이 갈라져 나와 폐경에 이르기 때문에 편력이라 하였다. "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "componentClaims": [
+      {
+        "id": "role.yuan.LU",
+        "claim": "肺 原穴 = 太淵",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/teuk/원",
+            "value": "太淵"
+          }
+        ]
+      },
+      {
+        "id": "role.luo.LI",
+        "claim": "偏歷 = 表裏經 絡穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/teuk/락",
+            "value": "偏歷"
+          }
+        ]
+      },
+      {
+        "id": "relation.biaoli.LU-LI",
+        "claim": "肺와 大腸은 表裏",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/py",
+            "value": "大腸"
+          }
+        ]
+      },
+      {
+        "id": "rule.yuanluo",
+        "claim": "主=本經 原穴, 客=表裏經 絡穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/5",
+            "value": {
+              "id": "saamP6",
+              "cat": "principle",
+              "q": "主客 原絡補瀉法에서 主·客에 쓰는 혈은?",
+              "a": "主=本經 原穴, 客=表裏經 絡穴",
+              "d": [
+                "主=絡穴, 客=原穴",
+                "主=母穴, 客=子穴",
+                "主=井穴, 客=合穴",
+                "主=兪穴, 客=經穴"
+              ],
+              "note": "예) 肺病 → 太淵(肺原) + 偏歷(大腸絡)."
+            }
+          }
+        ]
+      }
+    ],
+    "catalogUnits": [
+      "saamquiz-saamP6",
+      "saam-saammaster-肺-ju",
+      "saam-saammaster-肺-gaek"
+    ],
+    "source": [
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamquiz/BANK/21",
+        "value": {
+          "id": "saamU1",
+          "cat": "jugaek",
+          "q": "舍岩 主客原絡 — 肺(金)經의 主(原)·客(絡)은?",
+          "a": "主 太淵 / 客 偏歷",
+          "d": [
+            "主 合谷 / 客 列缺",
+            "主 衝陽 / 客 公孫",
+            "主 太白 / 客 豊隆",
+            "主 神門 / 客 支正"
+          ],
+          "note": "主=本經(肺) 原穴, 客=表裏經(大腸) 絡穴. 表裏는 同一 오행."
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/0/ju",
+        "value": [
+          [
+            "太淵",
+            "태연"
+          ]
+        ]
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/0/gaek",
+        "value": [
+          [
+            "偏歷",
+            "편력"
+          ]
+        ]
+      },
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc15",
+        "block": 0,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+        "text": "수태음폐경 렁 엘유 목화토금수 원혈-태연太淵 LU9, 락혈-열결列缺 LU7, 극혈-공최 孔最LU6, 모혈-중부中府 LU1, 배수혈-폐유肺兪 UB13"
+      }
+    ],
+    "variants": [],
+    "boundaryNote": "先病이 主라는 명명은 v2 §3의 게임 선택 문맥. 기존 은행의 정확한 원칙은 本經原穴 + 表裏經絡穴. 補瀉 방향은 이 배혈 사실에 임의로 추가하지 않음.",
+    "parts": [
+      "position.LU9",
+      "position.LI6"
+    ],
+    "assesses": "혈 위치 집합만. 補瀉 역할·도출 원리 회상은 측정하지 않음."
+  },
+  {
+    "id": "yuanluo_LI_first",
+    "name": "原絡配穴 — 大腸 先病",
+    "family": "yuanluo",
+    "meridian": "LI",
+    "partner": "LU",
+    "points": [
+      {
+        "point": "LI4",
+        "han": "合谷",
+        "name": "합곡",
+        "role": "主·本經 原穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/ju",
+            "value": [
+              [
+                "合谷",
+                "합곡"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/teuk/원",
+            "value": "合谷"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc15",
+            "block": 1,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+            "text": "수양명대장경 라지 인테스틴 엘아이 금수화목토 원혈-합곡合谷, LI4, 낙혈-편력偏歷, LI6, 극혈-온류溫溜, LI7, 모혈-천추天樞, ST25, 배수혈-대장유大腸兪 UB25"
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 14,
+            "pointId": "LI4",
+            "han": "合谷",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LI/LI4",
+                "loc": "LI4 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=44",
+                "loc": "printed p.35",
+                "pdfPage": 44
+              },
+              {
+                "doc": "doc18",
+                "block": 17,
+                "text": " 합곡 : 원혈, 모이는곳을 합이라고 하고, 물이 흐르는 곳을 곡이라고 한다, 합곡혈은 두개의 봉우리 사이에 있는 골짜기로 물이 흐르는 길이다. 예전에는 살(고기 육) 이 크게 모이는 곳을 곡이라고 하였고, 약간 작게 모이는 곳을 계라고 하였다. "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "point": "LU7",
+        "han": "列缺",
+        "name": "열결",
+        "role": "客·表裏經 絡穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/gaek",
+            "value": [
+              [
+                "列缺",
+                "열결"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/teuk/락",
+            "value": "列缺"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc15",
+            "block": 0,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+            "text": "수태음폐경 렁 엘유 목화토금수 원혈-태연太淵 LU9, 락혈-열결列缺 LU7, 극혈-공최 孔最LU6, 모혈-중부中府 LU1, 배수혈-폐유肺兪 UB13"
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 6,
+            "pointId": "LU7",
+            "han": "列缺",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LU/LU7",
+                "loc": "LU7 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=38",
+                "loc": "printed p.29",
+                "pdfPage": 38
+              },
+              {
+                "doc": "doc18",
+                "block": 8,
+                "text": "열결 : 락혈, 팔맥교회혈, 임맥, 열은 예전에 찢는다. 갈라진다 라는 뜻으로 쓰였고, 결 역시 그릇의 이빠진 홈을 말한다. 열결혈은 손목의 오목한 부분에 있고, 수태음폐경의 락혈로서 여기서 경맥이 갈라져나가므로 열결이라 하였다. "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "componentClaims": [
+      {
+        "id": "role.yuan.LI",
+        "claim": "大腸 原穴 = 合谷",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/teuk/원",
+            "value": "合谷"
+          }
+        ]
+      },
+      {
+        "id": "role.luo.LU",
+        "claim": "列缺 = 表裏經 絡穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/teuk/락",
+            "value": "列缺"
+          }
+        ]
+      },
+      {
+        "id": "relation.biaoli.LU-LI",
+        "claim": "肺와 大腸은 表裏",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/py",
+            "value": "肺"
+          }
+        ]
+      },
+      {
+        "id": "rule.yuanluo",
+        "claim": "主=本經 原穴, 客=表裏經 絡穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/5",
+            "value": {
+              "id": "saamP6",
+              "cat": "principle",
+              "q": "主客 原絡補瀉法에서 主·客에 쓰는 혈은?",
+              "a": "主=本經 原穴, 客=表裏經 絡穴",
+              "d": [
+                "主=絡穴, 客=原穴",
+                "主=母穴, 客=子穴",
+                "主=井穴, 客=合穴",
+                "主=兪穴, 客=經穴"
+              ],
+              "note": "예) 肺病 → 太淵(肺原) + 偏歷(大腸絡)."
+            }
+          }
+        ]
+      }
+    ],
+    "catalogUnits": [
+      "saamquiz-saamP6",
+      "saam-saammaster-大腸-ju",
+      "saam-saammaster-大腸-gaek"
+    ],
+    "source": [
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamquiz/BANK/25",
+        "value": {
+          "id": "saamU2",
+          "cat": "jugaek",
+          "q": "舍岩 主客原絡 — 大腸(金)經의 主(原)·客(絡)은?",
+          "a": "主 合谷 / 客 列缺",
+          "d": [
+            "主 衝陽 / 客 公孫",
+            "主 太白 / 客 豊隆",
+            "主 神門 / 客 支正",
+            "主 腕骨 / 客 通里"
+          ],
+          "note": "主=本經(大腸) 原穴, 客=表裏經(肺) 絡穴. 表裏는 同一 오행."
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/1/ju",
+        "value": [
+          [
+            "合谷",
+            "합곡"
+          ]
+        ]
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/1/gaek",
+        "value": [
+          [
+            "列缺",
+            "열결"
+          ]
+        ]
+      },
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc15",
+        "block": 1,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+        "text": "수양명대장경 라지 인테스틴 엘아이 금수화목토 원혈-합곡合谷, LI4, 낙혈-편력偏歷, LI6, 극혈-온류溫溜, LI7, 모혈-천추天樞, ST25, 배수혈-대장유大腸兪 UB25"
+      }
+    ],
+    "variants": [],
+    "boundaryNote": "先病이 主라는 명명은 v2 §3의 게임 선택 문맥. 기존 은행의 정확한 원칙은 本經原穴 + 表裏經絡穴. 補瀉 방향은 이 배혈 사실에 임의로 추가하지 않음.",
+    "parts": [
+      "position.LI4",
+      "position.LU7"
+    ],
+    "assesses": "혈 위치 집합만. 補瀉 역할·도출 원리 회상은 측정하지 않음."
+  },
+  {
+    "id": "shumu_LU",
+    "name": "兪募配穴 — 肺",
+    "family": "shumu",
+    "meridian": "LU",
+    "points": [
+      {
+        "point": "BL13",
+        "han": "肺兪",
+        "name": "폐수",
+        "role": "背兪",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/teuk/배수",
+            "value": "肺兪"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc15",
+            "block": 0,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+            "text": "수태음폐경 렁 엘유 목화토금수 원혈-태연太淵 LU9, 락혈-열결列缺 LU7, 극혈-공최 孔最LU6, 모혈-중부中府 LU1, 배수혈-폐유肺兪 UB13"
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 137,
+            "pointId": "BL13",
+            "han": "肺兪",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/BL/BL13",
+                "loc": "BL13 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=115",
+                "loc": "printed p.106",
+                "pdfPage": 115
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "point": "LU1",
+        "han": "中府",
+        "name": "중부",
+        "role": "募",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/teuk/모",
+            "value": "中府"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc15",
+            "block": 0,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+            "text": "수태음폐경 렁 엘유 목화토금수 원혈-태연太淵 LU9, 락혈-열결列缺 LU7, 극혈-공최 孔最LU6, 모혈-중부中府 LU1, 배수혈-폐유肺兪 UB13"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc4",
+            "block": 396,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락 5월 18일자 수정.docx",
+            "text": "-복모혈 : 흉복부의 체표에 위치, 장부의 경기가 모이는 곳 , 양성병 치료(부병, 실증, 열증) 종음인양{즉, 음의 위인 복부에 있는 혈로 양적인 병을 치료한다} 폐 : 중부(LU1) , 대장 : 천추(ST25배꼽옆), 위 : 임맥의 중완(CV12) , "
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 0,
+            "pointId": "LU1",
+            "han": "中府",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LU/LU1",
+                "loc": "LU1 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=35",
+                "loc": "printed p.26",
+                "pdfPage": 35
+              },
+              {
+                "doc": "doc18",
+                "block": 2,
+                "text": "중부 : 폐경의 모혈 , 중은 중기, 부는 경맥의 기가 모이는 것을 가리킨다. 따라서 중초의 기가 올라와 폐에 돌아오고, 여기에 모여 수태음폐경의 첫 경혈이 되므로, 중부라 함. "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "componentClaims": [
+      {
+        "id": "role.beishu.LU",
+        "claim": "肺 背兪 = 肺兪",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/teuk/배수",
+            "value": "肺兪"
+          }
+        ]
+      },
+      {
+        "id": "role.mu.LU",
+        "claim": "肺 募穴 = 中府",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/teuk/모",
+            "value": "中府"
+          }
+        ]
+      },
+      {
+        "id": "rule.shumu",
+        "claim": "背兪穴과 募穴을 함께 쓰는 配穴法",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/baesurule/BANK/31",
+            "value": {
+              "id": "p3",
+              "cat": "concept",
+              "q": "背兪穴과 募穴을 함께 쓰는 配穴法은?",
+              "a": "兪募配穴",
+              "d": [
+                "原絡配穴",
+                "八脈交會",
+                "上下配穴",
+                "表裏配穴"
+              ],
+              "note": "前募後兪."
+            }
+          }
+        ]
+      }
+    ],
+    "catalogUnits": [
+      "acu-폐-모",
+      "acu-폐-배수",
+      "baesurule-p3"
+    ],
+    "source": [
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/baesurule/BANK/31",
+        "value": {
+          "id": "p3",
+          "cat": "concept",
+          "q": "背兪穴과 募穴을 함께 쓰는 配穴法은?",
+          "a": "兪募配穴",
+          "d": [
+            "原絡配穴",
+            "八脈交會",
+            "上下配穴",
+            "表裏配穴"
+          ],
+          "note": "前募後兪."
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/acu/MERID/0/teuk/배수",
+        "value": "肺兪"
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/acu/MERID/0/teuk/모",
+        "value": "中府"
+      },
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc15",
+        "block": 0,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+        "text": "수태음폐경 렁 엘유 목화토금수 원혈-태연太淵 LU9, 락혈-열결列缺 LU7, 극혈-공최 孔最LU6, 모혈-중부中府 LU1, 배수혈-폐유肺兪 UB13"
+      }
+    ],
+    "variants": [],
+    "boundaryNote": "각 혈의 임상 속성을 보존하되 만성 보너스·치료성공률 등 게임 효과는 여기서 도출하지 않음. 補瀉는 본 배혈법의 고정값으로 추가하지 않음.",
+    "parts": [
+      "position.BL13",
+      "position.LU1"
+    ],
+    "assesses": "혈 위치 집합만. 補瀉 역할·도출 원리 회상은 측정하지 않음."
+  },
+  {
+    "id": "shumu_LI",
+    "name": "兪募配穴 — 大腸",
+    "family": "shumu",
+    "meridian": "LI",
+    "points": [
+      {
+        "point": "BL25",
+        "han": "大腸兪",
+        "name": "대장수",
+        "role": "背兪",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/teuk/배수",
+            "value": "大腸兪"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc15",
+            "block": 1,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+            "text": "수양명대장경 라지 인테스틴 엘아이 금수화목토 원혈-합곡合谷, LI4, 낙혈-편력偏歷, LI6, 극혈-온류溫溜, LI7, 모혈-천추天樞, ST25, 배수혈-대장유大腸兪 UB25"
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 149,
+            "pointId": "BL25",
+            "han": "大腸兪",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/BL/BL25",
+                "loc": "BL25 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=121",
+                "loc": "printed p.112",
+                "pdfPage": 121
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "point": "ST25",
+        "han": "天樞",
+        "name": "천추",
+        "role": "募",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/teuk/모",
+            "value": "天樞"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc15",
+            "block": 1,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+            "text": "수양명대장경 라지 인테스틴 엘아이 금수화목토 원혈-합곡合谷, LI4, 낙혈-편력偏歷, LI6, 극혈-온류溫溜, LI7, 모혈-천추天樞, ST25, 배수혈-대장유大腸兪 UB25"
+          },
+          {
+            "kind": "onedrive-text",
+            "file": "reference/input/onedrive-extract.json",
+            "doc": "doc4",
+            "block": 396,
+            "blockIndexing": "zero-based",
+            "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락 5월 18일자 수정.docx",
+            "text": "-복모혈 : 흉복부의 체표에 위치, 장부의 경기가 모이는 곳 , 양성병 치료(부병, 실증, 열증) 종음인양{즉, 음의 위인 복부에 있는 혈로 양적인 병을 치료한다} 폐 : 중부(LU1) , 대장 : 천추(ST25배꼽옆), 위 : 임맥의 중완(CV12) , "
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 55,
+            "pointId": "ST25",
+            "han": "天樞",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/ST/ST25",
+                "loc": "ST25 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=67",
+                "loc": "printed p.58",
+                "pdfPage": 67
+              },
+              {
+                "doc": "doc18",
+                "block": 60,
+                "text": "천추 : 대장경의 모혈, 천은 상부를 가리키고 지는 아래를 가리키는데, 이 혈을 이은 선이 아래와 위를 잇는 기둥이라고 보아서 천추이다. 배꼽 바로 옆에 있다. 소화기 기능을 좌우한다. "
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "componentClaims": [
+      {
+        "id": "role.beishu.LI",
+        "claim": "大腸 背兪 = 大腸兪",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/teuk/배수",
+            "value": "大腸兪"
+          }
+        ]
+      },
+      {
+        "id": "role.mu.LI",
+        "claim": "大腸 募穴 = 天樞",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/teuk/모",
+            "value": "天樞"
+          }
+        ]
+      },
+      {
+        "id": "rule.shumu",
+        "claim": "背兪穴과 募穴을 함께 쓰는 配穴法",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/baesurule/BANK/31",
+            "value": {
+              "id": "p3",
+              "cat": "concept",
+              "q": "背兪穴과 募穴을 함께 쓰는 配穴法은?",
+              "a": "兪募配穴",
+              "d": [
+                "原絡配穴",
+                "八脈交會",
+                "上下配穴",
+                "表裏配穴"
+              ],
+              "note": "前募後兪."
+            }
+          }
+        ]
+      }
+    ],
+    "catalogUnits": [
+      "acu-대장-모",
+      "acu-대장-배수",
+      "baesurule-p3"
+    ],
+    "source": [
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/baesurule/BANK/31",
+        "value": {
+          "id": "p3",
+          "cat": "concept",
+          "q": "背兪穴과 募穴을 함께 쓰는 配穴法은?",
+          "a": "兪募配穴",
+          "d": [
+            "原絡配穴",
+            "八脈交會",
+            "上下配穴",
+            "表裏配穴"
+          ],
+          "note": "前募後兪."
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/acu/MERID/6/teuk/배수",
+        "value": "大腸兪"
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/acu/MERID/6/teuk/모",
+        "value": "天樞"
+      },
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc15",
+        "block": 1,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의사/한의학 정리/5장 경락/경락 원락극모혈.docx",
+        "text": "수양명대장경 라지 인테스틴 엘아이 금수화목토 원혈-합곡合谷, LI4, 낙혈-편력偏歷, LI6, 극혈-온류溫溜, LI7, 모혈-천추天樞, ST25, 배수혈-대장유大腸兪 UB25"
+      }
+    ],
+    "variants": [],
+    "boundaryNote": "각 혈의 임상 속성을 보존하되 만성 보너스·치료성공률 등 게임 효과는 여기서 도출하지 않음. 補瀉는 본 배혈법의 고정값으로 추가하지 않음.",
+    "parts": [
+      "position.BL25",
+      "position.ST25"
+    ],
+    "assesses": "혈 위치 집합만. 補瀉 역할·도출 원리 회상은 측정하지 않음."
+  },
+  {
+    "id": "saam_zheng_LU",
+    "name": "肺正格",
+    "family": "saam_zheng",
+    "meridian": "LU",
+    "xushi": "虛",
+    "points": [
+      {
+        "point": "SP3",
+        "han": "太白",
+        "name": "태백",
+        "role": "補",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/3/osu/2",
+            "value": "太白"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/jbo",
+            "value": [
+              [
+                "太白",
+                "태백"
+              ],
+              [
+                "太淵",
+                "태연"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 78,
+            "pointId": "SP3",
+            "han": "太白",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/SP/SP3",
+                "loc": "SP3 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=80",
+                "loc": "printed p.71",
+                "pdfPage": 80
+              }
+            ]
+          }
+        ],
+        "relation": "母土",
+        "transport": "兪",
+        "element": "土"
+      },
+      {
+        "point": "LU9",
+        "han": "太淵",
+        "name": "태연",
+        "role": "補",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/osu/2",
+            "value": "太淵"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/jbo",
+            "value": [
+              [
+                "太白",
+                "태백"
+              ],
+              [
+                "太淵",
+                "태연"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 8,
+            "pointId": "LU9",
+            "han": "太淵",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LU/LU9",
+                "loc": "LU9 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=39",
+                "loc": "printed p.30",
+                "pdfPage": 39
+              },
+              {
+                "doc": "doc18",
+                "block": 10,
+                "text": "태연 : 수토혈, 원혈, 팔회혈 중 맥회, 태는 아주 크다는 말이고, 연은 깊은 연못이라는 뜻과 원천이라는 뜻도 있다. 태연혈은 촌관척 삼부 중 촌부에 해당하며, 수태음폐경의 수혈, 원혈 이면서 팔회혈 중 하나므로, 맥은 태연에 모여있다 라고 하여 태연이라 하였다. "
+              }
+            ]
+          }
+        ],
+        "relation": "母土",
+        "transport": "兪",
+        "element": "土"
+      },
+      {
+        "point": "HT8",
+        "han": "少府",
+        "name": "소부",
+        "role": "瀉",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/2/osu/1",
+            "value": "少府"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/jsa",
+            "value": [
+              [
+                "少府",
+                "소부"
+              ],
+              [
+                "魚際",
+                "어제"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 104,
+            "pointId": "HT8",
+            "han": "少府",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/HT/HT8",
+                "loc": "HT8 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=94",
+                "loc": "printed p.85",
+                "pdfPage": 94
+              }
+            ]
+          }
+        ],
+        "relation": "官火",
+        "transport": "滎",
+        "element": "火"
+      },
+      {
+        "point": "LU10",
+        "han": "魚際",
+        "name": "어제",
+        "role": "瀉",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/osu/1",
+            "value": "魚際"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/jsa",
+            "value": [
+              [
+                "少府",
+                "소부"
+              ],
+              [
+                "魚際",
+                "어제"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 9,
+            "pointId": "LU10",
+            "han": "魚際",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LU/LU10",
+                "loc": "LU10 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=39",
+                "loc": "printed p.30",
+                "pdfPage": 39
+              },
+              {
+                "doc": "doc18",
+                "block": 11,
+                "text": "어제 : 형화혈,  제 는 가장자리를 뜻하고, 본 혈은 적백육제에 있는데, 물고기 배처럼 둥글게 튀어나와 있으므로 물고기 어를 써서 어제라고 하였다. "
+              }
+            ]
+          }
+        ],
+        "relation": "官火",
+        "transport": "滎",
+        "element": "火"
+      }
+    ],
+    "componentClaims": [
+      {
+        "id": "rule.zheng",
+        "claim": "補母(生我) + 瀉官(克我)",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/2",
+            "value": {
+              "id": "saamP3",
+              "cat": "principle",
+              "q": "舍岩 正格(補法·虛證)의 일반 원리는?",
+              "a": "補母(生我) + 瀉官(克我)",
+              "d": [
+                "補官(克我) + 瀉子(我生)",
+                "補子(我生) + 瀉母(生我)",
+                "補母 + 瀉子",
+                "補官 + 瀉母"
+              ],
+              "note": "정격=허증 보강. 각 自經혈 + 해당 오행경 本穴 2개씩."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.SP3.兪.土",
+        "claim": "太白는 兪土穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/3/osu/2",
+            "value": "太白"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.LU9.兪.土",
+        "claim": "太淵는 兪土穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/osu/2",
+            "value": "太淵"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.HT8.滎.火",
+        "claim": "少府는 滎火穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/2/osu/1",
+            "value": "少府"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.LU10.滎.火",
+        "claim": "魚際는 滎火穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/osu/1",
+            "value": "魚際"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          }
+        ]
+      },
+      {
+        "id": "element.LU.el",
+        "claim": "肺 本經五行 = 金",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/el",
+            "value": "金"
+          }
+        ]
+      },
+      {
+        "id": "element.LU.mo",
+        "claim": "肺 生我 = 土",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/mo",
+            "value": "土"
+          }
+        ]
+      },
+      {
+        "id": "element.LU.of",
+        "claim": "肺 克我 = 火",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/of",
+            "value": "火"
+          }
+        ]
+      },
+      {
+        "id": "element.LU.ch",
+        "claim": "肺 我生 = 水",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/ch",
+            "value": "水"
+          }
+        ]
+      }
+    ],
+    "catalogUnits": [
+      "saamquiz-saamJ1",
+      "saam-saammaster-肺-jbo",
+      "saam-saammaster-肺-jsa"
+    ],
+    "source": [
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamquiz/BANK/7",
+        "value": {
+          "id": "saamJ1",
+          "cat": "jeong",
+          "q": "舍岩 — 肺(金)經 正格(補法)의 구성은?",
+          "a": "補 太白·太淵 / 瀉 少府·魚際",
+          "d": [
+            "補 足三里·曲池 / 瀉 陽谷·陽谿",
+            "補 解谿·陽谷 / 瀉 陷谷·足臨泣",
+            "補 大都·少府 / 瀉 隱白·大敦",
+            "補 少衝·大敦 / 瀉 少海·陰谷"
+          ],
+          "note": "肺 金 → 母土補+官火瀉. 勝格: 補 少府·魚際 / 瀉 尺澤·陰谷"
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/0/jbo",
+        "value": [
+          [
+            "太白",
+            "태백"
+          ],
+          [
+            "太淵",
+            "태연"
+          ]
+        ]
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/0/jsa",
+        "value": [
+          [
+            "少府",
+            "소부"
+          ],
+          [
+            "魚際",
+            "어제"
+          ]
+        ]
+      },
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 608,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락 5월 18일자 수정.docx",
+        "text": "수태음폐경 : 태백산의 태연이가 어제 소부산으로 갔다. "
+      }
+    ],
+    "variants": [],
+    "boundaryNote": "補瀉 구분까지 처방의 일부. 穴 집합만 같은 경우 補瀉 지정이 달라도 동일하게 처리하면 이 관계를 학습했다고 볼 수 없음.",
+    "parts": [
+      "position.SP3",
+      "position.LU9",
+      "position.HT8",
+      "position.LU10"
+    ],
+    "assesses": "혈 위치 집합만. 補瀉 역할·도출 원리 회상은 측정하지 않음."
+  },
+  {
+    "id": "saam_sheng_LU",
+    "name": "肺勝格",
+    "family": "saam_sheng",
+    "meridian": "LU",
+    "xushi": "實",
+    "points": [
+      {
+        "point": "HT8",
+        "han": "少府",
+        "name": "소부",
+        "role": "補",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/2/osu/1",
+            "value": "少府"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/sbo",
+            "value": [
+              [
+                "少府",
+                "소부"
+              ],
+              [
+                "魚際",
+                "어제"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 104,
+            "pointId": "HT8",
+            "han": "少府",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/HT/HT8",
+                "loc": "HT8 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=94",
+                "loc": "printed p.85",
+                "pdfPage": 94
+              }
+            ]
+          }
+        ],
+        "relation": "官火",
+        "transport": "滎",
+        "element": "火"
+      },
+      {
+        "point": "LU10",
+        "han": "魚際",
+        "name": "어제",
+        "role": "補",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/osu/1",
+            "value": "魚際"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/sbo",
+            "value": [
+              [
+                "少府",
+                "소부"
+              ],
+              [
+                "魚際",
+                "어제"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 9,
+            "pointId": "LU10",
+            "han": "魚際",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LU/LU10",
+                "loc": "LU10 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=39",
+                "loc": "printed p.30",
+                "pdfPage": 39
+              },
+              {
+                "doc": "doc18",
+                "block": 11,
+                "text": "어제 : 형화혈,  제 는 가장자리를 뜻하고, 본 혈은 적백육제에 있는데, 물고기 배처럼 둥글게 튀어나와 있으므로 물고기 어를 써서 어제라고 하였다. "
+              }
+            ]
+          }
+        ],
+        "relation": "官火",
+        "transport": "滎",
+        "element": "火"
+      },
+      {
+        "point": "KI10",
+        "han": "陰谷",
+        "name": "음곡",
+        "role": "瀉",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/5/osu/4",
+            "value": "陰谷"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/ssa",
+            "value": [
+              [
+                "尺澤",
+                "척택"
+              ],
+              [
+                "陰谷",
+                "음곡"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 201,
+            "pointId": "KI10",
+            "han": "陰谷",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/KI/KI10",
+                "loc": "KI10 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=149",
+                "loc": "printed p.140",
+                "pdfPage": 149
+              }
+            ]
+          }
+        ],
+        "relation": "子水",
+        "transport": "合",
+        "element": "水"
+      },
+      {
+        "point": "LU5",
+        "han": "尺澤",
+        "name": "척택",
+        "role": "瀉",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/osu/4",
+            "value": "尺澤"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/ssa",
+            "value": [
+              [
+                "尺澤",
+                "척택"
+              ],
+              [
+                "陰谷",
+                "음곡"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 4,
+            "pointId": "LU5",
+            "han": "尺澤",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LU/LU5",
+                "loc": "LU5 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=37",
+                "loc": "printed p.28",
+                "pdfPage": 37
+              },
+              {
+                "doc": "doc18",
+                "block": 6,
+                "text": "척택 : 폐경의 합수혈, 손목부터 팔꿈치 오목한 부분까지를 1척이라고 하며, 폐경의 합이 수가 되므로 윤택한 수의 이름을 따 척택이라고 하였다. "
+              }
+            ]
+          }
+        ],
+        "relation": "子水",
+        "transport": "合",
+        "element": "水"
+      }
+    ],
+    "componentClaims": [
+      {
+        "id": "rule.sheng",
+        "claim": "補官(克我) + 瀉子(我生)",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/3",
+            "value": {
+              "id": "saamP4",
+              "cat": "principle",
+              "q": "舍岩 勝格(瀉法·實證)의 일반 원리는?",
+              "a": "補官(克我) + 瀉子(我生)",
+              "d": [
+                "補母(生我) + 瀉官(克我)",
+                "補子 + 瀉母",
+                "補母 + 瀉官",
+                "補子 + 瀉官"
+              ],
+              "note": "승격=실증 사. 그래서 正格瀉=勝格補(官혈이 동일)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.HT8.滎.火",
+        "claim": "少府는 滎火穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/2/osu/1",
+            "value": "少府"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.LU10.滎.火",
+        "claim": "魚際는 滎火穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/osu/1",
+            "value": "魚際"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.KI10.合.水",
+        "claim": "陰谷는 合水穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/5/osu/4",
+            "value": "陰谷"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.LU5.合.水",
+        "claim": "尺澤는 合水穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/0/osu/4",
+            "value": "尺澤"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/0",
+            "value": {
+              "id": "saamP1",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陰經(井→合)의 순서는?",
+              "a": "井木·滎火·兪土·經金·合水",
+              "d": [
+                "井金·滎水·兪木·經火·合土",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陰經은 井木부터. 정격/승격 혈은 이 배속으로 도출."
+            }
+          }
+        ]
+      },
+      {
+        "id": "element.LU.el",
+        "claim": "肺 本經五行 = 金",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/el",
+            "value": "金"
+          }
+        ]
+      },
+      {
+        "id": "element.LU.mo",
+        "claim": "肺 生我 = 土",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/mo",
+            "value": "土"
+          }
+        ]
+      },
+      {
+        "id": "element.LU.of",
+        "claim": "肺 克我 = 火",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/of",
+            "value": "火"
+          }
+        ]
+      },
+      {
+        "id": "element.LU.ch",
+        "claim": "肺 我生 = 水",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/0/ch",
+            "value": "水"
+          }
+        ]
+      }
+    ],
+    "catalogUnits": [
+      "saamquiz-saamS1",
+      "saam-saammaster-肺-sbo",
+      "saam-saammaster-肺-ssa"
+    ],
+    "source": [
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamquiz/BANK/19",
+        "value": {
+          "id": "saamS1",
+          "cat": "seung",
+          "q": "舍岩 — 肺(金)經 勝格(瀉法)의 구성은?",
+          "a": "補 少府·魚際 / 瀉 尺澤·陰谷",
+          "d": [
+            "補 陽谷·陽谿 / 瀉 二間·足通谷",
+            "補 陷谷·足臨泣 / 瀉 厲兌·商丘",
+            "補 隱白·大敦 / 瀉 商丘·經渠",
+            "補 少海·陰谷 / 瀉 神門·太白"
+          ],
+          "note": "肺 실증 — 補官(火)+瀉子(水). 官혈은 正格의 瀉와 동일(役만 반대)."
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/0/sbo",
+        "value": [
+          [
+            "少府",
+            "소부"
+          ],
+          [
+            "魚際",
+            "어제"
+          ]
+        ]
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/0/ssa",
+        "value": [
+          [
+            "尺澤",
+            "척택"
+          ],
+          [
+            "陰谷",
+            "음곡"
+          ]
+        ]
+      },
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 621,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락 5월 18일자 수정.docx",
+        "text": "수태음폐경 : 어제 소부친걸 보니 음곡에서 척택을 사라지게 해야겠다 "
+      }
+    ],
+    "variants": [],
+    "boundaryNote": "補瀉 구분까지 처방의 일부. 穴 집합만 같은 경우 補瀉 지정이 달라도 동일하게 처리하면 이 관계를 학습했다고 볼 수 없음.",
+    "parts": [
+      "position.HT8",
+      "position.LU10",
+      "position.KI10",
+      "position.LU5"
+    ],
+    "assesses": "혈 위치 집합만. 補瀉 역할·도출 원리 회상은 측정하지 않음."
+  },
+  {
+    "id": "saam_zheng_LI",
+    "name": "大腸正格",
+    "family": "saam_zheng",
+    "meridian": "LI",
+    "xushi": "虛",
+    "points": [
+      {
+        "point": "ST36",
+        "han": "足三里",
+        "name": "족삼리",
+        "role": "補",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/9/osu/4",
+            "value": "足三里"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/jbo",
+            "value": [
+              [
+                "足三里",
+                "족삼리"
+              ],
+              [
+                "曲池",
+                "곡지"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 66,
+            "pointId": "ST36",
+            "han": "足三里",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/ST/ST36",
+                "loc": "ST36 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=73",
+                "loc": "printed p.64",
+                "pdfPage": 73
+              },
+              {
+                "doc": "doc18",
+                "block": 71,
+                "text": "족삼리 : 삼은 독비 아래로 삼촌 가서 취혈하면 족삼리혈이라는 뜻이다. 리 는 동네나 사는 곳, 곧 모인다. 통한다는 뜻이다, 본 혈은 위기가 보이는 곳이고, 위경의 합혈이므로 삼리 라고 하였다. "
+              }
+            ]
+          }
+        ],
+        "relation": "母土",
+        "transport": "合",
+        "element": "土"
+      },
+      {
+        "point": "LI11",
+        "han": "曲池",
+        "name": "곡지",
+        "role": "補",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/osu/4",
+            "value": "曲池"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/jbo",
+            "value": [
+              [
+                "足三里",
+                "족삼리"
+              ],
+              [
+                "曲池",
+                "곡지"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 21,
+            "pointId": "LI11",
+            "han": "曲池",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LI/LI11",
+                "loc": "LI11 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=48",
+                "loc": "printed p.39",
+                "pdfPage": 48
+              },
+              {
+                "doc": "doc18",
+                "block": 24,
+                "text": "곡지 : 합토혈, 곡은 관절을 구부리는 것을 말한다. 취혈할때 살이 접히는 모양이 얕은 못과 닮아서 연못 지를 썼다. "
+              }
+            ]
+          }
+        ],
+        "relation": "母土",
+        "transport": "合",
+        "element": "土"
+      },
+      {
+        "point": "SI5",
+        "han": "陽谷",
+        "name": "양곡",
+        "role": "瀉",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/8/osu/3",
+            "value": "陽谷"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/jsa",
+            "value": [
+              [
+                "陽谷",
+                "양곡"
+              ],
+              [
+                "陽谿",
+                "양계"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 110,
+            "pointId": "SI5",
+            "han": "陽谷",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/SI/SI5",
+                "loc": "SI5 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=99",
+                "loc": "printed p.90",
+                "pdfPage": 99
+              }
+            ]
+          }
+        ],
+        "relation": "官火",
+        "transport": "經",
+        "element": "火"
+      },
+      {
+        "point": "LI5",
+        "han": "陽谿",
+        "name": "양계",
+        "role": "瀉",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/osu/3",
+            "value": "陽谿"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/jsa",
+            "value": [
+              [
+                "陽谷",
+                "양곡"
+              ],
+              [
+                "陽谿",
+                "양계"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 15,
+            "pointId": "LI5",
+            "han": "陽谿",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LI/LI5",
+                "loc": "LI5 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=45",
+                "loc": "printed p.36",
+                "pdfPage": 45
+              },
+              {
+                "doc": "doc18",
+                "block": 18,
+                "text": "양계 : 경화혈, 양은 양경을 가리키고, 계는 작은 도랑, 또는 살이 작게 모이는 곳을 말한다. 엄지를 바깥쪽으로 쭉 펴 보면 좁은 산 사이에 모인 계곡이 나오는데 따라서 양계라고 하였다. "
+              }
+            ]
+          }
+        ],
+        "relation": "官火",
+        "transport": "經",
+        "element": "火"
+      }
+    ],
+    "componentClaims": [
+      {
+        "id": "rule.zheng",
+        "claim": "補母(生我) + 瀉官(克我)",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/2",
+            "value": {
+              "id": "saamP3",
+              "cat": "principle",
+              "q": "舍岩 正格(補法·虛證)의 일반 원리는?",
+              "a": "補母(生我) + 瀉官(克我)",
+              "d": [
+                "補官(克我) + 瀉子(我生)",
+                "補子(我生) + 瀉母(生我)",
+                "補母 + 瀉子",
+                "補官 + 瀉母"
+              ],
+              "note": "정격=허증 보강. 각 自經혈 + 해당 오행경 本穴 2개씩."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.ST36.合.土",
+        "claim": "足三里는 合土穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/9/osu/4",
+            "value": "足三里"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.LI11.合.土",
+        "claim": "曲池는 合土穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/osu/4",
+            "value": "曲池"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.SI5.經.火",
+        "claim": "陽谷는 經火穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/8/osu/3",
+            "value": "陽谷"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.LI5.經.火",
+        "claim": "陽谿는 經火穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/osu/3",
+            "value": "陽谿"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "element.LI.el",
+        "claim": "大腸 本經五行 = 金",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/el",
+            "value": "金"
+          }
+        ]
+      },
+      {
+        "id": "element.LI.mo",
+        "claim": "大腸 生我 = 土",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/mo",
+            "value": "土"
+          }
+        ]
+      },
+      {
+        "id": "element.LI.of",
+        "claim": "大腸 克我 = 火",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/of",
+            "value": "火"
+          }
+        ]
+      },
+      {
+        "id": "element.LI.ch",
+        "claim": "大腸 我生 = 水",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/ch",
+            "value": "水"
+          }
+        ]
+      }
+    ],
+    "catalogUnits": [
+      "saamquiz-saamJ2",
+      "saam-saammaster-大腸-jbo",
+      "saam-saammaster-大腸-jsa"
+    ],
+    "source": [
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamquiz/BANK/8",
+        "value": {
+          "id": "saamJ2",
+          "cat": "jeong",
+          "q": "舍岩 — 大腸(金)經 正格(補法)의 구성은?",
+          "a": "補 足三里·曲池 / 瀉 陽谷·陽谿",
+          "d": [
+            "補 解谿·陽谷 / 瀉 陷谷·足臨泣",
+            "補 大都·少府 / 瀉 隱白·大敦",
+            "補 少衝·大敦 / 瀉 少海·陰谷",
+            "補 後谿·足臨泣 / 瀉 前谷·足通谷"
+          ],
+          "note": "大腸 金 → 母土補+官火瀉. 勝格: 補 陽谷·陽谿 / 瀉 二間·足通谷"
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/1/jbo",
+        "value": [
+          [
+            "足三里",
+            "족삼리"
+          ],
+          [
+            "曲池",
+            "곡지"
+          ]
+        ]
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/1/jsa",
+        "value": [
+          [
+            "陽谷",
+            "양곡"
+          ],
+          [
+            "陽谿",
+            "양계"
+          ]
+        ]
+      },
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 609,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락 5월 18일자 수정.docx",
+        "text": "수양명대장경 : 삼리나 걸어 꼭지가 돌았는데 양계장의 양곡도 바닥났다."
+      }
+    ],
+    "variants": [],
+    "boundaryNote": "補瀉 구분까지 처방의 일부. 穴 집합만 같은 경우 補瀉 지정이 달라도 동일하게 처리하면 이 관계를 학습했다고 볼 수 없음.",
+    "parts": [
+      "position.ST36",
+      "position.LI11",
+      "position.SI5",
+      "position.LI5"
+    ],
+    "assesses": "혈 위치 집합만. 補瀉 역할·도출 원리 회상은 측정하지 않음."
+  },
+  {
+    "id": "saam_sheng_LI",
+    "name": "大腸勝格",
+    "family": "saam_sheng",
+    "meridian": "LI",
+    "xushi": "實",
+    "points": [
+      {
+        "point": "SI5",
+        "han": "陽谷",
+        "name": "양곡",
+        "role": "補",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/8/osu/3",
+            "value": "陽谷"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/sbo",
+            "value": [
+              [
+                "陽谷",
+                "양곡"
+              ],
+              [
+                "陽谿",
+                "양계"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 110,
+            "pointId": "SI5",
+            "han": "陽谷",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/SI/SI5",
+                "loc": "SI5 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=99",
+                "loc": "printed p.90",
+                "pdfPage": 99
+              }
+            ]
+          }
+        ],
+        "relation": "官火",
+        "transport": "經",
+        "element": "火"
+      },
+      {
+        "point": "LI5",
+        "han": "陽谿",
+        "name": "양계",
+        "role": "補",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/osu/3",
+            "value": "陽谿"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/sbo",
+            "value": [
+              [
+                "陽谷",
+                "양곡"
+              ],
+              [
+                "陽谿",
+                "양계"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 15,
+            "pointId": "LI5",
+            "han": "陽谿",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LI/LI5",
+                "loc": "LI5 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=45",
+                "loc": "printed p.36",
+                "pdfPage": 45
+              },
+              {
+                "doc": "doc18",
+                "block": 18,
+                "text": "양계 : 경화혈, 양은 양경을 가리키고, 계는 작은 도랑, 또는 살이 작게 모이는 곳을 말한다. 엄지를 바깥쪽으로 쭉 펴 보면 좁은 산 사이에 모인 계곡이 나오는데 따라서 양계라고 하였다. "
+              }
+            ]
+          }
+        ],
+        "relation": "官火",
+        "transport": "經",
+        "element": "火"
+      },
+      {
+        "point": "BL66",
+        "han": "足通谷",
+        "name": "족통곡",
+        "role": "瀉",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/11/osu/1",
+            "value": "足通谷"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/ssa",
+            "value": [
+              [
+                "二間",
+                "이간"
+              ],
+              [
+                "足通谷",
+                "족통곡"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 190,
+            "pointId": "BL66",
+            "han": "足通谷",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/BL/BL66",
+                "loc": "BL66 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=141",
+                "loc": "printed p.132",
+                "pdfPage": 141
+              }
+            ]
+          }
+        ],
+        "relation": "子水",
+        "transport": "滎",
+        "element": "水"
+      },
+      {
+        "point": "LI2",
+        "han": "二間",
+        "name": "이간",
+        "role": "瀉",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/osu/1",
+            "value": "二間"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/ssa",
+            "value": [
+              [
+                "二間",
+                "이간"
+              ],
+              [
+                "足通谷",
+                "족통곡"
+              ]
+            ]
+          },
+          {
+            "kind": "existing-point-registry",
+            "file": "stage1/data/points.json",
+            "index": 12,
+            "pointId": "LI2",
+            "han": "二間",
+            "source": [
+              {
+                "doc": "KMCRIC",
+                "url": "https://www.kmcric.com/database/acupoint/LI/LI2",
+                "loc": "LI2 부위"
+              },
+              {
+                "doc": "WHO-2008/2009",
+                "url": "https://iris.who.int/server/api/core/bitstreams/d98c1c98-3fbf-4e4e-8c9a-1bbe72ccd00e/content#page=43",
+                "loc": "printed p.34",
+                "pdfPage": 43
+              },
+              {
+                "doc": "doc18",
+                "block": 15,
+                "text": "이간 : 형수혈, 이는 두번째, 간은 장소를 뜻한다. 둘째손가락의 두번째 절에 위치하므로 이간이라 하였다. "
+              }
+            ]
+          }
+        ],
+        "relation": "子水",
+        "transport": "滎",
+        "element": "水"
+      }
+    ],
+    "componentClaims": [
+      {
+        "id": "rule.sheng",
+        "claim": "補官(克我) + 瀉子(我生)",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/3",
+            "value": {
+              "id": "saamP4",
+              "cat": "principle",
+              "q": "舍岩 勝格(瀉法·實證)의 일반 원리는?",
+              "a": "補官(克我) + 瀉子(我生)",
+              "d": [
+                "補母(生我) + 瀉官(克我)",
+                "補子 + 瀉母",
+                "補母 + 瀉官",
+                "補子 + 瀉官"
+              ],
+              "note": "승격=실증 사. 그래서 正格瀉=勝格補(官혈이 동일)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.SI5.經.火",
+        "claim": "陽谷는 經火穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/8/osu/3",
+            "value": "陽谷"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.LI5.經.火",
+        "claim": "陽谿는 經火穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/osu/3",
+            "value": "陽谿"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.BL66.滎.水",
+        "claim": "足通谷는 滎水穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/11/osu/1",
+            "value": "足通谷"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "assign.LI2.滎.水",
+        "claim": "二間는 滎水穴",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/acu/MERID/6/osu/1",
+            "value": "二間"
+          },
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamquiz/BANK/1",
+            "value": {
+              "id": "saamP2",
+              "cat": "principle",
+              "q": "五輸穴 오행배속 — 陽經(井→合)의 순서는?",
+              "a": "井金·滎水·兪木·經火·合土",
+              "d": [
+                "井木·滎火·兪土·經金·合水",
+                "井水·滎木·兪火·經土·合金",
+                "井火·滎土·兪金·經水·合木",
+                "井土·滎金·兪水·經木·合火"
+              ],
+              "note": "陽經은 井金부터(陰經과 반대)."
+            }
+          }
+        ]
+      },
+      {
+        "id": "element.LI.el",
+        "claim": "大腸 本經五行 = 金",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/el",
+            "value": "金"
+          }
+        ]
+      },
+      {
+        "id": "element.LI.mo",
+        "claim": "大腸 生我 = 土",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/mo",
+            "value": "土"
+          }
+        ]
+      },
+      {
+        "id": "element.LI.of",
+        "claim": "大腸 克我 = 火",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/of",
+            "value": "火"
+          }
+        ]
+      },
+      {
+        "id": "element.LI.ch",
+        "claim": "大腸 我生 = 水",
+        "source": [
+          {
+            "kind": "existing-bank",
+            "file": "reference/input/source-data.json",
+            "pointer": "/saamwheel/SAAMF/1/ch",
+            "value": "水"
+          }
+        ]
+      }
+    ],
+    "catalogUnits": [
+      "saamquiz-saamS2",
+      "saam-saammaster-大腸-sbo",
+      "saam-saammaster-大腸-ssa"
+    ],
+    "source": [
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamquiz/BANK/23",
+        "value": {
+          "id": "saamS2",
+          "cat": "seung",
+          "q": "舍岩 — 大腸(金)經 勝格(瀉法)의 구성은?",
+          "a": "補 陽谷·陽谿 / 瀉 二間·足通谷",
+          "d": [
+            "補 陷谷·足臨泣 / 瀉 厲兌·商丘",
+            "補 隱白·大敦 / 瀉 商丘·經渠",
+            "補 少海·陰谷 / 瀉 神門·太白",
+            "補 前谷·足通谷 / 瀉 小海·足三里"
+          ],
+          "note": "大腸 실증 — 補官(火)+瀉子(水). 官혈은 正格의 瀉와 동일(役만 반대)."
+        }
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/1/sbo",
+        "value": [
+          [
+            "陽谷",
+            "양곡"
+          ],
+          [
+            "陽谿",
+            "양계"
+          ]
+        ]
+      },
+      {
+        "kind": "existing-bank",
+        "file": "reference/input/source-data.json",
+        "pointer": "/saamwheel/SAAMF/1/ssa",
+        "value": [
+          [
+            "二間",
+            "이간"
+          ],
+          [
+            "足通谷",
+            "족통곡"
+          ]
+        ]
+      },
+      {
+        "kind": "onedrive-text",
+        "file": "reference/input/onedrive-extract.json",
+        "doc": "doc4",
+        "block": 622,
+        "blockIndexing": "zero-based",
+        "path": "/Users/mac/Library/CloudStorage/OneDrive-개인/한의학 정리/5장 경락/5장 경락 5월 18일자 수정.docx",
+        "text": "수양명대장경 : 양계장과 양곡창고를 잘 보살피고 통곡하고 이간질하는 놈들은 사퇴해"
+      }
+    ],
+    "variants": [],
+    "boundaryNote": "補瀉 구분까지 처방의 일부. 穴 집합만 같은 경우 補瀉 지정이 달라도 동일하게 처리하면 이 관계를 학습했다고 볼 수 없음.",
+    "parts": [
+      "position.SI5",
+      "position.LI5",
+      "position.BL66",
+      "position.LI2"
+    ],
+    "assesses": "혈 위치 집합만. 補瀉 역할·도출 원리 회상은 측정하지 않음."
+  }
+]

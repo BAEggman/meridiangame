@@ -1,0 +1,296 @@
+[
+  {
+    "channel": "GV",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 8.300000011920929,
+    "view": "front"
+  },
+  {
+    "channel": "GV",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 3.799999997019768,
+    "view": "front"
+  },
+  {
+    "channel": "GV",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 3,
+    "view": "back"
+  },
+  {
+    "channel": "GV",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 3.700000002980232,
+    "view": "back"
+  },
+  {
+    "channel": "GV",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 6.899999991059303,
+    "view": "side"
+  },
+  {
+    "channel": "GV",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 3.5,
+    "view": "side"
+  },
+  {
+    "channel": "CHONG",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 28.900000005960464,
+    "view": "front"
+  },
+  {
+    "channel": "CHONG",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 9.400000005960464,
+    "view": "front"
+  },
+  {
+    "channel": "CHONG",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 6.800000011920929,
+    "view": "back"
+  },
+  {
+    "channel": "CHONG",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 5,
+    "view": "back"
+  },
+  {
+    "channel": "CHONG",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 9,
+    "view": "side"
+  },
+  {
+    "channel": "CHONG",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 7.100000008940697,
+    "view": "side"
+  },
+  {
+    "channel": "DAI",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 17.200000002980232,
+    "view": "front"
+  },
+  {
+    "channel": "DAI",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 6.200000002980232,
+    "view": "front"
+  },
+  {
+    "channel": "DAI",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 8.300000011920929,
+    "view": "back"
+  },
+  {
+    "channel": "DAI",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 4,
+    "view": "back"
+  },
+  {
+    "channel": "DAI",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 9.299999997019768,
+    "view": "side"
+  },
+  {
+    "channel": "DAI",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 5.799999997019768,
+    "view": "side"
+  },
+  {
+    "channel": "YINWEI",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 16,
+    "view": "front"
+  },
+  {
+    "channel": "YINWEI",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 13.100000008940697,
+    "view": "front"
+  },
+  {
+    "channel": "YINWEI",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 8.400000005960464,
+    "view": "back"
+  },
+  {
+    "channel": "YINWEI",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 5.5999999940395355,
+    "view": "back"
+  },
+  {
+    "channel": "YINWEI",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 10.900000005960464,
+    "view": "side"
+  },
+  {
+    "channel": "YINWEI",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 5.5999999940395355,
+    "view": "side"
+  },
+  {
+    "channel": "YANGWEI",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 22.600000008940697,
+    "view": "front"
+  },
+  {
+    "channel": "YANGWEI",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 6.600000008940697,
+    "view": "front"
+  },
+  {
+    "channel": "YANGWEI",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 8.5,
+    "view": "back"
+  },
+  {
+    "channel": "YANGWEI",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 6.5,
+    "view": "back"
+  },
+  {
+    "channel": "YANGWEI",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 9.800000011920927,
+    "view": "side"
+  },
+  {
+    "channel": "YANGWEI",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 5.700000002980232,
+    "view": "side"
+  },
+  {
+    "channel": "YINQIAO",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 24.400000005960464,
+    "view": "front"
+  },
+  {
+    "channel": "YINQIAO",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 8.199999988079071,
+    "view": "front"
+  },
+  {
+    "channel": "YINQIAO",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 6.5,
+    "view": "back"
+  },
+  {
+    "channel": "YINQIAO",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 8.099999994039536,
+    "view": "back"
+  },
+  {
+    "channel": "YINQIAO",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 11.800000011920927,
+    "view": "side"
+  },
+  {
+    "channel": "YINQIAO",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 4.5999999940395355,
+    "view": "side"
+  },
+  {
+    "channel": "YANGQIAO",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 28.400000005960464,
+    "view": "front"
+  },
+  {
+    "channel": "YANGQIAO",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 8.899999991059303,
+    "view": "front"
+  },
+  {
+    "channel": "YANGQIAO",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 7.399999991059303,
+    "view": "back"
+  },
+  {
+    "channel": "YANGQIAO",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 5.299999997019768,
+    "view": "back"
+  },
+  {
+    "channel": "YANGQIAO",
+    "invalid": false,
+    "layer": "surface",
+    "ms": 12.700000002980232,
+    "view": "side"
+  },
+  {
+    "channel": "YANGQIAO",
+    "invalid": false,
+    "layer": "deep",
+    "ms": 5.0999999940395355,
+    "view": "side"
+  }
+]

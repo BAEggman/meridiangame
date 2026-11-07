@@ -1,0 +1,25 @@
+{"generated":1000,"validAtLeastTwo":1000,"pair":278,"acute":327,"constraints":0,"fallback":0}
+✔ 1000 generated situations retain two valid choices with different costs (88.180875ms)
+✔ forty points, eight recipes, factual provenance; charts never quote an acupuncture name (6.404417ms)
+✔ cost paid once per needle plus actual route, failed attempt also paid, budget cannot go negative (0.672708ms)
+✔ wrong diagnosis cannot be silently corrected by exact point selection (0.243792ms)
+✔ first exposure and all 20 aided treatments are never marked unaided (1.675583ms)
+✔ prepare day then three playable debug dates: draft, verified, automatic with zero player cost (0.761167ms)
+✔ 20 hours and calendar boundary both required (0.383375ms)
+✔ shared LU9 fault suspends only dependent blueprints, no installed progress removed (2.276834ms)
+✔ due blocks physician until an unaided audit; assignment capacity remains explicit (0.357125ms)
+✔ repair requires correction, three other treated patients and later unaided retrieval (0.334ms)
+✔ waiting pair transfer raises original-pair suitability; leaves after three nights and preserves blueprints (0.244833ms)
+✔ opening twice never generates twice; persisted restore preserves day and blueprints (0.735417ms)
+✔ a full waiting room still gets four new arrivals, with distinct keys among new arrivals (1.423208ms)
+✔ view coordinates make all forty points selectable without ambiguous identical centers (0.697042ms)
+✔ reading a recipe for one patient prevents same-day answer leakage into another unaided record (0.188959ms)
+✔ interleaved repair can restore the same day without granting a delayed installation pass (0.175833ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 190.369416
