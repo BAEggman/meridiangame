@@ -16,6 +16,7 @@
   "install_gap_hours": 20, "reask_after_items": 3,
   "interval_first": 1, "mult": 2, "max_days": 60,
   "hit_radius": 18,
+  "pad_snap": true, "pad_snap_note": "패드는 銅人의 혈 구멍(이름 없음) 사이를 건너뛰며 고른다. 어느 구멍인지는 외워야 한다.",
   "regions": {"hand":["arm"],"arm":["hand","chest"],"chest":["arm","back","abdomen"],"back":["chest","abdomen"],"abdomen":["chest","back","leg"],"leg":["abdomen","foot"],"foot":["leg"]},
   "region_labels": {"hand":"손","arm":"팔","chest":"가슴","back":"등","abdomen":"배","leg":"다리","foot":"발"},
   "fit": {"yuanluo":{"first":0.2,"pair":0.2,"single":-0.2,"chronic":0.2,"acute":-0.2},"shumu":{"organ":0.2,"chronic":0.2,"acute":0},"saam":{"match":0.2,"mismatch":-0.2}},
