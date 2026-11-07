@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>氣의 개척지 — 肺·大腸</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;height:100%;overflow:hidden;background:#EFE7D3;font-family:'Noto Serif KR',serif}
+canvas{display:block;touch-action:none;cursor:crosshair}
+#intro{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(239,231,211,.92);z-index:5}
+#intro div{max-width:560px;padding:32px 36px;border:1px solid #6B5A2A;background:#F6F0E1;color:#1E1B16;line-height:1.8;font-size:15px}
+#intro h1{margin:0 0 10px;font-size:26px;font-weight:600;letter-spacing:.1em}
+#intro button{margin-top:14px;font:inherit;font-size:15px;padding:10px 18px;background:#1E1B16;color:#F7F0DF;border:0;cursor:pointer}
+#intro p{margin:6px 0}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="intro"><div>
+<h1>氣의 개척지 — 肺·大腸</h1>
+<p>몸이 개척지, 氣가 자원, 특정혈이 설비입니다. 時辰마다 밀물이 돌고 士安이 걸어가서 짓습니다. 설비를 놓으려면 그 혈 자리를 구멍 중에서 떠올려 짚어야 합니다 — 이름도 위치 문장도 없습니다.</p>
+<p>맞으면 금빛 등불이 켜지고 氣가 지나갑니다. 틀리면 먹이 번지고 針을 하나 잃고, 정답 자리가 잠깐 보입니다. 설비는 하루가 지나면 삭습니다. 두 번 다른 날에 맞힌 자리는 士安이 혼자 고칩니다 — 그게 자동화입니다.</p>
+<p style="color:#5A554B;font-size:13px">1 時辰 = 12초(▶) · 하루 12時辰 · 針 12/일 · 寒이 大腸을 오그라뜨리면 溫溜 감압 밸브 · 집이 굶으면 症狀이 떠오른다</p>
+<button id="start">문을 연다</button>
+</div></div>
+<script>const DATA = {"outline": "M362 289 Q348 310 331 317 Q293 312 278 338 Q258 376 239 436 Q215 486 199 548 L183 620 Q169 643 162 672 L161 684 Q169 680 178 661 L172 704 L173 722 L180 721 L186 697 L182 717 L189 715 L197 687 L192 711 L200 709 L207 684 L221 629 Q246 568 271 515 L302 437 Q309 476 302 510 Q286 543 297 582 L291 669 Q262 700 257 749 L250 950 Q246 980 222 989 L177 993 L181 1002 L212 1003 L178 1007 L180 1014 L211 1013 L184 1019 L188 1027 L217 1023 L192 1031 L197 1040 Q240 1033 280 1018 Q296 1010 296 985 L321 852 Q344 816 365 740 L379 693 L393 744 Q410 815 434 851 L475 991 Q477 1015 509 1026 L550 1035 L581 1031 L581 1025 L558 1026 L583 1019 L581 1012 L554 1015 L582 1008 L580 1000 L554 1005 L580 998 L576 991 Q548 993 522 980 Q511 968 512 940 L506 763 Q503 710 470 674 L464 581 Q480 548 464 510 L449 441 Q475 482 491 524 L531 640 L541 684 L558 719 L565 721 L559 700 L571 727 L577 724 L572 704 L580 720 L585 717 L577 694 L587 700 L590 693 L574 667 L561 621 L548 554 Q528 490 518 427 Q511 367 493 347 Q474 335 438 326 Q419 313 412 288 Q438 270 440 240 L441 207 Q440 154 380 154 Q320 154 319 207 L320 240 Q322 270 348 288 L362 289 Z", "points": {"LU1": {"han": "中府", "name": "중부", "x": 482, "y": 359}, "LU2": {"han": "雲門", "name": "운문", "x": 482, "y": 337}, "LU3": {"han": "天府", "name": "천부", "x": 484, "y": 443.3}, "LU4": {"han": "俠白", "name": "협백", "x": 487, "y": 452.8}, "LU5": {"han": "尺澤", "name": "척택", "x": 501, "y": 500}, "LU6": {"han": "孔最", "name": "공최", "x": 525.2, "y": 562.5}, "LU7": {"han": "列缺", "name": "열결", "x": 551.8, "y": 631.2}, "LU8": {"han": "經渠", "name": "경거", "x": 554.2, "y": 637.5}, "LU9": {"han": "太淵", "name": "태연", "x": 559, "y": 650}, "LU10": {"han": "魚際", "name": "어제", "x": 574, "y": 680}, "LU11": {"han": "少商", "name": "소상", "x": 587, "y": 697}, "LI1": {"han": "商陽", "name": "상양", "x": 601, "y": 718}, "LI2": {"han": "二間", "name": "이간", "x": 596, "y": 702}, "LI3": {"han": "三間", "name": "삼간", "x": 592, "y": 688}, "LI4": {"han": "合谷", "name": "합곡", "x": 585, "y": 672}, "LI5": {"han": "陽谿", "name": "양계", "x": 572, "y": 652}, "LI6": {"han": "偏歷", "name": "편력", "x": 563, "y": 622}, "LI7": {"han": "溫溜", "name": "온류", "x": 556, "y": 598}, "LI8": {"han": "下廉", "name": "하렴", "x": 541, "y": 560}, "LI9": {"han": "上廉", "name": "상렴", "x": 537, "y": 548}, "LI10": {"han": "手三里", "name": "수삼리", "x": 531, "y": 536}, "LI11": {"han": "曲池", "name": "곡지", "x": 504, "y": 500}, "LI12": {"han": "肘髎", "name": "주료", "x": 503, "y": 487.5}, "LI13": {"han": "手五里", "name": "수오리", "x": 495, "y": 471.7}, "LI14": {"han": "臂臑", "name": "비노", "x": 483, "y": 433.9}, "LI15": {"han": "肩髃", "name": "견우", "x": 481, "y": 373}, "LI16": {"han": "巨骨", "name": "거골", "x": 470, "y": 350}, "LI17": {"han": "天鼎", "name": "천정", "x": 423, "y": 321}, "LI18": {"han": "扶突", "name": "부돌", "x": 420, "y": 307}, "LI19": {"han": "禾髎", "name": "화료", "x": 393, "y": 269}, "LI20": {"han": "迎香", "name": "영향", "x": 397, "y": 255}, "ST25": {"han": "天樞", "name": "천추", "x": 414, "y": 580}, "ST36": {"han": "足三里", "name": "족삼리", "x": 471.8, "y": 863.5}, "SP3": {"han": "太白", "name": "태백", "x": 508, "y": 1009}, "HT8": {"han": "少府", "name": "소부", "x": 554, "y": 688}, "SI5": {"han": "陽谷", "name": "양곡", "x": 537, "y": 662}, "BL13": {"han": "肺兪", "name": "폐수", "x": 398, "y": 380}, "BL25": {"han": "大腸兪", "name": "대장수", "x": 398, "y": 612}, "BL66": {"han": "足通谷", "name": "족통곡", "x": 520, "y": 1052}, "KI10": {"han": "陰谷", "name": "음곡", "x": 440, "y": 835}}}; DATA.symptoms = [{"id": "sym_LU_肺脹滿", "m": ["LU"], "kind": "是動", "text": "肺脹滿"}, {"id": "sym_LU_咳", "m": ["LU"], "kind": "所生", "text": "咳"}, {"id": "sym_LU_喘", "m": ["LU"], "kind": "所生", "text": "喘"}, {"id": "sym_LU_掌中熱", "m": ["LU"], "kind": "所生", "text": "掌中熱"}, {"id": "sym_LI_齒痛", "m": ["LI"], "kind": "是動", "text": "齒痛"}, {"id": "sym_LI_頸腫", "m": ["LI"], "kind": "是動", "text": "頸腫"}, {"id": "sym_LI_目黃", "m": ["LI"], "kind": "所生", "text": "目黃"}, {"id": "sym_LI_口乾", "m": ["LI"], "kind": "所生", "text": "口乾"}];</script>
+<script>
+'use strict';
+// ------------------------------------------------------------ data
+const OUTLINE = DATA.outline, P = DATA.points, SYMPTOMS = DATA.symptoms;
+const HOURS = ['寅','卯','辰','巳','午','未','申','酉','戌','亥','子','丑'];
+const HOUR_MERIDIAN = ['肺','大腸','胃','脾','心','小腸','膀胱','腎','心包','三焦','膽','肝'];
+const HOUR_SEC = 12;                 // real seconds per 時辰 at 1× (day = 144 s)
+const DAY = 12;
+const NODE = { zhongjiao:[390,525], lung:[412,390], colon:[418,610], stomach:[402,495] };
+const LU_IDS = ['LU1','LU2','LU3','LU4','LU5','LU6','LU7','LU8','LU9','LU10','LU11'];
+const LI_IDS = ['LI1','LI2','LI3','LI4','LI5','LI6','LI7','LI8','LI9','LI10','LI11','LI12','LI13','LI14','LI15','LI16','LI17','LI18','LI19','LI20'];
+const pt = id => [P[id].x, P[id].y];
+// the route 氣 travels: deep(中焦→肺) → 肺 canal → cross to 商陽 → 大腸 canal → deep return (迎香→胃→中焦)
+const ROUTE = [
+  {canal:'deep', pts:[NODE.zhongjiao, NODE.lung, pt('LU1')]},
+  {canal:'LU',   pts:LU_IDS.map(pt)},
+  {canal:'cross',pts:[pt('LU11'), pt('LI1')]},
+  {canal:'LI',   pts:LI_IDS.map(pt)},
+  {canal:'deep', pts:[pt('LI20'), NODE.stomach, NODE.zhongjiao]},
+];
+// facilities: kind at point; what each one does in the simulation
+const KIND = {
+  pump:       {name:'펌프',     kind:'原穴',   cost:1, hint:'배관을 돌린다 — 없으면 氣가 여기서 멈춘다'},
+  junction:   {name:'분기',     kind:'絡穴',   cost:1, hint:'表裏 배관을 잇는다 — 한쪽이 虛하면 氣를 빌려온다'},
+  relief:     {name:'감압 밸브', kind:'郄穴',   cost:1, hint:'고인 氣를 뺀다 — 寒에 오그라들 때'},
+  gateFront:  {name:'앞문',     kind:'募穴',   cost:1, hint:'집으로 氣가 든다 — 문이 없으면 집이 굶는다'},
+  gateBack:   {name:'뒷문',     kind:'背兪穴', cost:1, hint:'등 쪽 문 — 앞뒤가 다 있어야 가득 든다'},
+  valveOpen:  {name:'補 밸브',  kind:'母穴',   cost:1, hint:'虛則補其母 — 正格의 補 두 자리'},
+  valveClose: {name:'瀉 밸브',  kind:'子穴',   cost:1, hint:'實則瀉其子 — 正格의 瀉 두 자리'},
+};
+const SITES = [ // id, kind, canal, extra
+  ['LU9','pump','LU'], ['LI4','pump','LI'],
+  ['LU7','junction','LU'], ['LI6','junction','LI'],
+  ['LU6','relief','LU'], ['LI7','relief','LI'],
+  ['LU1','gateFront','LU'], ['ST25','gateFront','LI'],
+  ['BL13','gateBack','LU'], ['BL25','gateBack','LI'],
+  ['SP3','valveOpen','LU'], ['LU9b','valveOpen','LU'], ['HT8','valveClose','LU'], ['LU10','valveClose','LU'],
+  ['ST36','valveOpen','LI'], ['LI11','valveOpen','LI'], ['SI5','valveClose','LI'], ['LI5','valveClose','LI'],
+];
+P['LU9b'] = {...P['LU9'], han:'太淵', name:'태연'};   // 太淵 is both the pump site and a 補 site (土)
+const HOUSE = {
+  LU: {name:'肺', pos:NODE.lung, stock:5, canal:'LU', xu:['咳','喘','掌中熱'], shi:['肺脹滿','缺盆中痛'], kind:'臟'},
+  LI: {name:'大腸', pos:NODE.colon, stock:4, canal:'LI', xu:['目黃','口乾'], shi:['齒痛','頸腫'], kind:'腑'},
+};
+// ------------------------------------------------------------ state
+const S = {
+  t: 0, speed: 1, day: 1, hour: 0, needles: 12, ying: 0, yingAcc: 0,
+  fac: {}, orders: [], agent: {x:NODE.lung[0]-40, y:NODE.lung[1]+20, task:null, prog:0, say:'', sayT:0},
+  tool: null, hover: null, placing: false, corrections: [], splashes: [], floaters: [], log: [],
+  cold: {on:false, until:0, strokes:[]}, congestion: 0, unlocked: false, paused: false,
+  camera: {s: 1, x: 0, y: 0},
+};
+for (const [id, kind, canal] of SITES) S.fac[id] = { id, kind, canal, state:'absent', recalls:0, due:0, interval:1, builtDay:-1, lastRecallDay:-1 };
+const particles = []; let ROUTE_LEN = 0; const SEG = [];
+(function buildRoute(){ let s = 0; for (const part of ROUTE) for (let i=0;i<part.pts.length-1;i++){ const a=part.pts[i], b=part.pts[i+1]; const L=Math.hypot(b[0]-a[0], b[1]-a[1]); SEG.push({a,b,L,s0:s,canal:part.canal}); s+=L; } ROUTE_LEN = s; })();
+function routeXY(s){ s = ((s % ROUTE_LEN) + ROUTE_LEN) % ROUTE_LEN; for (const g of SEG){ if (s <= g.s0 + g.L){ const u = (s-g.s0)/g.L; return [g.a[0]+(g.b[0]-g.a[0])*u, g.a[1]+(g.b[1]-g.a[1])*u, g.canal]; } } const g=SEG[SEG.length-1]; return [g.b[0], g.b[1], g.canal]; }
+function routeS(xy){ let best=0, bd=1e9; for (const g of SEG){ const dx=g.b[0]-g.a[0], dy=g.b[1]-g.a[1]; let u=((xy[0]-g.a[0])*dx+(xy[1]-g.a[1])*dy)/(g.L*g.L); u=Math.max(0,Math.min(1,u)); const x=g.a[0]+dx*u, y=g.a[1]+dy*u; const d=Math.hypot(x-xy[0],y-xy[1]); if(d<bd){bd=d;best=g.s0+g.L*u;} } return best; }
+for (let i=0;i<26;i++) particles.push({ s: (i/26)*ROUTE_LEN, glow: Math.random() });
+const BLOCK_S = { LU9: routeS(pt('LU9')), LI4: routeS(pt('LI4')) };
+const say = (t) => { S.agent.say = t; S.agent.sayT = 4; };
+const logLine = (t) => { S.log.unshift({t, at: S.t}); S.log.length = Math.min(S.log.length, 4); };
+// ------------------------------------------------------------ simulation
+function facOK(id){ const f=S.fac[id]; return f && (f.state==='ok' || f.state==='worn'); }
+function canalFlow(canal){
+  if (canal==='LU') return facOK('LU9') ? 1 : 0;
+  if (canal==='LI') { if (!facOK('LI4')) return 0; let v = 1; if (S.cold.on) v = facOK('LI7') ? 0.85 : 0.4; return v; }
+  return 1;
+}
+function gateFactor(h){ const f = h==='LU' ? ['LU1','BL13'] : ['ST25','BL25']; return (facOK(f[0])?0.5:0) + (facOK(f[1])?0.5:0); }
+function valveSet(h){ const ids = h==='LU' ? ['SP3','LU9b','HT8','LU10'] : ['ST36','LI11','SI5','LI5']; return ids.filter(facOK).length; }
+function houseState(h){ const H=HOUSE[h]; if (H.stock < 1.5) return 'xu'; if (h==='LI' && S.congestion > 1.1) return 'shi'; if (h==='LU' && !canalFlow('LU') && gateFactor('LU')>0 && H.stock>6) return 'shi'; return 'ok'; }
+let hourAcc = 0, symAcc = {LU:0, LI:0}, lastHour = -1;
+function tickHour(){
+  // intake/consumption per 時辰
+  for (const h of ['LU','LI']){ const H=HOUSE[h]; const flow = h==='LU' ? 1 : canalFlow('LU')*canalFlow('LI'); const intake = flow * gateFactor(h) * 1.2 + valveSet(h)*0.15; H.stock = Math.max(0, Math.min(8, H.stock + intake - 0.7)); }
+  // wear by SRS due
+  for (const f of Object.values(S.fac)){
+    if ((f.state==='ok') && S.t >= f.due){ f.state='worn'; f.wornAt=S.t; logLine(`${P[f.id].han} ${KIND[f.kind].name}이(가) 삭기 시작한다`); }
+    if (f.state==='worn' && S.t >= f.wornAt + 1){
+      if (f.recalls >= 2){ if (!S.orders.some(o=>o.id===f.id)) { S.orders.push({id:f.id, auto:true}); say(`${P[f.id].han}은 제가 압니다. 다녀오지요.`); } f.state='broken'; f.autoFix=true; }
+      else { f.state='broken'; f.autoFix=false; say(`${KIND[f.kind].name} 자리가 흐릿합니다 — 어디였는지 짚어 주십시오.`); logLine(`${P[f.id].han} 끊김 · 자리를 다시 짚어야 한다`); }
+    }
+  }
+  // weather
+  if (!S.cold.on && S.day >= 1 && S.hour === (S.day===1 ? 5 : (3 + S.day*2) % 12)) { S.cold.on = true; S.cold.until = S.t + 2.5; S.cold.strokes = []; logLine('寒 — 大腸 배관이 오그라든다'); say('바람이 찹니다. 大腸이 오그라들겠습니다.'); }
+  if (S.cold.on && S.t >= S.cold.until){ S.cold.on = false; S.congestion = Math.max(0, S.congestion - 0.5); logLine('寒이 물러갔다'); }
+  // unlock
+  if (!S.unlocked && S.ying >= 3 && S.day >= 2){ S.unlocked = true; logLine('胃 배관이 보이기 시작한다 — 다음 개척지'); say('迎香에서 胃로 길이 이어집니다. 다음은 足陽明.'); }
+}
+function step(dt){ // dt in real seconds (already × speed)
+  const dh = dt / HOUR_SEC; S.t += dh; hourAcc += dh;
+  const hourNow = Math.floor(S.t) % 12, dayNow = Math.floor(S.t / 12) + 1;
+  if (hourNow !== lastHour){ lastHour = hourNow; S.hour = hourNow; if (dayNow !== S.day){ S.day = dayNow; S.needles = 12; logLine(`${S.day}일째 — 針 12`); } tickHour(); }
+  // particles
+  const vLU = canalFlow('LU'), vLI = canalFlow('LI'); const base = 95 * dt;
+  particles.sort((a,b)=>a.s-b.s);
+  let inLI = 0;
+  for (let i=0;i<particles.length;i++){
+    const p = particles[i]; const [,,canal] = routeXY(p.s);
+    let v = base * (canal==='LU'?Math.max(vLU,0):canal==='LI'?Math.max(vLI,0):1) * (HOUSE.LU.stock<1.5?0.6:1);
+    let ns = p.s + v;
+    // blockers: pumps missing → stop just before the site
+    for (const [id,bs] of Object.entries(BLOCK_S)) if (!facOK(id) && p.s < bs && ns >= bs - 4) ns = bs - 4;
+    // spacing behind the particle ahead
+    const ahead = particles[(i+1)%particles.length]; let gap = ahead.s - ns; if (i===particles.length-1) gap += ROUTE_LEN; if (gap < 7) ns = ahead.s - 7 + (i===particles.length-1?ROUTE_LEN:0);
+    if (ns < p.s) ns = p.s;
+    if (ns >= ROUTE_LEN){ ns -= ROUTE_LEN; S.yingAcc += 1/particles.length; if (S.yingAcc >= 1){ S.yingAcc -= 1; S.ying++; } }
+    p.s = ns; if (canal==='LI') inLI++;
+  }
+  S.congestion += ((S.cold.on && !facOK('LI7')) ? (inLI > 8 ? 0.25 : 0.05) : -0.2) * dh * 3; S.congestion = Math.max(0, Math.min(2, S.congestion));
+  // symptoms float up from troubled houses
+  for (const h of ['LU','LI']){ const st = houseState(h); symAcc[h] += dt; if (st!=='ok' && symAcc[h] > 1.6){ symAcc[h]=0; const H=HOUSE[h]; const list = st==='xu'?H.xu:H.shi; const w = list[Math.floor(Math.random()*list.length)]; S.floaters.push({x:H.pos[0]+ (Math.random()*50-25), y:H.pos[1]-10, t:0, text:w, color: st==='xu'?'#5A554B':'#B5362A'}); } }
+  for (const f of S.floaters) f.t += dt; S.floaters = S.floaters.filter(f=>f.t<3.2);
+  for (const c of S.corrections) c.t -= dt; S.corrections = S.corrections.filter(c=>c.t>0);
+  for (const s of S.splashes) s.t += dt; S.splashes = S.splashes.filter(s=>s.t<1.2);
+  if (S.agent.sayT>0) S.agent.sayT -= dt;
+  // weather strokes
+  if (S.cold.on){ if (S.cold.strokes.length < 40 && Math.random()<0.5) S.cold.strokes.push({x: 120+Math.random()*520, y: 60+Math.random()*1100, l: 40+Math.random()*80, a: Math.random()}); for (const k of S.cold.strokes){ k.x += 55*dt; k.y += 20*dt; } S.cold.strokes = S.cold.strokes.filter(k=>k.x<700); }
+  // agent
+  const A = S.agent;
+  if (!A.task && S.orders.length){ A.task = S.orders.shift(); A.prog = 0; }
+  if (A.task){ const f = S.fac[A.task.id]; const [tx,ty] = pt(f.id); const dx=tx-A.x, dy=ty-A.y, d=Math.hypot(dx,dy); const sp = 110*dt;
+    if (d > sp){ A.x += dx/d*sp; A.y += dy/d*sp; }
+    else { A.x = tx; A.y = ty; A.prog += dt/2.2; if (A.prog >= 1){ f.state='ok'; f.builtDay=S.day; if (A.task.auto){ f.interval = Math.min(8, f.interval*2); } else f.interval = f.recalls>=2 ? Math.max(f.interval,2) : 1; f.due = S.t + f.interval*DAY*(0.85+Math.random()*0.4); f.autoFix=false; logLine(`${P[f.id].han} ${KIND[f.kind].name} ${A.task.auto?'을(를) 士安이 혼자 고쳤다':'이(가) 섰다'}`); if (A.task.auto) say('손 안 대셔도 됩니다. 제가 외웠습니다.'); A.task=null; } }
+  } else { const hx = NODE.lung[0]-40, hy = NODE.lung[1]+20; const dx=hx-A.x, dy=hy-A.y, d=Math.hypot(dx,dy); if (d>2){ const sp=60*dt; A.x+=dx/d*Math.min(sp,d); A.y+=dy/d*Math.min(sp,d);} }
+}
+// ------------------------------------------------------------ interaction
+function validSitesFor(kind){ return SITES.filter(s=>s[1]===kind).map(s=>s[0]); }
+function holesForTool(){ // all 40 holes (unlabeled) while placing
+  return Object.keys(P).filter(id=>id!=='LU9b'); }
+function tryPlace(holeId){
+  const tool = S.tool; if (!tool) return;
+  if (S.needles <= 0){ say('오늘 針이 다 떨어졌습니다. 내일 寅時에 다시.'); return; }
+  if (tool === 'repair'){ const f = Object.values(S.fac).find(f=>f.state==='broken' && !f.autoFix && (f.id===holeId || (f.id==='LU9b'&&holeId==='LU9')));
+    // repairing: the player must point the broken facility's own hole
+    const pending = new Set(S.orders.map(o=>o.id).concat(S.agent.task?[S.agent.task.id]:[])); const broken = Object.values(S.fac).filter(f=>(f.state==='broken'||f.state==='worn') && !f.autoFix && !pending.has(f.id));
+    if (!broken.length){ say('지금 짚어야 할 자리는 없습니다. 삭는 설비가 깜빡이면 그때 짚으십시오.'); return; }
+    const hit = broken.find(f=>f.id===holeId || (f.id==='LU9b'&&holeId==='LU9'));
+    let target = hit; if (!target){ let bd=1e9; const [hx,hy]=pt(holeId); for (const f of broken){ const [x,y]=pt(f.id); const d=Math.hypot(x-hx,y-hy); if (d<bd){bd=d;target=f;} } }
+    if (hit){ S.needles--; if (target.lastRecallDay !== S.day){ target.recalls++; target.lastRecallDay = S.day; } S.orders.push({id:target.id}); flash(target.id, 'gold', `${P[target.id].han} · 맞습니다`); say(`${P[target.id].han}, 가서 고치겠습니다.`); }
+    else { S.needles--; splash(holeId); target.recalls = 0; S.corrections.push({id: target.id, t: 3.5, text: `${P[target.id].han} ${P[target.id].name} — 여기였다`}); logLine(`틀렸다 · ${P[target.id].han}은 여기`); }
+    return;
+  }
+  const sites = validSitesFor(tool); const site = sites.find(id => id===holeId || (id==='LU9b' && holeId==='LU9' && tool==='valveOpen'));
+  if (site){ const f = S.fac[site]; if (f.state==='ok' || f.state==='worn' || S.orders.some(o=>o.id===site) || (S.agent.task&&S.agent.task.id===site)){ say('거긴 이미 섰습니다.'); return; }
+    S.needles--; if (f.lastRecallDay !== S.day){ f.recalls++; f.lastRecallDay = S.day; } S.orders.push({id:site}); flash(site, 'gold', `${P[site].han} · ${KIND[tool].kind}`); say(`${P[site].han}에 ${KIND[tool].name}. 다녀오겠습니다.`); }
+  else { S.needles--; splash(holeId); // show the nearest valid site as correction
+    let best=null, bd=1e9; const [hx,hy]=pt(holeId); for (const id of sites){ const [x,y]=pt(id); const d=Math.hypot(x-hx,y-hy); if (d<bd){bd=d;best=id;} }
+    if (best){ S.corrections.push({id:best, t:3.5, text:`${KIND[tool].name}(${KIND[tool].kind}) 자리는 ${P[best].han} ${P[best].name}`}); S.fac[best].recalls = 0; }
+    logLine('틀린 자리 · 針 하나를 잃었다'); say('거긴 아닙니다. 먹이 번졌습니다.'); }
+}
+function flash(id, color, text){ S.corrections.push({id, t:2.2, text, color}); }
+function splash(id){ const [x,y]=pt(id); S.splashes.push({x,y,t:0}); }
+// ------------------------------------------------------------ rendering
+const cv = document.getElementById('c'); const ctx = cv.getContext('2d');
+let VW=0, VH=0, DPR=1; function resize(){ DPR = Math.min(2, window.devicePixelRatio||1); VW = innerWidth; VH = innerHeight; cv.width = VW*DPR; cv.height = VH*DPR; cv.style.width=VW+'px'; cv.style.height=VH+'px'; fitCamera(); }
+function fitCamera(){ const s = Math.min((VH-20)/1040, (VW-20)/700); S.camera.s = s * (S.camera.zoom||1); S.camera.x = VW/2 - 390*S.camera.s + (S.camera.panx||0); S.camera.y = (VH - 1040*S.camera.s)/2 - 70*S.camera.s + (S.camera.pany||0); }
+addEventListener('resize', resize);
+const outlinePath = new Path2D(OUTLINE);
+function w2s(x,y){ return [S.camera.x + x*S.camera.s, S.camera.y + y*S.camera.s]; }
+function s2w(x,y){ return [(x-S.camera.x)/S.camera.s, (y-S.camera.y)/S.camera.s]; }
+const C = { paper:'#EFE7D3', ink:'#1E1B16', soft:'#5A554B', cin:'#B5362A', gold:'#C9A227', qi:'#F2C14E', fog:'#8A847A', bronze:'#6B5A2A' };
+function isNight(){ return S.hour >= 8; }
+function drawIcon(kind, x, y, r, color, alpha=1, fill=C.paper){ // facility glyphs in world units
+  ctx.save(); ctx.translate(x,y); ctx.globalAlpha = alpha; ctx.strokeStyle = color; ctx.fillStyle = fill; ctx.lineWidth = 1.6; ctx.lineCap='round'; ctx.lineJoin='round';
+  ctx.beginPath(); ctx.arc(0,0,r,0,Math.PI*2); ctx.fill(); ctx.stroke();
+  const k = r*0.62; ctx.beginPath();
+  if (kind==='pump'){ ctx.arc(0,0,k*0.55,-2.6,2.2); ctx.moveTo(k*0.38,-k*0.42); ctx.lineTo(k*0.62,-k*0.3); ctx.moveTo(k*0.62,-k*0.3); ctx.lineTo(k*0.5,-k*0.68); }
+  else if (kind==='junction'){ ctx.moveTo(-k*0.5,-k); ctx.lineTo(-k*0.5,k); ctx.moveTo(k*0.5,-k); ctx.lineTo(k*0.5,k); ctx.moveTo(-k*0.5,-k*0.3); ctx.lineTo(k*0.5,k*0.3); }
+  else if (kind==='relief'){ ctx.arc(0,k*0.25,k*0.6,0,Math.PI*2); ctx.moveTo(0,-k*0.35); ctx.lineTo(0,-k*0.9); ctx.moveTo(0,-k*0.9); ctx.lineTo(-k*0.45,-k*1.2); ctx.moveTo(0,-k*0.9); ctx.lineTo(k*0.45,-k*1.2); }
+  else if (kind==='gateFront'||kind==='gateBack'){ ctx.moveTo(-k*0.7,k); ctx.lineTo(-k*0.7,-k*0.1); ctx.arc(0,-k*0.1,k*0.7,Math.PI,0); ctx.lineTo(k*0.7,k); ctx.moveTo(-k,k); ctx.lineTo(k,k); if (kind==='gateBack'){ ctx.moveTo(0,-k*0.9); ctx.lineTo(0,k); } }
+  else if (kind==='valveOpen'||kind==='valveClose'){ ctx.moveTo(-k,-k*0.5); ctx.lineTo(-k,k*0.5); ctx.lineTo(-k*0.05,0); ctx.closePath(); ctx.moveTo(k,-k*0.5); ctx.lineTo(k,k*0.5); ctx.lineTo(k*0.05,0); ctx.closePath(); ctx.moveTo(0,0); ctx.lineTo(0,-k*0.8); ctx.moveTo(-k*0.35,-k*1.05); ctx.lineTo(k*0.35,-k*1.05); if (kind==='valveOpen'){ ctx.moveTo(0,-k*1.4); ctx.lineTo(0,-k*0.7); } }
+  ctx.stroke();
+  if (kind==='gateFront'){ ctx.fillStyle=color; ctx.beginPath(); ctx.arc(0,k*0.45,k*0.18,0,Math.PI*2); ctx.fill(); }
+  if (kind==='gateBack'){ ctx.fillStyle=color; ctx.beginPath(); ctx.arc(-k*0.3,k*0.45,k*0.15,0,Math.PI*2); ctx.arc(k*0.3,k*0.45,k*0.15,0,Math.PI*2); ctx.fill(); }
+  ctx.restore();
+}
+function drawHouse(h){ const H = HOUSE[h], [x,y] = H.pos, st = houseState(h); ctx.save(); ctx.translate(x,y);
+  const col = st==='ok'? C.bronze : st==='xu' ? C.soft : C.cin; ctx.strokeStyle = col; ctx.lineWidth = 1.8; ctx.fillStyle = C.paper;
+  if (h==='LU'){ ctx.beginPath(); ctx.moveTo(-2,-26); ctx.quadraticCurveTo(-30,-18,-28,10); ctx.quadraticCurveTo(-26,30,-8,28); ctx.lineTo(-2,-26); ctx.moveTo(2,-26); ctx.quadraticCurveTo(30,-18,28,10); ctx.quadraticCurveTo(26,30,8,28); ctx.lineTo(2,-26); ctx.fill(); ctx.stroke(); }
+  else { ctx.beginPath(); ctx.roundRect(-30,-22,60,44,14); ctx.fill(); ctx.stroke(); ctx.beginPath(); ctx.moveTo(-22,-8); ctx.quadraticCurveTo(0,-14,22,-8); ctx.moveTo(-22,6); ctx.quadraticCurveTo(0,0,22,6); ctx.stroke(); }
+  // stock meter
+  const lv = H.stock/8; ctx.fillStyle = lv>0.3?C.qi:C.cin; ctx.globalAlpha=.9; ctx.fillRect(-20,34,40*lv,5); ctx.globalAlpha=1; ctx.strokeStyle=C.soft; ctx.lineWidth=.8; ctx.strokeRect(-20,34,40,5);
+  ctx.fillStyle = C.ink; ctx.font = '600 14px "Noto Serif KR", serif'; ctx.textAlign='center'; ctx.fillText(H.name, 0, -34);
+  if (st==='xu'){ ctx.fillStyle=C.soft; ctx.font='11px "Noto Serif KR", serif'; ctx.fillText('虛', 36, 4); }
+  if (st==='shi'){ ctx.fillStyle=C.cin; ctx.font='11px "Noto Serif KR", serif'; ctx.fillText('實', 36, 4); }
+  ctx.restore(); }
+function strokePoly(pts, color, width, dash, alpha=1){ ctx.save(); ctx.globalAlpha=alpha; ctx.strokeStyle=color; ctx.lineWidth=width; ctx.lineCap='round'; ctx.lineJoin='round'; if (dash) ctx.setLineDash(dash); ctx.beginPath(); ctx.moveTo(pts[0][0],pts[0][1]); for (let i=1;i<pts.length;i++) ctx.lineTo(pts[i][0],pts[i][1]); ctx.stroke(); ctx.restore(); }
+function drawAgent(){ const A=S.agent; ctx.save(); ctx.translate(A.x, A.y); const walking = !!A.task && A.prog===0; const bob = walking ? Math.sin(performance.now()/90)*1.5 : 0; ctx.strokeStyle=C.ink; ctx.lineWidth=1.6; ctx.lineCap='round'; ctx.fillStyle=C.paper;
+  ctx.beginPath(); ctx.arc(0,-16+bob,5,0,Math.PI*2); ctx.fill(); ctx.stroke(); ctx.beginPath(); ctx.moveTo(0,-11+bob); ctx.lineTo(0,2); ctx.moveTo(0,2); ctx.lineTo(-5,12); ctx.moveTo(0,2); ctx.lineTo(5,12); ctx.moveTo(0,-6+bob); ctx.lineTo(8,-2+bob); ctx.moveTo(8,-2+bob); ctx.lineTo(13,-12+bob); ctx.stroke();
+  if (A.task && A.prog>0){ ctx.strokeStyle=C.gold; ctx.lineWidth=2.4; ctx.beginPath(); ctx.arc(0,-4,18,-Math.PI/2,-Math.PI/2+A.prog*Math.PI*2); ctx.stroke(); }
+  if (A.sayT>0){ ctx.font='12px "Noto Serif KR", serif'; const w = ctx.measureText(A.say).width+16; ctx.fillStyle='rgba(246,240,225,.95)'; ctx.strokeStyle=C.bronze; ctx.lineWidth=.8; ctx.beginPath(); ctx.roundRect(12,-40,w,22,3); ctx.fill(); ctx.stroke(); ctx.fillStyle=C.ink; ctx.textAlign='left'; ctx.fillText(A.say, 20, -25); }
+  ctx.restore(); }
+function render(){
+  ctx.setTransform(DPR,0,0,DPR,0,0); ctx.clearRect(0,0,VW,VH);
+  const night = isNight();
+  const g = ctx.createRadialGradient(VW*.5,VH*.45,40,VW*.5,VH*.45,VW*.8); g.addColorStop(0, night?'#2a2d2f':'#F7F2E5'); g.addColorStop(1, night?'#1b1d20':'#EFE7D3'); ctx.fillStyle=g; ctx.fillRect(0,0,VW,VH);
+  ctx.save(); ctx.translate(S.camera.x, S.camera.y); ctx.scale(S.camera.s, S.camera.s);
+  // body
+  ctx.fillStyle = night ? 'rgba(90,100,95,.35)' : 'rgba(195,201,186,.35)'; ctx.fill(outlinePath); ctx.strokeStyle = night ? '#8a9a90' : '#63766A'; ctx.lineWidth=1.3; ctx.stroke(outlinePath);
+  // deep routes
+  strokePoly(ROUTE[0].pts, C.bronze, 2, [6,5], .8); strokePoly(ROUTE[4].pts, C.bronze, 2, [6,5], .55);
+  // canals
+  const luGlow = HOUR_MERIDIAN[S.hour]==='肺', liGlow = HOUR_MERIDIAN[S.hour]==='大腸';
+  if (luGlow) strokePoly(ROUTE[1].pts, C.qi, 12, null, .35); if (liGlow) strokePoly(ROUTE[3].pts, C.qi, 12, null, .35);
+  strokePoly(ROUTE[1].pts, canalFlow('LU')?C.bronze:C.fog, 2.6);
+  strokePoly(ROUTE[3].pts, S.congestion>1.1?C.cin:(canalFlow('LI')?C.cin:C.fog), S.cold.on?1.6:2.6, S.cold.on?[7,5]:null);
+  strokePoly(ROUTE[2].pts, C.soft, 1.4, [3,4], .8);
+  // junction bridge
+  strokePoly([pt('LU7'), pt('LI6')], facOK('LU7')&&facOK('LI6')?C.gold:C.fog, 2, facOK('LU7')&&facOK('LI6')?null:[3,3], .9);
+  if (S.unlocked) strokePoly([pt('LI20'),[380,290],[330,330],[318,420]], C.fog, 2, [4,6], .5);
+  // houses
+  drawHouse('LU'); drawHouse('LI');
+  // holes while placing
+  if (S.tool){ for (const id of holesForTool()){ const [x,y]=pt(id); ctx.fillStyle = 'rgba(90,85,75,.55)'; ctx.beginPath(); ctx.arc(x,y,3.2,0,Math.PI*2); ctx.fill(); } }
+  // facilities
+  for (const f of Object.values(S.fac)){ if (f.state==='absent') continue; const [x,y]=pt(f.id); const col = f.state==='broken'?C.cin:(f.state==='worn'?C.bronze:C.ink); const flick = f.state==='worn' ? (Math.sin(performance.now()/120)>0?1:.35) : 1;
+    if (f.state==='ok'||f.state==='worn'){ ctx.save(); ctx.globalAlpha=.9*flick; ctx.fillStyle=C.gold; ctx.beginPath(); ctx.arc(x,y,13,0,Math.PI*2); ctx.fill(); ctx.restore(); }
+    if (f.state==='broken'){ ctx.save(); ctx.fillStyle=C.cin; ctx.globalAlpha=.75; ctx.beginPath(); ctx.ellipse(x+3,y+4,9,6,.6,0,Math.PI*2); ctx.fill(); ctx.restore(); }
+    drawIcon(f.kind, x, y, 10, col, flick); }
+  // ordered (ghost)
+  for (const o of S.orders.concat(S.agent.task?[S.agent.task]:[])){ const f=S.fac[o.id]; const [x,y]=pt(f.id); if (f.state!=='ok') drawIcon(f.kind,x,y,10,C.fog,.6); }
+  // particles
+  for (const p of particles){ const [x,y,canal]=routeXY(p.s); const r = canal==='deep'?2.2:3; ctx.save(); ctx.shadowColor = night?'#F2C14E':'rgba(0,0,0,0)'; ctx.shadowBlur = night?10:0; ctx.fillStyle = C.qi; ctx.globalAlpha = canal==='deep'?.55:.95; ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2); ctx.fill(); ctx.restore(); }
+  // corrections / flashes
+  for (const c of S.corrections){ const [x,y]=pt(c.id); const a=Math.min(1,c.t); ctx.save(); ctx.globalAlpha=a; ctx.strokeStyle=c.color==='gold'?C.gold:C.cin; ctx.lineWidth=2; ctx.beginPath(); ctx.arc(x,y,14+Math.sin(performance.now()/150)*2,0,Math.PI*2); ctx.stroke(); ctx.font='600 13px "Noto Serif KR", serif'; ctx.textAlign='left'; ctx.fillStyle=c.color==='gold'?C.bronze:C.cin; ctx.fillText(c.text, x+18, y+4); ctx.restore(); }
+  for (const s of S.splashes){ ctx.save(); ctx.globalAlpha=1-s.t/1.2; ctx.fillStyle=C.ink; for (let i=0;i<6;i++){ const a=i*1.05, rr=6+s.t*18; ctx.beginPath(); ctx.arc(s.x+Math.cos(a)*rr*.6, s.y+Math.sin(a)*rr*.6, 3+(i%3), 0, Math.PI*2); ctx.fill(); } ctx.restore(); }
+  // floaters
+  for (const f of S.floaters){ ctx.save(); ctx.globalAlpha = Math.max(0, 1 - f.t/3.2); ctx.fillStyle = f.color; ctx.font = '600 15px "Noto Serif KR", serif'; ctx.textAlign='center'; ctx.fillText(f.text, f.x, f.y - f.t*22); ctx.restore(); }
+  // agent
+  drawAgent();
+  // weather strokes
+  if (S.cold.on){ ctx.save(); ctx.strokeStyle='rgba(70,90,120,.35)'; ctx.lineWidth=1.2; for (const k of S.cold.strokes){ ctx.globalAlpha=.3+.4*k.a; ctx.beginPath(); ctx.moveTo(k.x,k.y); ctx.lineTo(k.x-k.l,k.y+k.l*.35); ctx.stroke(); } ctx.restore(); }
+  // hover tooltip (world)
+  if (S.hover && !S.tool){ const f = S.fac[S.hover]; if (f && f.state!=='absent'){ const [x,y]=pt(f.id); const lines=[`${P[f.id].han} ${P[f.id].name} · ${KIND[f.kind].kind} ${KIND[f.kind].name}`, f.state==='ok'?`기억 ${f.recalls}회 · ${Math.max(0,f.due-S.t).toFixed(0)}時辰 뒤 삭음`:f.state==='worn'?'삭는 중':'끊김 — 修로 다시 짚기', KIND[f.kind].hint]; tooltip(x+16,y-10,lines);} }
+  ctx.restore();
+  drawHUD(night);
+}
+function tooltip(x,y,lines){ ctx.save(); ctx.font='12px "Noto Serif KR", serif'; const w = Math.max(...lines.map(l=>ctx.measureText(l).width))+18; const h = lines.length*17+12; ctx.fillStyle='rgba(246,240,225,.97)'; ctx.strokeStyle=C.bronze; ctx.lineWidth=.8; ctx.beginPath(); ctx.roundRect(x,y-h,w,h,3); ctx.fill(); ctx.stroke(); ctx.fillStyle=C.ink; ctx.textAlign='left'; lines.forEach((l,i)=>{ ctx.fillStyle = i===0?C.ink:C.soft; ctx.fillText(l, x+9, y-h+15+i*17); }); ctx.restore(); }
+function drawHUD(night){
+  const inkc = night?'#EDE6D3':C.ink, softc = night?'#B9B2A0':C.soft;
+  // top-left: tide ring + numbers
+  ctx.save(); ctx.translate(26, 26); const R=46; for (let i=0;i<12;i++){ const a0=(i/12)*Math.PI*2-Math.PI/2, a1=((i+1)/12)*Math.PI*2-Math.PI/2; ctx.beginPath(); ctx.moveTo(R,R); ctx.arc(R,R,R,a0,a1); ctx.closePath(); ctx.fillStyle = i===S.hour?C.qi:(i>=8?'rgba(40,45,55,.25)':'rgba(246,240,225,.6)'); ctx.fill(); ctx.strokeStyle='rgba(107,90,42,.5)'; ctx.lineWidth=.8; ctx.stroke(); const am=(a0+a1)/2; ctx.fillStyle=i===S.hour?C.ink:softc; ctx.font=`${i===S.hour?'600 ':''}10px "Noto Serif KR", serif`; ctx.textAlign='center'; ctx.fillText(HOUR_MERIDIAN[i], R+Math.cos(am)*R*.72, R+Math.sin(am)*R*.72+3); }
+  ctx.fillStyle=night?'rgba(30,27,22,.75)':'rgba(246,240,225,.9)'; ctx.beginPath(); ctx.arc(R,R,R*.42,0,Math.PI*2); ctx.fill(); ctx.fillStyle=inkc; ctx.font='600 13px "Noto Serif KR", serif'; ctx.textAlign='center'; ctx.fillText(HOURS[S.hour]+'時', R, R+5);
+  ctx.textAlign='left'; ctx.fillStyle=inkc; ctx.font='600 15px "Noto Serif KR", serif'; ctx.fillText(`${S.day}일째 · ${HOUR_MERIDIAN[S.hour]} 밀물`, 2*R+14, 22);
+  ctx.font='14px "Noto Serif KR", serif'; ctx.fillStyle=softc; ctx.fillText(`針 ${S.needles} / 12`, 2*R+14, 46); ctx.fillText(`營 ${S.ying} 周`, 2*R+14, 68); ctx.fillText(`肺 ${HOUSE.LU.stock.toFixed(1)} · 大腸 ${HOUSE.LI.stock.toFixed(1)}`, 2*R+14, 90);
+  ctx.restore();
+  // top-right: time controls
+  ctx.save(); const bx = VW-170, by = 18; for (let i=0;i<3;i++){ const on = (i===0&&S.speed===0)||(i===1&&S.speed===1)||(i===2&&S.speed===3); ctx.fillStyle = on?C.ink:(night?'rgba(30,27,22,.6)':'rgba(246,240,225,.9)'); ctx.strokeStyle=C.bronze; ctx.lineWidth=.8; ctx.beginPath(); ctx.roundRect(bx+i*50,by,44,36,3); ctx.fill(); ctx.stroke(); ctx.fillStyle = on?'#F7F0DF':inkc; ctx.font='600 14px "Noto Serif KR", serif'; ctx.textAlign='center'; ctx.fillText(['∥','▶','▶▶'][i], bx+i*50+22, by+24); }
+  ctx.restore();
+  // log ticker (top center)
+  ctx.save(); ctx.font='13px "Noto Serif KR", serif'; ctx.textAlign='center'; S.log.forEach((l,i)=>{ ctx.fillStyle = i===0?(night?'#F2C14E':C.cin):softc; ctx.globalAlpha = 1 - i*.25; ctx.fillText(l.t, VW/2, 26+i*18); }); ctx.restore();
+  // bottom build bar
+  const tools = [['pump','1'],['junction','2'],['relief','3'],['gateFront','4'],['gateBack','5'],['valveOpen','6'],['valveClose','7'],['repair','8']];
+  const bw = 78, gap = 8, total = tools.length*bw + (tools.length-1)*gap; let x0 = VW/2 - total/2; const y0 = VH - 92;
+  ctx.save(); for (const [k,key] of tools){ const sel = S.tool===k; ctx.fillStyle = sel?'#E7D7C6':(night?'rgba(30,27,22,.75)':'rgba(246,240,225,.92)'); ctx.strokeStyle = sel?C.cin:C.bronze; ctx.lineWidth = sel?2:.8; ctx.beginPath(); ctx.roundRect(x0,y0,bw,74,4); ctx.fill(); ctx.stroke();
+    if (k==='repair'){ ctx.strokeStyle=inkc; ctx.lineWidth=1.6; ctx.beginPath(); ctx.moveTo(x0+bw/2-10,y0+36); ctx.lineTo(x0+bw/2+10,y0+16); ctx.moveTo(x0+bw/2-6,y0+20); ctx.lineTo(x0+bw/2+6,y0+32); ctx.stroke(); }
+    else { ctx.save(); ctx.translate(x0+bw/2, y0+26); ctx.scale(1.15,1.15); drawIcon(k,0,0,10, sel?C.ink:(night?'#EDE6D3':C.ink), 1, sel?'#E7D7C6':(night?'#2a2d2f':C.paper)); ctx.restore(); }
+    ctx.fillStyle = sel?C.ink:inkc; ctx.font='600 12px "Noto Serif KR", serif'; ctx.textAlign='center'; ctx.fillText(k==='repair'?'修 다시 짚기':KIND[k].name, x0+bw/2, y0+54); ctx.fillStyle=softc; ctx.font='10px "Noto Serif KR", serif'; ctx.fillText(k==='repair'?'끊긴 자리':`${KIND[k].kind} · 針 ${KIND[k].cost}`, x0+bw/2, y0+67);
+    ctx.fillStyle=softc; ctx.font='10px "Noto Serif KR", serif'; ctx.textAlign='left'; ctx.fillText(key, x0+5, y0+12); x0 += bw+gap; }
+  ctx.restore();
+  // hint line
+  ctx.save(); ctx.font='12px "Noto Serif KR", serif'; ctx.textAlign='center'; ctx.fillStyle=softc; const hint = S.tool ? (S.tool==='repair' ? '삭거나 끊긴 설비의 자리를 구멍에서 다시 짚는다 — 이름은 안 보여준다 · 다른 날 두 번이면 士安이 혼자 고친다' : `${KIND[S.tool].hint} — 구멍을 골라 놓는다 · Esc 취소`) : '설비를 고르고(1~8) 몸 위의 구멍에 놓는다 · 휠 확대 · 드래그 이동 · Space 멈춤';
+  ctx.fillText(hint, VW/2, VH-104); ctx.restore();
+}
+// ------------------------------------------------------------ input
+let drag = null, moved = false;
+cv.addEventListener('pointerdown', e => { drag = {x:e.clientX, y:e.clientY, px:S.camera.panx||0, py:S.camera.pany||0}; moved=false; });
+cv.addEventListener('pointermove', e => { if (drag){ const dx=e.clientX-drag.x, dy=e.clientY-drag.y; if (Math.hypot(dx,dy)>4) moved=true; if (moved){ S.camera.panx = drag.px+dx; S.camera.pany = drag.py+dy; fitCamera(); } }
+  const [wx,wy] = s2w(e.clientX, e.clientY); let best=null, bd=14/S.camera.s*1.6; for (const id of Object.keys(P)){ if (id==='LU9b') continue; const d=Math.hypot(P[id].x-wx,P[id].y-wy); if (d<bd){bd=d;best=id;} } S.hover = best; });
+cv.addEventListener('pointerup', e => { const wasDrag = moved; drag=null; if (wasDrag) return;
+  // HUD hits
+  const bx = VW-170, by=18; if (e.clientY>=by && e.clientY<=by+36 && e.clientX>=bx && e.clientX<=bx+144){ const i=Math.floor((e.clientX-bx)/50); S.speed=[0,1,3][i]; return; }
+  const tools = ['pump','junction','relief','gateFront','gateBack','valveOpen','valveClose','repair']; const bw=78,gap=8,total=tools.length*bw+(tools.length-1)*gap; const x0=VW/2-total/2, y0=VH-92; if (e.clientY>=y0&&e.clientY<=y0+74&&e.clientX>=x0&&e.clientX<=x0+total){ const i=Math.floor((e.clientX-x0)/(bw+gap)); S.tool = S.tool===tools[i]?null:tools[i]; return; }
+  if (S.tool && S.hover) tryPlace(S.hover); });
+cv.addEventListener('wheel', e => { e.preventDefault(); S.camera.zoom = Math.max(.8, Math.min(3.5, (S.camera.zoom||1) * (e.deltaY>0?0.9:1.1))); fitCamera(); }, {passive:false});
+addEventListener('keydown', e => { const k=e.key; if (k===' '){ e.preventDefault(); S.speed = S.speed? (S.lastSpeed=S.speed,0) : (S.lastSpeed||1); } if (k==='Escape') S.tool=null; const tools=['pump','junction','relief','gateFront','gateBack','valveOpen','valveClose','repair']; if (/^[1-8]$/.test(k)) S.tool = S.tool===tools[+k-1]?null:tools[+k-1]; });
+// ------------------------------------------------------------ loop
+let last = performance.now();
+function frame(now){ const dt = Math.min(0.05, (now-last)/1000); last = now; if (S.speed>0) step(dt*S.speed); render(); requestAnimationFrame(frame); }
+resize(); logLine('寅時 — 肺 밀물. 太淵에 펌프가 없어 氣가 손목에서 선다'); say('처음엔 펌프입니다. 肺의 原穴이 어디인지 짚어 주십시오.'); requestAnimationFrame(frame);
+
+document.getElementById('start').onclick = () => { document.getElementById('intro').remove(); };
+</script>
+</body>
+</html>
